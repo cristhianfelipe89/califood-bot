@@ -1,0 +1,39 @@
+https://0dcbcdc5b699.ngrok-free.app/webhook
+
+1. Crear y activar entorno virtual
+
+cd califood-bot
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# mac/linux
+source venv/bin/actívate
+
+1.1 Instalar dependencias
+
+pip install -r requirements.txt
+
+2. Completar .env
+
+Copia .env.example a .env y coloca:
+
+WHATSAPP_TOKEN → token desde Meta (Panel de WhatsApp > Show token)
+
+WHATSAPP_PHONE_ID → phone number ID que te dio Meta
+
+WEBHOOK_VERIFY_TOKEN → el token que usarás para verificar (igual en Flask)
+
+OLLAMA_MODEL → nombre del modelo que tienes en Ollama
+
+
+3. Levantar Flask
+
+python app.py
+
+4. Abrir ngrok para exponer puerto 5000
+ngrok http 5000
+
+
+
+ollama pull tinyllama
+ollama run tinyllama

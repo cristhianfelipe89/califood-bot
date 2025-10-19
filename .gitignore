@@ -1,0 +1,39 @@
+# --- Entorno virtual ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- Archivos de configuración privados ---
+.env
+*.env
+.env.*
+
+# --- Archivos temporales y de caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de logs ---
+*.log
+
+# --- Archivos de IDE y editor ---
+.vscode/
+.idea/
+
+# --- Archivos de dependencias ---
+# requirements.txt sí se debe subir, así que no lo ignoramos
+
+# --- Archivos de datos o backups ---
+datos/*.csv
+datos/*.json
+datos/*.xlsx
+*.bak
+
+# --- Otros ---
+*.tmp
+*.swp
