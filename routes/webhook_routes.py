@@ -153,17 +153,20 @@ def enviar_mensaje_whatsapp(numero, texto):
 # ---------------------------------------------
 # Verificación del webhook (GET)
 # ---------------------------------------------
+# ✅ GET: verificación de token de Meta
 @webhook_bp.route("/webhook", methods=["GET"])
-def verificar_webhook():
+def verify_webhook():
+    verify_token = os.getenv("VERIFY_TOKEN")
     mode = request.args.get("hub.mode")
     token = request.args.get("hub.verify_token")
     challenge = request.args.get("hub.challenge")
 
-    VERIFY_TOKEN = "califood_token"
+    if mode and token:
+        if mode == "subscribe" and token == verify_token:
+            print("✅ Webhook verificado correctamente")
+            return challenge, 200
+        else:
+            print("❌ Token de verificación inválido")
+            return "Error: token inválido", 403
 
-    if mode == "subscribe" and token == VERIFY_TOKEN:
-        print("✅ Webhook verificado correctamente.")
-        return challenge, 200
-    else:
-        print("❌ Verificación fallida.")
-        return "Error de verificación", 403
+    return "Error: parámetros faltantes", 400
