@@ -35,5 +35,19 @@ ngrok http 5000
 
 
 
-ollama pull tinyllama
-ollama run tinyllama
+para saber las librerias installadas
+pip list
+
+
+para exportar a un archivos requirements.txt
+pip freeze > requirements.txt
+
+
+para correr el script generate_menus.py
+
+python generate_menus.py
+
+
+Activar y desactivar el entorno virtual
+deactivate
+.\venv\Scripts\activate

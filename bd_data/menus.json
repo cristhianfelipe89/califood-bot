@@ -1,0 +1,330 @@
+[
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2e"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2e"
+    }
+  },
+  {
+    "nombre": "Sancocho valluno",
+    "precio": 20000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2f"
+    }
+  },
+  {
+    "nombre": "Chuleta valluna",
+    "precio": 18000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2f"
+    }
+  },
+  {
+    "nombre": "Sushi roll tempura",
+    "precio": 28000,
+    "categoria": "Comida Japonesa",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed30"
+    }
+  },
+  {
+    "nombre": "Sashimi de atún",
+    "precio": 26000,
+    "categoria": "Comida Japonesa",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed30"
+    }
+  },
+  {
+    "nombre": "Tacos al pastor",
+    "precio": 16000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed31"
+    }
+  },
+  {
+    "nombre": "Burrito mixto",
+    "precio": 18000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed31"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed32"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed32"
+    }
+  },
+  {
+    "nombre": "Cheesecake",
+    "precio": 10000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed33"
+    }
+  },
+  {
+    "nombre": "Brownie con helado",
+    "precio": 9000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed33"
+    }
+  },
+  {
+    "nombre": "Capuchino",
+    "precio": 7000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed34"
+    }
+  },
+  {
+    "nombre": "Tinto campesino",
+    "precio": 3000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed34"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed35"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed35"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed36"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed36"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed37"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed37"
+    }
+  },
+  {
+    "nombre": "Sancocho valluno",
+    "precio": 20000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed38"
+    }
+  },
+  {
+    "nombre": "Chuleta valluna",
+    "precio": 18000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed38"
+    }
+  },
+  {
+    "nombre": "Plato del día",
+    "precio": 12000,
+    "categoria": "Postres Y Café",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed39"
+    }
+  },
+  {
+    "nombre": "Tacos al pastor",
+    "precio": 16000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3a"
+    }
+  },
+  {
+    "nombre": "Burrito mixto",
+    "precio": 18000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3a"
+    }
+  },
+  {
+    "nombre": "Arroz chino especial",
+    "precio": 15000,
+    "categoria": "Comida China",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3b"
+    }
+  },
+  {
+    "nombre": "Pollo agridulce",
+    "precio": 17000,
+    "categoria": "Comida China",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3b"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3c"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3c"
+    }
+  },
+  {
+    "nombre": "Ensalada César",
+    "precio": 16000,
+    "categoria": "Comida Saludable",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3d"
+    }
+  },
+  {
+    "nombre": "Wrap de pollo",
+    "precio": 15000,
+    "categoria": "Comida Saludable",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3d"
+    }
+  },
+  {
+    "nombre": "Jugo de mango biche",
+    "precio": 6000,
+    "categoria": "Jugos Naturales",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3e"
+    }
+  },
+  {
+    "nombre": "Jugo de maracuyá",
+    "precio": 6000,
+    "categoria": "Jugos Naturales",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3e"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3f"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3f"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed40"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed40"
+    }
+  },
+  {
+    "nombre": "Cheesecake",
+    "precio": 10000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed41"
+    }
+  },
+  {
+    "nombre": "Brownie con helado",
+    "precio": 9000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed41"
+    }
+  },
+  {
+    "nombre": "Capuchino",
+    "precio": 7000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed42"
+    }
+  },
+  {
+    "nombre": "Tinto campesino",
+    "precio": 3000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed42"
+    }
+  }
+]
