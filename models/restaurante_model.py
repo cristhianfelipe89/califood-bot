@@ -1,9 +1,14 @@
+# models/restaurante_model.py (versión flexible)
 """
 Modelo de Restaurante con ubicación y redes sociales.
 """
 from bson import ObjectId
 
 def restaurante_schema(data):
+    ubicacion = data.get("ubicacion", {})
+    # Acepta tanto "lon" como "lng"
+    longitud = ubicacion.get("lng") or ubicacion.get("lon")
+    
     return {
         "_id": str(data.get("_id", ObjectId())),
         "nombre": data.get("nombre"),
@@ -12,9 +17,9 @@ def restaurante_schema(data):
         "precio": data.get("precio"),
         "contacto": data.get("contacto"),
         "ubicacion": {
-            "direccion": data.get("ubicacion", {}).get("direccion"),
-            "lat": data.get("ubicacion", {}).get("lat"),
-            "lng": data.get("ubicacion", {}).get("lng")
+            "direccion": ubicacion.get("direccion"),
+            "lat": ubicacion.get("lat"),
+            "lng": longitud  # ← Acepta ambos
         },
         "redes": {
             "facebook": data.get("redes", {}).get("facebook"),
@@ -22,4 +27,3 @@ def restaurante_schema(data):
             "tiktok": data.get("redes", {}).get("tiktok")
         }
     }
-

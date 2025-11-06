@@ -3,6 +3,9 @@ venv/
 ENV/
 env/
 .venv/
+venv312
+.venv312/
+
 
 # --- Archivos de configuración privados ---
 .env
@@ -29,10 +32,6 @@ Thumbs.db
 # requirements.txt sí se debe subir, así que no lo ignoramos
 
 # --- Archivos de datos o backups ---
-datos/*.csv
-datos/*.json
-datos/*.xlsx
-*.bak
 
 # --- Otros ---
 *.tmp
