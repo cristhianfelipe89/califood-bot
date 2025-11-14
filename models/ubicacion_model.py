@@ -1,3 +1,4 @@
+# models/ubicacion_model.py
 """
 Modelo para almacenar la última ubicación conocida del usuario.
 """
@@ -12,5 +13,12 @@ def nueva_ubicacion(usuario, lat, lon):
         "usuario": usuario,
         "lat": lat,
         "lon": lon,
-        "fecha": datetime.now()
+        "fecha": datetime.now(),
+        "mapa_url": generar_url_mapa(lat, lon)  # ← Nueva línea
     }
+
+def generar_url_mapa(lat, lon):
+    """
+    Genera enlace para abrir en Google Maps
+    """
+    return f"https://www.google.com/maps?q={lat},{lon}"

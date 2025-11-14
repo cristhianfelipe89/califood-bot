@@ -1,3 +1,4 @@
+# routes/ubicacion_routes.py
 from flask import Blueprint, request, jsonify
 from services.ubicacion_service import guardar_ubicacion, obtener_ubicacion
 
@@ -21,5 +22,14 @@ def obtener(usuario):
     ubic = obtener_ubicacion(usuario)
     if not ubic:
         return jsonify({"error": "Ubicación no encontrada"}), 404
-    ubic["_id"] = str(ubic["_id"])
-    return jsonify(ubic)
+    
+    # Formatear respuesta con enlace al mapa
+    respuesta = {
+        "usuario": ubic["usuario"],
+        "lat": ubic["lat"],
+        "lon": ubic["lon"],
+        "fecha": ubic["fecha"].isoformat() if ubic.get("fecha") else None,
+        "mapa_url": ubic.get("mapa_url", f"https://www.google.com/maps?q={ubic['lat']},{ubic['lon']}")
+    }
+    
+    return jsonify(respuesta)
