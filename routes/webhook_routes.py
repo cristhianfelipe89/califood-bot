@@ -4,139 +4,105 @@ from services.conversacion_service import guardar_conversacion
 from services.ubicacion_service import guardar_ubicacion, obtener_ubicacion
 from services.restaurante_service import listar_restaurantes
 from services.ia_service import calcular_distancias_reales, generar_respuesta_ia
-import requests
+from services.telegram_service import enviar_mensaje_telegram
+from geopy.distance import geodesic
+import threading
 import os
 
 webhook_bp = Blueprint("webhook", __name__)
 
-@webhook_bp.route("/webhook", methods=["POST"])
-def webhook():
-    data = request.get_json(silent=True)
-    print("📩 Mensaje entrante:", data)
-
-    if not data:
-        return jsonify({"error": "Datos vacíos"}), 400
-
+def procesar_mensaje_background(data):
+    """
+    Esta función se ejecuta en segundo plano. Hace el trabajo pesado de buscar 
+    restaurantes y consultar a la IA sin hacer que Telegram espere.
+    """
     mensaje_usuario = ""
     usuario_id = None
     ubicacion_usuario = None
     es_ubicacion = False
 
     try:
-        entry = data["entry"][0]["changes"][0]["value"]
-        mensajes = entry.get("messages", [])
-
-        if not mensajes:
-            return jsonify({"error": "No hay mensajes"}), 400
-
-        msg = mensajes[0]
-        usuario_id = msg["from"]
+        msg = data["message"]
+        usuario_id = str(msg["chat"]["id"])
 
         # 🧭 Mensaje con ubicación
-        if msg.get("location"):
+        if "location" in msg:
             lat = msg["location"]["latitude"]
             lon = msg["location"]["longitude"]
             ubicacion_usuario = {"lat": lat, "lon": lon}
             guardar_ubicacion(usuario_id, lat, lon)
             mensaje_usuario = "ubicacion_enviada"
             es_ubicacion = True
-            print(f"📍 Ubicación recibida/actualizada: {lat}, {lon}")
+            print(f"📍 Ubicación recibida: {lat}, {lon}")
 
         # 💬 Mensaje de texto
-        elif msg.get("text"):
-            mensaje_usuario = msg["text"]["body"].lower()
+        elif "text" in msg:
+            # 🛡️ SEGURIDAD: Cortamos el mensaje a 300 caracteres para evitar abusos de tokens
+            mensaje_usuario = msg["text"][:300].lower()
             print(f"💬 Mensaje texto: {mensaje_usuario}")
 
         else:
-            return jsonify({"error": "Tipo de mensaje no soportado"}), 400
+            return
 
     except Exception as e:
-        print("❌ Error procesando mensaje:", e)
-        return jsonify({"error": "Formato inválido"}), 400
+        print("❌ Error extrayendo datos del mensaje:", e)
+        return
 
-    # FLUJO CONVERSACIONAL MEJORADO
+    # ==========================================
+    # FLUJO CONVERSACIONAL Y MANEJO DE UBICACIÓN
+    # ==========================================
     ubic = obtener_ubicacion(usuario_id)
     if ubic:
         ubicacion_usuario = {"lat": ubic["lat"], "lon": ubic["lon"]}
-        print(f"📍 Ubicación guardada: {ubicacion_usuario}")
 
-    # MANEJO DE SALUDOS INICIALES
-    saludos = ["hola", "hi", "hello", "buenos dias", "buenas tardes", "buenas", "buenas noches"]
+    # 1. SALUDOS
+    saludos = ["hola", "hi", "hello", "buenos dias", "buenas tardes", "buenas", "buenas noches", "/start"]
     if mensaje_usuario in saludos:
         if ubicacion_usuario:
-            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️
-
-Veo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?
-
-Puedes:
-• Específico: "choripán", "hamburguesas", "pizza", "sushi"
-• Por tipo: "comida mexicana", "comida rápida", "postres"  
-• Por zona: "en el norte", "en el centro"
-• Por precio: "comida barata", "restaurante económico"
-• O decir "no sé" para recomendarte variedad cerca
-
-También puedes actualizar tu ubicación en cualquier momento."""
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️\n\nVeo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?\n\n• Específico: "choripán", "hamburguesas", "pizza", "sushi"\n• Por tipo: "comida mexicana", "comida rápida", "postres"\n• Por zona: "en el norte", "en el centro"\n• Por precio: "comida barata", "restaurante económico"\n• O di "no sé" para variedad cerca\n\n📍 También puedes actualizar tu ubicación enviándome tu nueva ubicación usando el clip 📎."""
         else:
-            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️
-
-Para recomendarte los mejores restaurantes cercanos en Cali, necesito tu ubicación.
-
-📍 Por favor, comparte tu ubicación usando el clip 📎 en WhatsApp.
-
-Luego podrás buscar por tipo específico, zona o precio."""
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️\n\nPara recomendarte los mejores restaurantes cercanos en Cali, necesito tu ubicación.\n📍 Por favor, comparte tu ubicación usando el clip 📎 en Telegram.\nLuego podrás buscar por tipo, zona o precio."""
         
         guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
-        enviar_mensaje_whatsapp(usuario_id, respuesta)
-        return jsonify({"respuesta": respuesta}), 200
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
 
-    # SI ACABA DE ENVIAR UBICACIÓN
+    # 2. CORTESÍAS Y DESPEDIDAS
+    cortesias = ["gracias", "muchas gracias", "mil gracias", "ok", "vale", "perfecto", "listo", "adiós", "adios", "chao", "hasta luego", "genial", "excelente"]
+    if mensaje_usuario in cortesias or "gracias" in mensaje_usuario:
+        respuesta = "¡Con mucho gusto! 🍽️ Si se te antoja algo más adelante, aquí estaré. ¡Que tengas un gran día!"
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return  
+
     if es_ubicacion:
-        respuesta = """📍 ¡Perfecto! Ubicación recibida. 
-
-🍽️ Ahora puedes:
-• Pedir algo específico: "quiero choripán", "busco hamburguesas"
-• Filtrar por zona: "en el norte", "en el centro"
-• Buscar por precio: "comida económica", "restaurante barato"  
-• O decir "no sé" para recomendarte variedad cerca de ti
-
-¿Qué se te antoja comer?"""
-        
+        respuesta = """📍 ¡Perfecto! Ubicación recibida.\n\n🍽️ Ahora puedes:\n• "quiero choripán", "busco hamburguesas"\n• Por zona: "en el norte", "en el centro"\n• Por precio: "comida económica"\n• O "no sé" para variedad cerca de ti\n\n¿Qué se te antoja comer?"""
         guardar_conversacion(usuario_id, "ubicacion_enviada", respuesta)
-        enviar_mensaje_whatsapp(usuario_id, respuesta)
-        return jsonify({"respuesta": "ubicacion_recibida"}), 200
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
 
-    # SI NO TIENE UBICACIÓN Y NO ES SALUDO
     if not ubicacion_usuario:
-        respuesta = "📍 Para poder recomendarte restaurantes cercanos, necesito tu ubicación. Por favor, compártela usando el clip 📎 en WhatsApp. También puedes actualizarla en cualquier momento si te mueves."
+        respuesta = "📍 Para poder recomendarte restaurantes cercanos, necesito tu ubicación.\nPor favor, compártela usando el clip 📎 en Telegram."
         guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
-        enviar_mensaje_whatsapp(usuario_id, respuesta)
-        return jsonify({"respuesta": "ubicacion_requerida"}), 200
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
 
-    # DETECCIÓN DE ACTUALIZACIÓN DE UBICACIÓN
     if any(palabra in mensaje_usuario for palabra in ["actualizar ubicacion", "actualizar ubicación", "nueva ubicacion", "cambiar ubicacion"]):
-        respuesta = "📍 ¡Por supuesto! Puedes actualizar tu ubicación enviándome tu nueva ubicación usando el clip 📎 en WhatsApp. Así tendré información más precisa para recomendarte."
+        respuesta = "📍 ¡Por supuesto! Envíame tu nueva ubicación usando el clip 📎 en Telegram."
         guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
-        enviar_mensaje_whatsapp(usuario_id, respuesta)
-        return jsonify({"respuesta": "solicitud_actualizar_ubicacion"}), 200
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
 
-    # PROCESAR CONSULTA CON UBICACIÓN DISPONIBLE
-    restaurantes = listar_restaurantes()
+    # ==============================================================
+    # LÓGICA DE BÚSQUEDA OPTIMIZADA (FILTRO BD -> LÍNEA RECTA -> OSRM)
+    # ==============================================================
     
-    # Calcular distancias REALES para todos los restaurantes
-    restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
-
-    # FILTRADO AVANZADO MULTI-CRITERIO
+    restaurantes_filtrados = listar_restaurantes()
     contexto = "Usuario con ubicación disponible"
-    restaurantes_filtrados = restaurantes_con_distancias.copy()
     
-    # Detectar si no sabe qué quiere
-    no_sabe = any(palabra in mensaje_usuario for palabra in [
-        "no sé", "no se", "no idea", "no tengo idea", "qué recomiendas", 
-        "recomiéndame", "sugiere", "qué hay", "variedad"
-    ])
+    no_sabe = any(palabra in mensaje_usuario for palabra in ["no sé", "no se", "no idea", "no tengo idea", "qué recomiendas", "recomiéndame", "sugiere", "qué hay", "variedad"])
     
     if not no_sabe:
-        # FILTRO POR ETIQUETAS ESPECÍFICAS
         etiquetas_especificas = {
             "choripán": ["choripán", "choripan", "chori"],
             "hamburguesa": ["hamburguesa", "hamburguesas", "burger", "hamburgues"],
@@ -156,19 +122,16 @@ Luego podrás buscar por tipo específico, zona o precio."""
                 etiqueta_detectada = etiqueta
                 break
 
-        # APLICAR FILTRO POR ETIQUETA ESPECÍFICA
         if etiqueta_detectada:
-            restaurantes_filtrados = [r for r in restaurantes_filtrados 
-                                    if r.get('subtipo') and any(etiqueta_detectada in str(subtipo).lower() for subtipo in r['subtipo'])]
+            restaurantes_temp = [r for r in restaurantes_filtrados if r.get('subtipo') and any(etiqueta_detectada in str(subtipo).lower() for subtipo in r['subtipo'])]
             contexto = f"Usuario busca {etiqueta_detectada}"
             
-            # Si no hay resultados con etiqueta específica, buscar en tipo general
-            if not restaurantes_filtrados:
-                restaurantes_filtrados = [r for r in restaurantes_con_distancias 
-                                        if etiqueta_detectada in r.get("tipo", "").lower()]
+            if not restaurantes_temp:
+                restaurantes_temp = [r for r in restaurantes_filtrados if etiqueta_detectada in r.get("tipo", "").lower()]
                 contexto = f"Usuario busca {etiqueta_detectada} (en tipo general)"
+            
+            restaurantes_filtrados = restaurantes_temp
 
-        # FILTRO POR ZONA
         zonas = {
             "norte": ["norte", "granada", "chipichape"],
             "sur": ["sur", "ciudad jardín", "ciudad jardin", "limonar"],
@@ -184,98 +147,79 @@ Luego podrás buscar por tipo específico, zona o precio."""
                 break
         
         if zona_detectada:
-            restaurantes_filtrados = [r for r in restaurantes_filtrados 
-                                    if zona_detectada in r.get("zona", "").lower()]
+            restaurantes_filtrados = [r for r in restaurantes_filtrados if zona_detectada in r.get("zona", "").lower()]
             contexto += f" en {zona_detectada}"
 
-        # FILTRO POR CERCANÍA ESPECÍFICA
-        if any(palabra in mensaje_usuario for palabra in ["cerca", "cercano", "cercana", "cercanía", "próximo", "próxima"]):
-            restaurantes_filtrados = [r for r in restaurantes_filtrados 
-                                    if r.get("distancia_real_km", 999) <= 2.0]
-            contexto += " (muy cercanos)"
+    for r in restaurantes_filtrados:
+        ubic = r.get("ubicacion", {})
+        lat_rest = ubic.get("lat")
+        lon_rest = ubic.get("lng") or ubic.get("lon")
+        
+        if lat_rest and lon_rest:
+            r["distancia_lineal"] = geodesic((ubicacion_usuario["lat"], ubicacion_usuario["lon"]), (lat_rest, lon_rest)).km
+        else:
+            r["distancia_lineal"] = 999
+            
+    if any(palabra in mensaje_usuario for palabra in ["cerca", "cercano", "cercana", "cercanía", "próximo", "prxima"]):
+        restaurantes_filtrados = [r for r in restaurantes_filtrados if r["distancia_lineal"] <= 2.5] 
+        contexto += " (muy cercanos)"
 
-    # GENERAR RESPUESTA CON IA MEJORADA
-    if not restaurantes_filtrados:
+    restaurantes_filtrados.sort(key=lambda x: x["distancia_lineal"])
+    top_cercanos = restaurantes_filtrados[:15]
+
+    restaurantes_con_distancias = calcular_distancias_reales(top_cercanos, ubicacion_usuario)
+    
+    if not restaurantes_con_distancias:
         if no_sabe:
             respuesta = "😔 No tengo restaurantes registrados cerca de tu ubicación actual. ¿Quieres actualizar tu ubicación o buscar en otra zona?"
         else:
-            # Ofrecer alternativas sin filtros
-            restaurantes_alternativos = restaurantes_con_distancias[:5]
-        if restaurantes_alternativos:
-            respuesta = f"🔍 No encontré restaurantes que coincidan exactamente con tu búsqueda. Te recomiendo estas opciones cercanas:\n\n"
-            for i, r in enumerate(restaurantes_alternativos, 1):
-               from services.ia_service import formatear_distancia
-            distancia_texto = formatear_distancia(r.get('distancia_real_km'))
-            respuesta += f"{i}. {r['nombre']} - {r['tipo']} - {r['zona']} {distancia_texto}\n"
-            respuesta += "\n💡 También puedes actualizar tu ubicación si te has movido."
-        else:
-            respuesta = "😔 No tengo restaurantes disponibles. Por favor, actualiza tu ubicación si te has movido."
+            todos_cercanos = listar_restaurantes()
+            for r in todos_cercanos:
+                ubic = r.get("ubicacion", {})
+                lat_rest, lon_rest = ubic.get("lat"), (ubic.get("lng") or ubic.get("lon"))
+                r["distancia_lineal"] = geodesic((ubicacion_usuario["lat"], ubicacion_usuario["lon"]), (lat_rest, lon_rest)).km if (lat_rest and lon_rest) else 999
+            
+            todos_cercanos.sort(key=lambda x: x["distancia_lineal"])
+            alternativos = calcular_distancias_reales(todos_cercanos[:5], ubicacion_usuario)
+            
+            if alternativos:
+                respuesta = f"🔍 No encontré restaurantes que coincidan exactamente con tu búsqueda. Te recomiendo estas opciones cercanas:\n\n"
+                from services.ia_service import formatear_distancia
+                for i, r in enumerate(alternativos, 1):
+                    dist_txt = formatear_distancia(r.get('distancia_real_km'))
+                    respuesta += f"{i}. {r['nombre']} - {r['tipo']} - {r['zona']} {dist_txt}\n"
+                respuesta += "\n💡 También puedes actualizar tu ubicación si te has movido."
+            else:
+                respuesta = "😔 No tengo restaurantes disponibles. Por favor, actualiza tu ubicación si te has movido."
     else:
-        respuesta = generar_respuesta_ia(mensaje_usuario, restaurantes_filtrados, ubicacion_usuario, contexto)
+        respuesta = generar_respuesta_ia(mensaje_usuario, restaurantes_con_distancias, ubicacion_usuario, contexto)
 
-    # Guardar conversación y enviar respuesta
     guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
-    success = enviar_mensaje_whatsapp(usuario_id, respuesta)
-
-    if success:
-        print("🤖 Respuesta enviada:", respuesta)
-        return jsonify({"respuesta": respuesta}), 200
-    else:
-        return jsonify({"error": "Error enviando mensaje"}), 500
+    enviar_mensaje_telegram(usuario_id, respuesta)
 
 
-def enviar_mensaje_whatsapp(numero, texto):
-    token = os.getenv("WHATSAPP_TOKEN")
-    phone_number_id = os.getenv("PHONE_NUMBER_ID")
+@webhook_bp.route("/webhook", methods=["POST"])
+def webhook():
+    # 🛡️ SEGURIDAD: Validar el token secreto de Telegram
+    token_secreto = request.headers.get("X-Telegram-Bot-Api-Secret-Token")
+    if token_secreto != "CaliFoodSecreto2026":
+        print("⛔ Intento de acceso no autorizado al webhook")
+        return jsonify({"error": "No autorizado"}), 403
 
-    if not token:
-        print("❌ WHATSAPP_TOKEN no configurado en .env")
-        return False
-        
-    if not phone_number_id:
-        print("❌ PHONE_NUMBER_ID no configurado en .env")
-        return False
+    data = request.get_json(silent=True)
+    
+    if not data:
+        return jsonify({"error": "Datos vacíos"}), 400
 
-    url = f"https://graph.facebook.com/v18.0/{phone_number_id}/messages"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
-    }
-    data = {
-        "messaging_product": "whatsapp",
-        "to": numero,
-        "type": "text",
-        "text": {"body": texto}
-    }
+    if "message" not in data:
+        return jsonify({"status": "Ignorado - no es un mensaje"}), 200
 
-    try:
-        response = requests.post(url, headers=headers, json=data)
-        if response.status_code == 200:
-            print(f"✅ Mensaje enviado correctamente a {numero}")
-            return True
-        else:
-            error_data = response.json()
-            print(f"❌ Error al enviar mensaje a {numero}: {response.status_code}")
-            print(f"📄 Detalles: {error_data}")
-            return False
-    except Exception as e:
-        print(f"❌ Excepción al enviar mensaje: {e}")
-        return False
+    hilo = threading.Thread(target=procesar_mensaje_background, args=(data,))
+    hilo.start()
+
+    return jsonify({"status": "procesando en segundo plano"}), 200
 
 
 @webhook_bp.route("/webhook", methods=["GET"])
 def verify_webhook():
-    verify_token = os.getenv("VERIFY_TOKEN")
-    mode = request.args.get("hub.mode")
-    token = request.args.get("hub.verify_token")
-    challenge = request.args.get("hub.challenge")
-
-    if mode and token:
-        if mode == "subscribe" and token == verify_token:
-            print("✅ Webhook verificado correctamente")
-            return challenge, 200
-        else:
-            print("❌ Token de verificación inválido")
-            return "Error: token inválido", 403
-
-    return "Error: parámetros faltantes", 400
+    return jsonify({"status": "El webhook está activo y seguro."}), 200

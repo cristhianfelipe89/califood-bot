@@ -112,13 +112,18 @@ def formatear_distancia(distancia_km):
 
 def generar_respuesta_ia(mensaje_usuario, restaurantes, ubicacion_usuario=None, contexto=""):
     """
-    Versión MEJORADA: Cálculo PRECISO de distancias con OSRM
+    Versión MEJORADA: Genera respuesta usando GPT
+    (Ya no calcula distancias aquí, porque webhook_routes ya lo hizo)
     """
     
     if not restaurantes:
         return "🔍 No tengo restaurantes registrados en este momento. Pronto agregaré más opciones para ti. 😊"
 
-    restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
+    # 🔥 ESTA ERA LA LÍNEA CULPABLE QUE HACÍA EL DOBLE CÁLCULO 🔥
+    # restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
+    
+    # ✅ Ahora simplemente usamos la lista que ya viene con los cálculos hechos:
+    restaurantes_con_distancias = restaurantes
 
     # --- resto del código SIN CAMBIOS ---
     restaurantes_info = []
@@ -167,7 +172,6 @@ TOTAL RESTAURANTES FILTRADOS: {len(restaurantes_con_distancias)}
 
     prompt = f"""
 Eres CaliFoodBot, un asistente gastronómico experto en Cali con acceso a base de datos real.
-
 {info_contexto}
 
 INFORMACIÓN DE RESTAURANTES DISPONIBLES (FILTRADOS):

@@ -1,0 +1,359 @@
+[
+    {
+        "nombre": "Arepísima Gourmet",
+        "tipo": "comida rápida",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 315 442 9971",
+        "redes": {
+            "facebook": "https://facebook.com/arepisimacali",
+            "instagram": "https://instagram.com/arepisimacali",
+            "tiktok": "https://tiktok.com/@arepisimacali"
+        },
+        "ubicacion": {
+            "lat": 3.353,
+            "lon": -76.532,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "La Cazuela de Doña Lucha",
+        "tipo": "comida típica",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 312 888 2012",
+        "redes": {
+            "facebook": "https://facebook.com/donaluchacali",
+            "instagram": "https://instagram.com/donaluchacali",
+            "tiktok": "https://tiktok.com/@donaluchacali"
+        },
+        "ubicacion": {
+            "lat": 3.451,
+            "lon": -76.534,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Bambú Sushi Bar",
+        "tipo": "comida japonesa",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 316 778 0054",
+        "redes": {
+            "facebook": "https://facebook.com/bambusushi",
+            "instagram": "https://instagram.com/bambusushi.cali",
+            "tiktok": "https://tiktok.com/@bambusushicali"
+        },
+        "ubicacion": {
+            "lat": 3.468,
+            "lon": -76.523,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "El Rincón Mexa",
+        "tipo": "comida mexicana",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 314 229 3366",
+        "redes": {
+            "facebook": "https://facebook.com/elrinconmexa",
+            "instagram": "https://instagram.com/elrinconmexa",
+            "tiktok": "https://tiktok.com/@elrinconmexa"
+        },
+        "ubicacion": {
+            "lat": 3.358,
+            "lon": -76.532,
+            "direccion": "Limonar, Cali"
+        }
+    },
+    {
+        "nombre": "La Pizzería del Parque",
+        "tipo": "comida italiana",
+        "zona": "oeste",
+        "precio": "media",
+        "contacto": "+57 318 557 4400",
+        "redes": {
+            "facebook": "https://facebook.com/pizzeriadelparque",
+            "instagram": "https://instagram.com/pizzeriadelparque",
+            "tiktok": "https://tiktok.com/@pizzeriadelparque"
+        },
+        "ubicacion": {
+            "lat": 3.442,
+            "lon": -76.560,
+            "direccion": "Oeste, Cali"
+        }
+    },
+    {
+        "nombre": "Postres Anita",
+        "tipo": "postres",
+        "zona": "norte",
+        "precio": "baja",
+        "contacto": "+57 300 771 0088",
+        "redes": {
+            "facebook": "https://facebook.com/postresanita",
+            "instagram": "https://instagram.com/postresanita",
+            "tiktok": "https://tiktok.com/@postresanita"
+        },
+        "ubicacion": {
+            "lat": 3.469,
+            "lon": -76.520,
+            "direccion": "Chipichape, Cali"
+        }
+    },
+    {
+        "nombre": "Café Aroma",
+        "tipo": "cafetería",
+        "zona": "centro",
+        "precio": "media",
+        "contacto": "+57 301 456 3322",
+        "redes": {
+            "facebook": "https://facebook.com/cafearoma",
+            "instagram": "https://instagram.com/cafearomacali",
+            "tiktok": "https://tiktok.com/@cafearoma"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.532,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Hamburguesas Don Pepe",
+        "tipo": "comida rápida",
+        "zona": "oriente",
+        "precio": "media",
+        "contacto": "+57 305 991 7777",
+        "redes": {
+            "facebook": "https://facebook.com/hamburguesasdonpepe",
+            "instagram": "https://instagram.com/hamburguesasdonpepe",
+            "tiktok": "https://tiktok.com/@donpepeburgers"
+        },
+        "ubicacion": {
+            "lat": 3.426,
+            "lon": -76.489,
+            "direccion": "Oriente, Cali"
+        }
+    },
+    {
+        "nombre": "Papas & Salsa",
+        "tipo": "comida rápida",
+        "zona": "sur",
+        "precio": "baja",
+        "contacto": "+57 310 922 6600",
+        "redes": {
+            "facebook": "https://facebook.com/papassalsa",
+            "instagram": "https://instagram.com/papassalsa.cali",
+            "tiktok": "https://tiktok.com/@papassalsa"
+        },
+        "ubicacion": {
+            "lat": 3.350,
+            "lon": -76.535,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "La Trattoria de Nonna",
+        "tipo": "comida italiana",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 302 711 0090",
+        "redes": {
+            "facebook": "https://facebook.com/trattorianonna",
+            "instagram": "https://instagram.com/trattorianonna",
+            "tiktok": "https://tiktok.com/@trattorianonna"
+        },
+        "ubicacion": {
+            "lat": 3.467,
+            "lon": -76.520,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Tamalitos del Valle",
+        "tipo": "comida típica",
+        "zona": "oriente",
+        "precio": "baja",
+        "contacto": "+57 319 552 4433",
+        "redes": {
+            "facebook": "https://facebook.com/tamalitosdelvalle",
+            "instagram": "https://instagram.com/tamalitosdelvalle",
+            "tiktok": "https://tiktok.com/@tamalitosvalle"
+        },
+        "ubicacion": {
+            "lat": 3.430,
+            "lon": -76.490,
+            "direccion": "Oriente, Cali"
+        }
+    },
+    {
+        "nombre": "ChocoLatte House",
+        "tipo": "postres y café",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 311 008 7654",
+        "redes": {
+            "facebook": "https://facebook.com/chocolattehouse",
+            "instagram": "https://instagram.com/chocolattehouse",
+            "tiktok": "https://tiktok.com/@chocolattehouse"
+        },
+        "ubicacion": {
+            "lat": 3.353,
+            "lon": -76.533,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "Taquitos & Más",
+        "tipo": "comida mexicana",
+        "zona": "oeste",
+        "precio": "baja",
+        "contacto": "+57 320 922 8876",
+        "redes": {
+            "facebook": "https://facebook.com/taquitosymas",
+            "instagram": "https://instagram.com/taquitosymas",
+            "tiktok": "https://tiktok.com/@taquitosymas"
+        },
+        "ubicacion": {
+            "lat": 3.442,
+            "lon": -76.560,
+            "direccion": "San Antonio, Cali"
+        }
+    },
+    {
+        "nombre": "Pekín Wok",
+        "tipo": "comida china",
+        "zona": "norte",
+        "precio": "media",
+        "contacto": "+57 312 991 8844",
+        "redes": {
+            "facebook": "https://facebook.com/pekinwok",
+            "instagram": "https://instagram.com/pekinwok.cali",
+            "tiktok": "https://tiktok.com/@pekinwokcali"
+        },
+        "ubicacion": {
+            "lat": 3.468,
+            "lon": -76.520,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Empanadas El Portal",
+        "tipo": "comida rápida",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 314 229 6645",
+        "redes": {
+            "facebook": "https://facebook.com/empanadaselportal",
+            "instagram": "https://instagram.com/empanadaselportal",
+            "tiktok": "https://tiktok.com/@empanadaselportal"
+        },
+        "ubicacion": {
+            "lat": 3.449,
+            "lon": -76.533,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Green Bowl",
+        "tipo": "comida saludable",
+        "zona": "oeste",
+        "precio": "media",
+        "contacto": "+57 315 777 0021",
+        "redes": {
+            "facebook": "https://facebook.com/greenbowlcali",
+            "instagram": "https://instagram.com/greenbowl.cali",
+            "tiktok": "https://tiktok.com/@greenbowlcali"
+        },
+        "ubicacion": {
+            "lat": 3.441,
+            "lon": -76.561,
+            "direccion": "Normandía, Cali"
+        }
+    },
+    {
+        "nombre": "Juice & Joy",
+        "tipo": "jugos naturales",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 301 883 2244",
+        "redes": {
+            "facebook": "https://facebook.com/juicejoycali",
+            "instagram": "https://instagram.com/juicejoy.cali",
+            "tiktok": "https://tiktok.com/@juicejoycali"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.534,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Choripán de Juanelo",
+        "tipo": "comida rápida",
+        "zona": "norte",
+        "precio": "baja",
+        "contacto": "",
+        "redes": {
+            "facebook": "https://www.facebook.com/eljurry/videos/conocimos-a-juanelo-el-chico-de-los-choripanes/1932242394208749/",
+            "instagram": "https://www.instagram.com/loschoripanesjuanelo/",
+            "tiktok": "https://www.tiktok.com/@loschoripanesjuanelo"
+        },
+        "ubicacion": {
+            "lat": 3.464,
+            "lon": -76.526,
+            "direccion": "Diagonal a la Clínica de Occidente, Cali"
+        }
+    },
+    {
+        "nombre": "Pizzería Don Mario",
+        "tipo": "comida italiana",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 317 111 2233",
+        "redes": {
+            "facebook": "https://facebook.com/pizzeriadonmario",
+            "instagram": "https://instagram.com/pizzeriadonmario",
+            "tiktok": "https://tiktok.com/@pizzeriadonmario"
+        },
+        "ubicacion": {
+            "lat": 3.469,
+            "lon": -76.523,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Postres La Dulzura",
+        "tipo": "postres",
+        "zona": "oeste",
+        "precio": "baja",
+        "contacto": "+57 315 998 8776",
+        "redes": {
+            "facebook": "https://facebook.com/postresdulzura",
+            "instagram": "https://instagram.com/postresladulzura",
+            "tiktok": "https://tiktok.com/@postresladulzura"
+        },
+        "ubicacion": {
+            "lat": 3.440,
+            "lon": -76.561,
+            "direccion": "Normandía, Cali"
+        }
+    },
+    {
+        "nombre": "Café La Sucursal",
+        "tipo": "cafetería",
+        "zona": "centro",
+        "precio": "media",
+        "contacto": "+57 301 987 6543",
+        "redes": {
+            "facebook": "https://facebook.com/cafelasucursal",
+            "instagram": "https://instagram.com/cafelasucursal",
+            "tiktok": "https://tiktok.com/@cafelasucursal"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.533,
+            "direccion": "San Antonio, Cali"
+        }
+    }
+]

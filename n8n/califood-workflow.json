@@ -1,0 +1,500 @@
+{
+  "name": "CaliFoodBot - WhatsApp Flow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "wsp",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "wh-get",
+      "name": "Webhook Verify (GET)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-1200, -200],
+      "webhookId": "califood-verify"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.query['hub.mode'] }}",
+              "rightValue": "subscribe",
+              "operator": { "type": "string", "operation": "equals" }
+            },
+            {
+              "id": "c2",
+              "leftValue": "={{ $json.query['hub.verify_token'] }}",
+              "rightValue": "={{ $env.VERIFY_TOKEN }}",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-verify",
+      "name": "IF Verify Token",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-960, -200]
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $json.query['hub.challenge'] }}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-challenge",
+      "name": "Respond Challenge",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-720, -260]
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "Forbidden",
+        "options": { "responseCode": 403 }
+      },
+      "id": "resp-403",
+      "name": "Respond 403",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-720, -120]
+    },
+
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "wsp",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "wh-post",
+      "name": "Webhook Incoming (POST)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-1200, 200],
+      "webhookId": "califood-incoming"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body || $input.first().json;\nconst entry = (body.entry && body.entry[0]) || {};\nconst change = (entry.changes && entry.changes[0]) || {};\nconst value = change.value || {};\nconst messages = value.messages || [];\nif (!messages.length) {\n  return [{ json: { skip: true } }];\n}\nconst msg = messages[0];\nconst usuario_id = msg.from;\nlet tipo = 'unsupported';\nlet texto = '';\nlet lat = null;\nlet lon = null;\nif (msg.location) {\n  tipo = 'location';\n  lat = msg.location.latitude;\n  lon = msg.location.longitude;\n} else if (msg.text) {\n  tipo = 'text';\n  texto = (msg.text.body || '').toLowerCase().trim();\n}\nreturn [{ json: { skip: false, usuario_id, tipo, texto, lat, lon, raw: msg } }];"
+      },
+      "id": "parse-msg",
+      "name": "Parse Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-960, 200]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "skip",
+              "leftValue": "={{ $json.skip }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-skip",
+      "name": "IF Skip Empty",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-720, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"status\": \"ignored\"\n}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-ignored",
+      "name": "Respond Ignored",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-480, 80]
+    },
+
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "isloc",
+              "leftValue": "={{ $json.tipo }}",
+              "rightValue": "location",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-isloc",
+      "name": "IF Is Location",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-480, 320]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "ubicaciones",
+        "updateKey": "usuario",
+        "fields": "usuario,lat,lon,fecha,mapa_url",
+        "upsert": true,
+        "options": {}
+      },
+      "id": "mongo-upsert-loc",
+      "name": "Mongo Upsert Location",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [-240, 240]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "u", "name": "usuario", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "la", "name": "lat", "type": "number", "value": "={{ $json.lat }}" },
+            { "id": "lo", "name": "lon", "type": "number", "value": "={{ $json.lon }}" },
+            { "id": "f", "name": "fecha", "type": "string", "value": "={{ $now.toISO() }}" },
+            { "id": "m", "name": "mapa_url", "type": "string", "value": "=https://www.google.com/maps?q={{ $json.lat }},{{ $json.lon }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "tipo", "name": "tipo", "type": "string", "value": "={{ $json.tipo }}" },
+            { "id": "texto", "name": "texto", "type": "string", "value": "={{ $json.texto }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-loc-fields",
+      "name": "Set Location Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [-480, 240]
+    },
+
+    {
+      "parameters": {
+        "operation": "find",
+        "collection": "ubicaciones",
+        "query": "={ \"usuario\": \"{{ $json.usuario_id }}\" }",
+        "options": { "limit": 1 }
+      },
+      "id": "mongo-find-loc",
+      "name": "Mongo Find Location",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [0, 320]
+    },
+
+    {
+      "parameters": {
+        "jsCode": "const incoming = $('Parse Message').first().json;\nconst userLoc = $input.first().json || {};\nconst hasLoc = !!(userLoc.lat && userLoc.lon);\nconst texto = incoming.texto || '';\nconst tipo = incoming.tipo;\nconst saludos = ['hola','hi','hello','buenos dias','buenas tardes','buenas','buenas noches'];\nconst noSabe = ['no se','no sé','no idea','no tengo idea','que recomiendas','qué recomiendas','recomiendame','recomiéndame','sugiere','que hay','qué hay','variedad'].some(p => texto.includes(p));\nconst pideActualizar = ['actualizar ubicacion','actualizar ubicación','nueva ubicacion','nueva ubicación','cambiar ubicacion','cambiar ubicación'].some(p => texto.includes(p));\n\nconst etiquetas = {\n  'choripán': ['choripán','choripan','chori'],\n  'hamburguesa': ['hamburguesa','hamburguesas','burger','hamburgues'],\n  'pizza': ['pizza','pizzas','pizzería'],\n  'taco': ['taco','tacos','taquitos'],\n  'sushi': ['sushi','rolls','sashimi'],\n  'arepa': ['arepa','arepas'],\n  'empanada': ['empanada','empanadas'],\n  'pasta': ['pasta','pastas','espagueti','lasaña','lasagna'],\n  'postre': ['postre','postres','dulce','helado','torta'],\n  'café': ['café','cafe','capuchino','expreso']\n};\nlet etiquetaDetectada = null;\nfor (const [k, arr] of Object.entries(etiquetas)) {\n  if (arr.some(p => texto.includes(p))) { etiquetaDetectada = k; break; }\n}\n\nconst zonas = {\n  'norte': ['norte','granada','chipichape'],\n  'sur': ['sur','ciudad jardín','ciudad jardin','limonar'],\n  'centro': ['centro','san antonio'],\n  'oeste': ['oeste','normandía','normandia'],\n  'oriente': ['oriente','este']\n};\nlet zonaDetectada = null;\nfor (const [k, arr] of Object.entries(zonas)) {\n  if (arr.some(p => texto.includes(p))) { zonaDetectada = k; break; }\n}\nconst pideCerca = ['cerca','cercano','cercana','cercanía','próximo','proximo','próxima','proxima'].some(p => texto.includes(p));\n\nlet intent = 'consulta';\nif (tipo === 'location') intent = 'ubicacion_recibida';\nelse if (saludos.includes(texto)) intent = 'saludo';\nelse if (pideActualizar) intent = 'actualizar_ubicacion';\nelse if (!hasLoc) intent = 'pedir_ubicacion';\n\nreturn [{\n  json: {\n    usuario_id: incoming.usuario_id,\n    tipo,\n    texto,\n    intent,\n    hasLoc,\n    ubicacion_usuario: hasLoc ? { lat: userLoc.lat, lon: userLoc.lon } : null,\n    noSabe,\n    etiquetaDetectada,\n    zonaDetectada,\n    pideCerca\n  }\n}];"
+      },
+      "id": "code-intent",
+      "name": "Detect Intent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [240, 320]
+    },
+
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s1", "leftValue": "={{ $json.intent }}", "rightValue": "saludo", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "saludo" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s2", "leftValue": "={{ $json.intent }}", "rightValue": "ubicacion_recibida", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "ubic_recibida" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s3", "leftValue": "={{ $json.intent }}", "rightValue": "actualizar_ubicacion", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "actualizar" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s4", "leftValue": "={{ $json.intent }}", "rightValue": "pedir_ubicacion", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "pedir_ubic" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s5", "leftValue": "={{ $json.intent }}", "rightValue": "consulta", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "consulta" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "switch-intent",
+      "name": "Switch Intent",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [480, 320]
+    },
+
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "={{ $json.hasLoc ? '👋 ¡Hola! Soy CaliFoodBot 🍽️\\n\\nVeo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?\\n\\n• Específico: \"choripán\", \"hamburguesas\", \"pizza\", \"sushi\"\\n• Por tipo: \"comida mexicana\", \"comida rápida\", \"postres\"\\n• Por zona: \"en el norte\", \"en el centro\"\\n• Por precio: \"comida barata\", \"restaurante económico\"\\n• O di \"no sé\" para variedad cerca' : '👋 ¡Hola! Soy CaliFoodBot 🍽️\\n\\nPara recomendarte los mejores restaurantes en Cali necesito tu ubicación.\\n📍 Compártela usando el clip 📎 en WhatsApp.' }}" },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-saludo",
+      "name": "Reply: Saludo",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, -40]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 ¡Perfecto! Ubicación recibida.\n\n🍽️ Ahora puedes:\n• \"quiero choripán\", \"busco hamburguesas\"\n• Por zona: \"en el norte\", \"en el centro\"\n• Por precio: \"comida económica\"\n• O \"no sé\" para variedad cerca de ti\n\n¿Qué se te antoja?" },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "ubicacion_enviada" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-ubic-recibida",
+      "name": "Reply: Ubicación Recibida",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 120]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 ¡Por supuesto! Envíame tu nueva ubicación con el clip 📎 de WhatsApp." },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-actualizar",
+      "name": "Reply: Actualizar Ubicación",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 280]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 Para recomendarte restaurantes cercanos necesito tu ubicación. Compártela con el clip 📎 en WhatsApp." },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-pedir-ubic",
+      "name": "Reply: Pedir Ubicación",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 440]
+    },
+
+    {
+      "parameters": {
+        "operation": "find",
+        "collection": "restaurantes",
+        "query": "={}",
+        "options": {}
+      },
+      "id": "mongo-restaurantes",
+      "name": "Mongo Find Restaurantes",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [720, 600]
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "agg-restaurantes",
+      "name": "Aggregate Restaurantes",
+      "type": "n8n-nodes-base.itemLists",
+      "typeVersion": 3,
+      "position": [960, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Receives the array of restaurants in input + intent context from earlier nodes.\nconst lista = $input.first().json.data || [];\nconst ctx = $('Detect Intent').first().json;\nconst u = ctx.ubicacion_usuario;\n\nasync function osrm(lat1, lon1, lat2, lon2) {\n  const url = `http://router.project-osrm.org/route/v1/driving/${lon1},${lat1};${lon2},${lat2}?overview=false`;\n  try {\n    const r = await this.helpers.httpRequest({ method: 'GET', url, json: true, timeout: 8000 });\n    if (!r || !r.routes || !r.routes.length) return null;\n    return r.routes[0].distance / 1000;\n  } catch (e) { return null; }\n}\n\nconst withDist = [];\nfor (const r of lista) {\n  const ub = r.ubicacion || {};\n  const lat = ub.lat;\n  const lon = ub.lng || ub.lon;\n  let dist = null;\n  if (lat && lon && u) {\n    dist = await osrm.call(this, u.lat, u.lon, lat, lon);\n  }\n  withDist.push({ ...r, distancia_real_km: dist == null ? null : Math.round(dist * 1000) / 1000 });\n}\nwithDist.sort((a, b) => (a.distancia_real_km ?? 9999) - (b.distancia_real_km ?? 9999));\n\nlet filtrados = withDist.slice();\nlet contexto = 'Usuario con ubicación disponible';\n\nif (!ctx.noSabe) {\n  if (ctx.etiquetaDetectada) {\n    const tag = ctx.etiquetaDetectada;\n    let f = filtrados.filter(r => Array.isArray(r.subtipo) && r.subtipo.some(s => String(s).toLowerCase().includes(tag)));\n    if (!f.length) f = withDist.filter(r => (r.tipo || '').toLowerCase().includes(tag));\n    filtrados = f;\n    contexto = `Usuario busca ${tag}`;\n  }\n  if (ctx.zonaDetectada) {\n    filtrados = filtrados.filter(r => (r.zona || '').toLowerCase().includes(ctx.zonaDetectada));\n    contexto += ` en ${ctx.zonaDetectada}`;\n  }\n  if (ctx.pideCerca) {\n    filtrados = filtrados.filter(r => (r.distancia_real_km ?? 999) <= 2.0);\n    contexto += ' (muy cercanos)';\n  }\n}\n\nconst top = (filtrados.length ? filtrados : withDist).slice(0, 15);\n\nfunction fmtDist(km) {\n  if (km == null) return 'Distancia no disponible';\n  if (km < 1) return `A ${Math.round(km * 1000)} m`;\n  if (km < 10) return `A ${km.toFixed(2)} km`;\n  return `A ${km.toFixed(1)} km`;\n}\nfunction fmtRedes(redes) {\n  if (!redes) return 'No disponibles';\n  const out = [];\n  if (redes.facebook && redes.facebook.startsWith('http')) out.push(`📘 [Facebook](${redes.facebook})`);\n  if (redes.instagram && redes.instagram.startsWith('http')) out.push(`📷 [Instagram](${redes.instagram})`);\n  if (redes.tiktok && redes.tiktok.startsWith('http')) out.push(`🎵 [TikTok](${redes.tiktok})`);\n  return out.length ? out.join(' | ') : 'No disponibles';\n}\nconst infoBlocks = top.map(r => {\n  const ub = r.ubicacion || {};\n  const lat = ub.lat, lon = ub.lng || ub.lon;\n  const mapa = ub.mapa_url || (lat && lon ? `https://www.google.com/maps?q=${lat},${lon}` : null);\n  const dir = mapa ? `🗺️ [Ver en Google Maps](${mapa})` : (ub.direccion || 'No disponible');\n  const sub = Array.isArray(r.subtipo) && r.subtipo.length ? `• 🏷️ Especialidad: ${r.subtipo.slice(0,3).join(', ')}\\n` : '';\n  return `\\n🍽️ ${r.nombre || 'Sin nombre'}\\n• 🏷️ Tipo: ${r.tipo || 'No especificado'}\\n${sub}• 📍 Zona: ${r.zona || 'No especificada'}\\n• 💰 Precio: ${r.precio || 'No especificado'}\\n• 📞 Contacto: ${r.contacto || 'No disponible'}\\n• 🌐 Redes: ${fmtRedes(r.redes)}\\n• 🗺️ Dirección: ${dir}\\n• 📏 ${fmtDist(r.distancia_real_km)}\\n`;\n});\n\nreturn [{\n  json: {\n    usuario_id: ctx.usuario_id,\n    mensaje_usuario: ctx.texto,\n    contexto,\n    ubicacion_usuario: u,\n    restaurantes_top: top,\n    restaurantes_texto: infoBlocks.join('\\n'),\n    sin_resultados: filtrados.length === 0\n  }\n}];"
+      },
+      "id": "code-osrm-filter",
+      "name": "OSRM + Filter",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1200, 600]
+    },
+
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [{ "name": "Content-Type", "value": "application/json" }]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"temperature\": 0.1,\n  \"max_tokens\": 1000,\n  \"messages\": [\n    { \"role\": \"system\", \"content\": \"Eres CaliFoodBot, asistente gastronómico de Cali. Usa SOLO los restaurantes y distancias provistas. No inventes datos. Mantén el formato con emojis y enlaces tal como vienen.\\n\\nCONTEXTO: {{ $json.contexto }}\\nUBICACIÓN USUARIO: lat {{ $json.ubicacion_usuario.lat }}, lon {{ $json.ubicacion_usuario.lon }}\\nMENSAJE: {{ $json.mensaje_usuario }}\\n\\nRESTAURANTES:\\n{{ $json.restaurantes_texto }}\" },\n    { \"role\": \"user\", \"content\": \"={{ $json.mensaje_usuario }}\" }\n  ]\n}",
+        "options": { "timeout": 30000 }
+      },
+      "id": "openai",
+      "name": "OpenAI Chat",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1440, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "const ai = $input.first().json;\nconst prev = $('OSRM + Filter').first().json;\nlet respuesta = '';\ntry {\n  respuesta = ai.choices[0].message.content.trim();\n} catch (e) {\n  respuesta = '🍽️ Te recomiendo estas opciones cercanas:\\n' + (prev.restaurantes_texto || '');\n}\nreturn [{ json: { to: prev.usuario_id, usuario_id: prev.usuario_id, mensaje_usuario: prev.mensaje_usuario, respuesta } }];"
+      },
+      "id": "code-final",
+      "name": "Compose Final Reply",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1680, 600]
+    },
+
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v18.0/{{ $env.PHONE_NUMBER_ID }}/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.WHATSAPP_TOKEN }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"messaging_product\": \"whatsapp\",\n  \"to\": \"{{ $json.to }}\",\n  \"type\": \"text\",\n  \"text\": { \"body\": {{ JSON.stringify($json.respuesta) }} }\n}",
+        "options": { "timeout": 15000 }
+      },
+      "id": "send-wsp",
+      "name": "Send WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1920, 280]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "collection": "conversaciones",
+        "fields": "usuario,mensaje,respuesta,fecha",
+        "options": {}
+      },
+      "id": "mongo-save-conv",
+      "name": "Save Conversation",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [2160, 280]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "u", "name": "usuario", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "m", "name": "mensaje", "type": "string", "value": "={{ $json.mensaje_usuario }}" },
+            { "id": "r", "name": "respuesta", "type": "string", "value": "={{ $json.respuesta }}" },
+            { "id": "f", "name": "fecha", "type": "string", "value": "={{ $now.toISO() }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-conv-fields",
+      "name": "Set Conversation Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [1920, 440]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"status\": \"ok\"\n}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-ok",
+      "name": "Respond 200 OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [2400, 280]
+    }
+  ],
+
+  "connections": {
+    "Webhook Verify (GET)": { "main": [[{ "node": "IF Verify Token", "type": "main", "index": 0 }]] },
+    "IF Verify Token": {
+      "main": [
+        [{ "node": "Respond Challenge", "type": "main", "index": 0 }],
+        [{ "node": "Respond 403", "type": "main", "index": 0 }]
+      ]
+    },
+
+    "Webhook Incoming (POST)": { "main": [[{ "node": "Parse Message", "type": "main", "index": 0 }]] },
+    "Parse Message": { "main": [[{ "node": "IF Skip Empty", "type": "main", "index": 0 }]] },
+    "IF Skip Empty": {
+      "main": [
+        [{ "node": "Respond Ignored", "type": "main", "index": 0 }],
+        [{ "node": "IF Is Location", "type": "main", "index": 0 }]
+      ]
+    },
+    "IF Is Location": {
+      "main": [
+        [{ "node": "Set Location Fields", "type": "main", "index": 0 }],
+        [{ "node": "Mongo Find Location", "type": "main", "index": 0 }]
+      ]
+    },
+    "Set Location Fields": { "main": [[{ "node": "Mongo Upsert Location", "type": "main", "index": 0 }]] },
+    "Mongo Upsert Location": { "main": [[{ "node": "Mongo Find Location", "type": "main", "index": 0 }]] },
+    "Mongo Find Location": { "main": [[{ "node": "Detect Intent", "type": "main", "index": 0 }]] },
+    "Detect Intent": { "main": [[{ "node": "Switch Intent", "type": "main", "index": 0 }]] },
+
+    "Switch Intent": {
+      "main": [
+        [{ "node": "Reply: Saludo", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Ubicación Recibida", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Actualizar Ubicación", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Pedir Ubicación", "type": "main", "index": 0 }],
+        [{ "node": "Mongo Find Restaurantes", "type": "main", "index": 0 }]
+      ]
+    },
+
+    "Reply: Saludo": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Ubicación Recibida": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Actualizar Ubicación": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Pedir Ubicación": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+
+    "Mongo Find Restaurantes": { "main": [[{ "node": "Aggregate Restaurantes", "type": "main", "index": 0 }]] },
+    "Aggregate Restaurantes": { "main": [[{ "node": "OSRM + Filter", "type": "main", "index": 0 }]] },
+    "OSRM + Filter": { "main": [[{ "node": "OpenAI Chat", "type": "main", "index": 0 }]] },
+    "OpenAI Chat": { "main": [[{ "node": "Compose Final Reply", "type": "main", "index": 0 }]] },
+    "Compose Final Reply": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+
+    "Send WhatsApp": { "main": [[{ "node": "Set Conversation Fields", "type": "main", "index": 0 }]] },
+    "Set Conversation Fields": { "main": [[{ "node": "Save Conversation", "type": "main", "index": 0 }]] },
+    "Save Conversation": { "main": [[{ "node": "Respond 200 OK", "type": "main", "index": 0 }]] }
+  },
+
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "versionId": "1.0.0",
+  "id": "califood-whatsapp"
+}

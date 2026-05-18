@@ -1,0 +1,3813 @@
+﻿===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\bd_data\menus.json =====
+[
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2e"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2e"
+    }
+  },
+  {
+    "nombre": "Sancocho valluno",
+    "precio": 20000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2f"
+    }
+  },
+  {
+    "nombre": "Chuleta valluna",
+    "precio": 18000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed2f"
+    }
+  },
+  {
+    "nombre": "Sushi roll tempura",
+    "precio": 28000,
+    "categoria": "Comida Japonesa",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed30"
+    }
+  },
+  {
+    "nombre": "Sashimi de atún",
+    "precio": 26000,
+    "categoria": "Comida Japonesa",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed30"
+    }
+  },
+  {
+    "nombre": "Tacos al pastor",
+    "precio": 16000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed31"
+    }
+  },
+  {
+    "nombre": "Burrito mixto",
+    "precio": 18000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed31"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed32"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed32"
+    }
+  },
+  {
+    "nombre": "Cheesecake",
+    "precio": 10000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed33"
+    }
+  },
+  {
+    "nombre": "Brownie con helado",
+    "precio": 9000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed33"
+    }
+  },
+  {
+    "nombre": "Capuchino",
+    "precio": 7000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed34"
+    }
+  },
+  {
+    "nombre": "Tinto campesino",
+    "precio": 3000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed34"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed35"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed35"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed36"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed36"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed37"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed37"
+    }
+  },
+  {
+    "nombre": "Sancocho valluno",
+    "precio": 20000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed38"
+    }
+  },
+  {
+    "nombre": "Chuleta valluna",
+    "precio": 18000,
+    "categoria": "Comida Típica",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed38"
+    }
+  },
+  {
+    "nombre": "Plato del día",
+    "precio": 12000,
+    "categoria": "Postres Y Café",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed39"
+    }
+  },
+  {
+    "nombre": "Tacos al pastor",
+    "precio": 16000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3a"
+    }
+  },
+  {
+    "nombre": "Burrito mixto",
+    "precio": 18000,
+    "categoria": "Comida Mexicana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3a"
+    }
+  },
+  {
+    "nombre": "Arroz chino especial",
+    "precio": 15000,
+    "categoria": "Comida China",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3b"
+    }
+  },
+  {
+    "nombre": "Pollo agridulce",
+    "precio": 17000,
+    "categoria": "Comida China",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3b"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3c"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3c"
+    }
+  },
+  {
+    "nombre": "Ensalada César",
+    "precio": 16000,
+    "categoria": "Comida Saludable",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3d"
+    }
+  },
+  {
+    "nombre": "Wrap de pollo",
+    "precio": 15000,
+    "categoria": "Comida Saludable",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3d"
+    }
+  },
+  {
+    "nombre": "Jugo de mango biche",
+    "precio": 6000,
+    "categoria": "Jugos Naturales",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3e"
+    }
+  },
+  {
+    "nombre": "Jugo de maracuyá",
+    "precio": 6000,
+    "categoria": "Jugos Naturales",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3e"
+    }
+  },
+  {
+    "nombre": "Hamburguesa clásica",
+    "precio": 16000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3f"
+    }
+  },
+  {
+    "nombre": "Perro caliente especial",
+    "precio": 12000,
+    "categoria": "Comida Rápida",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed3f"
+    }
+  },
+  {
+    "nombre": "Pizza margarita",
+    "precio": 20000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed40"
+    }
+  },
+  {
+    "nombre": "Lasaña boloñesa",
+    "precio": 22000,
+    "categoria": "Comida Italiana",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed40"
+    }
+  },
+  {
+    "nombre": "Cheesecake",
+    "precio": 10000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed41"
+    }
+  },
+  {
+    "nombre": "Brownie con helado",
+    "precio": 9000,
+    "categoria": "Postres",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed41"
+    }
+  },
+  {
+    "nombre": "Capuchino",
+    "precio": 7000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed42"
+    }
+  },
+  {
+    "nombre": "Tinto campesino",
+    "precio": 3000,
+    "categoria": "Cafetería",
+    "restaurant_id": {
+      "$oid": "690adafc7f9b29d47e61ed42"
+    }
+  }
+]
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\bd_data\restaurantes.json =====
+[
+    {
+        "nombre": "Arepísima Gourmet",
+        "tipo": "comida rápida",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 315 442 9971",
+        "redes": {
+            "facebook": "https://facebook.com/arepisimacali",
+            "instagram": "https://instagram.com/arepisimacali",
+            "tiktok": "https://tiktok.com/@arepisimacali"
+        },
+        "ubicacion": {
+            "lat": 3.353,
+            "lon": -76.532,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "La Cazuela de Doña Lucha",
+        "tipo": "comida típica",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 312 888 2012",
+        "redes": {
+            "facebook": "https://facebook.com/donaluchacali",
+            "instagram": "https://instagram.com/donaluchacali",
+            "tiktok": "https://tiktok.com/@donaluchacali"
+        },
+        "ubicacion": {
+            "lat": 3.451,
+            "lon": -76.534,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Bambú Sushi Bar",
+        "tipo": "comida japonesa",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 316 778 0054",
+        "redes": {
+            "facebook": "https://facebook.com/bambusushi",
+            "instagram": "https://instagram.com/bambusushi.cali",
+            "tiktok": "https://tiktok.com/@bambusushicali"
+        },
+        "ubicacion": {
+            "lat": 3.468,
+            "lon": -76.523,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "El Rincón Mexa",
+        "tipo": "comida mexicana",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 314 229 3366",
+        "redes": {
+            "facebook": "https://facebook.com/elrinconmexa",
+            "instagram": "https://instagram.com/elrinconmexa",
+            "tiktok": "https://tiktok.com/@elrinconmexa"
+        },
+        "ubicacion": {
+            "lat": 3.358,
+            "lon": -76.532,
+            "direccion": "Limonar, Cali"
+        }
+    },
+    {
+        "nombre": "La Pizzería del Parque",
+        "tipo": "comida italiana",
+        "zona": "oeste",
+        "precio": "media",
+        "contacto": "+57 318 557 4400",
+        "redes": {
+            "facebook": "https://facebook.com/pizzeriadelparque",
+            "instagram": "https://instagram.com/pizzeriadelparque",
+            "tiktok": "https://tiktok.com/@pizzeriadelparque"
+        },
+        "ubicacion": {
+            "lat": 3.442,
+            "lon": -76.560,
+            "direccion": "Oeste, Cali"
+        }
+    },
+    {
+        "nombre": "Postres Anita",
+        "tipo": "postres",
+        "zona": "norte",
+        "precio": "baja",
+        "contacto": "+57 300 771 0088",
+        "redes": {
+            "facebook": "https://facebook.com/postresanita",
+            "instagram": "https://instagram.com/postresanita",
+            "tiktok": "https://tiktok.com/@postresanita"
+        },
+        "ubicacion": {
+            "lat": 3.469,
+            "lon": -76.520,
+            "direccion": "Chipichape, Cali"
+        }
+    },
+    {
+        "nombre": "Café Aroma",
+        "tipo": "cafetería",
+        "zona": "centro",
+        "precio": "media",
+        "contacto": "+57 301 456 3322",
+        "redes": {
+            "facebook": "https://facebook.com/cafearoma",
+            "instagram": "https://instagram.com/cafearomacali",
+            "tiktok": "https://tiktok.com/@cafearoma"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.532,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Hamburguesas Don Pepe",
+        "tipo": "comida rápida",
+        "zona": "oriente",
+        "precio": "media",
+        "contacto": "+57 305 991 7777",
+        "redes": {
+            "facebook": "https://facebook.com/hamburguesasdonpepe",
+            "instagram": "https://instagram.com/hamburguesasdonpepe",
+            "tiktok": "https://tiktok.com/@donpepeburgers"
+        },
+        "ubicacion": {
+            "lat": 3.426,
+            "lon": -76.489,
+            "direccion": "Oriente, Cali"
+        }
+    },
+    {
+        "nombre": "Papas & Salsa",
+        "tipo": "comida rápida",
+        "zona": "sur",
+        "precio": "baja",
+        "contacto": "+57 310 922 6600",
+        "redes": {
+            "facebook": "https://facebook.com/papassalsa",
+            "instagram": "https://instagram.com/papassalsa.cali",
+            "tiktok": "https://tiktok.com/@papassalsa"
+        },
+        "ubicacion": {
+            "lat": 3.350,
+            "lon": -76.535,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "La Trattoria de Nonna",
+        "tipo": "comida italiana",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 302 711 0090",
+        "redes": {
+            "facebook": "https://facebook.com/trattorianonna",
+            "instagram": "https://instagram.com/trattorianonna",
+            "tiktok": "https://tiktok.com/@trattorianonna"
+        },
+        "ubicacion": {
+            "lat": 3.467,
+            "lon": -76.520,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Tamalitos del Valle",
+        "tipo": "comida típica",
+        "zona": "oriente",
+        "precio": "baja",
+        "contacto": "+57 319 552 4433",
+        "redes": {
+            "facebook": "https://facebook.com/tamalitosdelvalle",
+            "instagram": "https://instagram.com/tamalitosdelvalle",
+            "tiktok": "https://tiktok.com/@tamalitosvalle"
+        },
+        "ubicacion": {
+            "lat": 3.430,
+            "lon": -76.490,
+            "direccion": "Oriente, Cali"
+        }
+    },
+    {
+        "nombre": "ChocoLatte House",
+        "tipo": "postres y café",
+        "zona": "sur",
+        "precio": "media",
+        "contacto": "+57 311 008 7654",
+        "redes": {
+            "facebook": "https://facebook.com/chocolattehouse",
+            "instagram": "https://instagram.com/chocolattehouse",
+            "tiktok": "https://tiktok.com/@chocolattehouse"
+        },
+        "ubicacion": {
+            "lat": 3.353,
+            "lon": -76.533,
+            "direccion": "Ciudad Jardín, Cali"
+        }
+    },
+    {
+        "nombre": "Taquitos & Más",
+        "tipo": "comida mexicana",
+        "zona": "oeste",
+        "precio": "baja",
+        "contacto": "+57 320 922 8876",
+        "redes": {
+            "facebook": "https://facebook.com/taquitosymas",
+            "instagram": "https://instagram.com/taquitosymas",
+            "tiktok": "https://tiktok.com/@taquitosymas"
+        },
+        "ubicacion": {
+            "lat": 3.442,
+            "lon": -76.560,
+            "direccion": "San Antonio, Cali"
+        }
+    },
+    {
+        "nombre": "Pekín Wok",
+        "tipo": "comida china",
+        "zona": "norte",
+        "precio": "media",
+        "contacto": "+57 312 991 8844",
+        "redes": {
+            "facebook": "https://facebook.com/pekinwok",
+            "instagram": "https://instagram.com/pekinwok.cali",
+            "tiktok": "https://tiktok.com/@pekinwokcali"
+        },
+        "ubicacion": {
+            "lat": 3.468,
+            "lon": -76.520,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Empanadas El Portal",
+        "tipo": "comida rápida",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 314 229 6645",
+        "redes": {
+            "facebook": "https://facebook.com/empanadaselportal",
+            "instagram": "https://instagram.com/empanadaselportal",
+            "tiktok": "https://tiktok.com/@empanadaselportal"
+        },
+        "ubicacion": {
+            "lat": 3.449,
+            "lon": -76.533,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Green Bowl",
+        "tipo": "comida saludable",
+        "zona": "oeste",
+        "precio": "media",
+        "contacto": "+57 315 777 0021",
+        "redes": {
+            "facebook": "https://facebook.com/greenbowlcali",
+            "instagram": "https://instagram.com/greenbowl.cali",
+            "tiktok": "https://tiktok.com/@greenbowlcali"
+        },
+        "ubicacion": {
+            "lat": 3.441,
+            "lon": -76.561,
+            "direccion": "Normandía, Cali"
+        }
+    },
+    {
+        "nombre": "Juice & Joy",
+        "tipo": "jugos naturales",
+        "zona": "centro",
+        "precio": "baja",
+        "contacto": "+57 301 883 2244",
+        "redes": {
+            "facebook": "https://facebook.com/juicejoycali",
+            "instagram": "https://instagram.com/juicejoy.cali",
+            "tiktok": "https://tiktok.com/@juicejoycali"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.534,
+            "direccion": "Centro, Cali"
+        }
+    },
+    {
+        "nombre": "Choripán de Juanelo",
+        "tipo": "comida rápida",
+        "zona": "norte",
+        "precio": "baja",
+        "contacto": "",
+        "redes": {
+            "facebook": "https://www.facebook.com/eljurry/videos/conocimos-a-juanelo-el-chico-de-los-choripanes/1932242394208749/",
+            "instagram": "https://www.instagram.com/loschoripanesjuanelo/",
+            "tiktok": "https://www.tiktok.com/@loschoripanesjuanelo"
+        },
+        "ubicacion": {
+            "lat": 3.464,
+            "lon": -76.526,
+            "direccion": "Diagonal a la Clínica de Occidente, Cali"
+        }
+    },
+    {
+        "nombre": "Pizzería Don Mario",
+        "tipo": "comida italiana",
+        "zona": "norte",
+        "precio": "alta",
+        "contacto": "+57 317 111 2233",
+        "redes": {
+            "facebook": "https://facebook.com/pizzeriadonmario",
+            "instagram": "https://instagram.com/pizzeriadonmario",
+            "tiktok": "https://tiktok.com/@pizzeriadonmario"
+        },
+        "ubicacion": {
+            "lat": 3.469,
+            "lon": -76.523,
+            "direccion": "Granada, Cali"
+        }
+    },
+    {
+        "nombre": "Postres La Dulzura",
+        "tipo": "postres",
+        "zona": "oeste",
+        "precio": "baja",
+        "contacto": "+57 315 998 8776",
+        "redes": {
+            "facebook": "https://facebook.com/postresdulzura",
+            "instagram": "https://instagram.com/postresladulzura",
+            "tiktok": "https://tiktok.com/@postresladulzura"
+        },
+        "ubicacion": {
+            "lat": 3.440,
+            "lon": -76.561,
+            "direccion": "Normandía, Cali"
+        }
+    },
+    {
+        "nombre": "Café La Sucursal",
+        "tipo": "cafetería",
+        "zona": "centro",
+        "precio": "media",
+        "contacto": "+57 301 987 6543",
+        "redes": {
+            "facebook": "https://facebook.com/cafelasucursal",
+            "instagram": "https://instagram.com/cafelasucursal",
+            "tiktok": "https://tiktok.com/@cafelasucursal"
+        },
+        "ubicacion": {
+            "lat": 3.448,
+            "lon": -76.533,
+            "direccion": "San Antonio, Cali"
+        }
+    }
+]
+
+
+
+===== SKIPPED (binary or unknown ext): C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\datos\sitios.csv =====
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\models\conversacion_model.py =====
+"""
+Modelo para registrar conversaciones del usuario con el bot.
+"""
+
+from datetime import datetime
+
+def nueva_conversacion(usuario, mensaje, respuesta):
+    """
+    Devuelve un diccionario listo para insertar en MongoDB.
+    """
+    return {
+        "usuario": usuario,
+        "mensaje": mensaje,
+        "respuesta": respuesta,
+        "fecha": datetime.now()
+    }
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\models\menu_model.py =====
+"""
+Modelo de Menú asociado a un restaurante.
+"""
+from bson import ObjectId
+
+def menu_schema(data):
+    return {
+        "_id": str(data.get("_id", ObjectId())),
+        "restaurante_id": str(data.get("restaurante_id")),
+        "productos": data.get("productos", []),  # [{nombre, precio}]
+    }
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\models\pedido_model.py =====
+"""
+Modelo de Pedido.
+"""
+from bson import ObjectId
+from datetime import datetime
+
+def pedido_schema(data):
+    return {
+        "_id": str(data.get("_id", ObjectId())),
+        "restaurante_id": str(data.get("restaurante_id")),
+        "menu_id": str(data.get("menu_id")),
+        "productos": data.get("productos", []),  # [{nombre, cantidad, precio_unitario}]
+        "total": data.get("total", 0.0),
+        "fecha": data.get("fecha", datetime.now().isoformat())
+    }
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\models\restaurante_model.py =====
+# models/restaurante_model.py (VERSIÓN FINAL)
+"""
+Modelo de Restaurante con ubicación, redes sociales y etiquetas específicas.
+"""
+from bson import ObjectId
+
+def restaurante_schema(data):
+    ubicacion = data.get("ubicacion", {})
+    # Acepta tanto "lon" como "lng"
+    longitud = ubicacion.get("lng") or ubicacion.get("lon")
+    
+    # Generar URL de mapa si no existe
+    mapa_url = ubicacion.get("mapa_url")
+    if not mapa_url and ubicacion.get('lat') and longitud:
+        mapa_url = f"https://www.google.com/maps?q={ubicacion.get('lat')},{longitud}"
+    
+     # OBTENER REDES SOCIALES CORRECTAMENTE
+    redes_data = data.get("redes", {})
+    
+    return {
+        "_id": str(data.get("_id", ObjectId())),
+        "nombre": data.get("nombre"),
+        "tipo": data.get("tipo"),
+        "subtipo": data.get("subtipo", []),  # Etiquetas específicas
+        "zona": data.get("zona"),
+        "precio": data.get("precio"),
+        "contacto": data.get("contacto"),
+        "ubicacion": {
+            "direccion": ubicacion.get("direccion"),
+            "lat": ubicacion.get("lat"),
+            "lng": longitud,
+            "mapa_url": mapa_url
+        },
+        "redes": {
+            "facebook": redes_data.get("facebook"),
+            "instagram": redes_data.get("instagram"), 
+            "tiktok": redes_data.get("tiktok")
+        }
+    }
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\models\ubicacion_model.py =====
+# models/ubicacion_model.py
+"""
+Modelo para almacenar la última ubicación conocida del usuario.
+"""
+
+from datetime import datetime
+
+def nueva_ubicacion(usuario, lat, lon):
+    """
+    Devuelve un diccionario de ubicación para guardar o actualizar.
+    """
+    return {
+        "usuario": usuario,
+        "lat": lat,
+        "lon": lon,
+        "fecha": datetime.now(),
+        "mapa_url": generar_url_mapa(lat, lon)  # ← Nueva línea
+    }
+
+def generar_url_mapa(lat, lon):
+    """
+    Genera enlace para abrir en Google Maps
+    """
+    return f"https://www.google.com/maps?q={lat},{lon}"
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\n8n\califood-workflow.json =====
+{
+  "name": "CaliFoodBot - WhatsApp Flow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "wsp",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "wh-get",
+      "name": "Webhook Verify (GET)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-1200, -200],
+      "webhookId": "califood-verify"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.query['hub.mode'] }}",
+              "rightValue": "subscribe",
+              "operator": { "type": "string", "operation": "equals" }
+            },
+            {
+              "id": "c2",
+              "leftValue": "={{ $json.query['hub.verify_token'] }}",
+              "rightValue": "={{ $env.VERIFY_TOKEN }}",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-verify",
+      "name": "IF Verify Token",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-960, -200]
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $json.query['hub.challenge'] }}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-challenge",
+      "name": "Respond Challenge",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-720, -260]
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "Forbidden",
+        "options": { "responseCode": 403 }
+      },
+      "id": "resp-403",
+      "name": "Respond 403",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-720, -120]
+    },
+
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "wsp",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "wh-post",
+      "name": "Webhook Incoming (POST)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-1200, 200],
+      "webhookId": "califood-incoming"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body || $input.first().json;\nconst entry = (body.entry && body.entry[0]) || {};\nconst change = (entry.changes && entry.changes[0]) || {};\nconst value = change.value || {};\nconst messages = value.messages || [];\nif (!messages.length) {\n  return [{ json: { skip: true } }];\n}\nconst msg = messages[0];\nconst usuario_id = msg.from;\nlet tipo = 'unsupported';\nlet texto = '';\nlet lat = null;\nlet lon = null;\nif (msg.location) {\n  tipo = 'location';\n  lat = msg.location.latitude;\n  lon = msg.location.longitude;\n} else if (msg.text) {\n  tipo = 'text';\n  texto = (msg.text.body || '').toLowerCase().trim();\n}\nreturn [{ json: { skip: false, usuario_id, tipo, texto, lat, lon, raw: msg } }];"
+      },
+      "id": "parse-msg",
+      "name": "Parse Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-960, 200]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "skip",
+              "leftValue": "={{ $json.skip }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-skip",
+      "name": "IF Skip Empty",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-720, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"status\": \"ignored\"\n}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-ignored",
+      "name": "Respond Ignored",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [-480, 80]
+    },
+
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "isloc",
+              "leftValue": "={{ $json.tipo }}",
+              "rightValue": "location",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-isloc",
+      "name": "IF Is Location",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-480, 320]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "ubicaciones",
+        "updateKey": "usuario",
+        "fields": "usuario,lat,lon,fecha,mapa_url",
+        "upsert": true,
+        "options": {}
+      },
+      "id": "mongo-upsert-loc",
+      "name": "Mongo Upsert Location",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [-240, 240]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "u", "name": "usuario", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "la", "name": "lat", "type": "number", "value": "={{ $json.lat }}" },
+            { "id": "lo", "name": "lon", "type": "number", "value": "={{ $json.lon }}" },
+            { "id": "f", "name": "fecha", "type": "string", "value": "={{ $now.toISO() }}" },
+            { "id": "m", "name": "mapa_url", "type": "string", "value": "=https://www.google.com/maps?q={{ $json.lat }},{{ $json.lon }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "tipo", "name": "tipo", "type": "string", "value": "={{ $json.tipo }}" },
+            { "id": "texto", "name": "texto", "type": "string", "value": "={{ $json.texto }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-loc-fields",
+      "name": "Set Location Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [-480, 240]
+    },
+
+    {
+      "parameters": {
+        "operation": "find",
+        "collection": "ubicaciones",
+        "query": "={ \"usuario\": \"{{ $json.usuario_id }}\" }",
+        "options": { "limit": 1 }
+      },
+      "id": "mongo-find-loc",
+      "name": "Mongo Find Location",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [0, 320]
+    },
+
+    {
+      "parameters": {
+        "jsCode": "const incoming = $('Parse Message').first().json;\nconst userLoc = $input.first().json || {};\nconst hasLoc = !!(userLoc.lat && userLoc.lon);\nconst texto = incoming.texto || '';\nconst tipo = incoming.tipo;\nconst saludos = ['hola','hi','hello','buenos dias','buenas tardes','buenas','buenas noches'];\nconst noSabe = ['no se','no sé','no idea','no tengo idea','que recomiendas','qué recomiendas','recomiendame','recomiéndame','sugiere','que hay','qué hay','variedad'].some(p => texto.includes(p));\nconst pideActualizar = ['actualizar ubicacion','actualizar ubicación','nueva ubicacion','nueva ubicación','cambiar ubicacion','cambiar ubicación'].some(p => texto.includes(p));\n\nconst etiquetas = {\n  'choripán': ['choripán','choripan','chori'],\n  'hamburguesa': ['hamburguesa','hamburguesas','burger','hamburgues'],\n  'pizza': ['pizza','pizzas','pizzería'],\n  'taco': ['taco','tacos','taquitos'],\n  'sushi': ['sushi','rolls','sashimi'],\n  'arepa': ['arepa','arepas'],\n  'empanada': ['empanada','empanadas'],\n  'pasta': ['pasta','pastas','espagueti','lasaña','lasagna'],\n  'postre': ['postre','postres','dulce','helado','torta'],\n  'café': ['café','cafe','capuchino','expreso']\n};\nlet etiquetaDetectada = null;\nfor (const [k, arr] of Object.entries(etiquetas)) {\n  if (arr.some(p => texto.includes(p))) { etiquetaDetectada = k; break; }\n}\n\nconst zonas = {\n  'norte': ['norte','granada','chipichape'],\n  'sur': ['sur','ciudad jardín','ciudad jardin','limonar'],\n  'centro': ['centro','san antonio'],\n  'oeste': ['oeste','normandía','normandia'],\n  'oriente': ['oriente','este']\n};\nlet zonaDetectada = null;\nfor (const [k, arr] of Object.entries(zonas)) {\n  if (arr.some(p => texto.includes(p))) { zonaDetectada = k; break; }\n}\nconst pideCerca = ['cerca','cercano','cercana','cercanía','próximo','proximo','próxima','proxima'].some(p => texto.includes(p));\n\nlet intent = 'consulta';\nif (tipo === 'location') intent = 'ubicacion_recibida';\nelse if (saludos.includes(texto)) intent = 'saludo';\nelse if (pideActualizar) intent = 'actualizar_ubicacion';\nelse if (!hasLoc) intent = 'pedir_ubicacion';\n\nreturn [{\n  json: {\n    usuario_id: incoming.usuario_id,\n    tipo,\n    texto,\n    intent,\n    hasLoc,\n    ubicacion_usuario: hasLoc ? { lat: userLoc.lat, lon: userLoc.lon } : null,\n    noSabe,\n    etiquetaDetectada,\n    zonaDetectada,\n    pideCerca\n  }\n}];"
+      },
+      "id": "code-intent",
+      "name": "Detect Intent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [240, 320]
+    },
+
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s1", "leftValue": "={{ $json.intent }}", "rightValue": "saludo", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "saludo" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s2", "leftValue": "={{ $json.intent }}", "rightValue": "ubicacion_recibida", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "ubic_recibida" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s3", "leftValue": "={{ $json.intent }}", "rightValue": "actualizar_ubicacion", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "actualizar" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s4", "leftValue": "={{ $json.intent }}", "rightValue": "pedir_ubicacion", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "pedir_ubic" },
+            { "conditions": { "options": { "caseSensitive": true }, "conditions": [{ "id": "s5", "leftValue": "={{ $json.intent }}", "rightValue": "consulta", "operator": { "type": "string", "operation": "equals" } }], "combinator": "and" }, "renameOutput": true, "outputKey": "consulta" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "switch-intent",
+      "name": "Switch Intent",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [480, 320]
+    },
+
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "={{ $json.hasLoc ? '👋 ¡Hola! Soy CaliFoodBot 🍽️\\n\\nVeo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?\\n\\n• Específico: \"choripán\", \"hamburguesas\", \"pizza\", \"sushi\"\\n• Por tipo: \"comida mexicana\", \"comida rápida\", \"postres\"\\n• Por zona: \"en el norte\", \"en el centro\"\\n• Por precio: \"comida barata\", \"restaurante económico\"\\n• O di \"no sé\" para variedad cerca' : '👋 ¡Hola! Soy CaliFoodBot 🍽️\\n\\nPara recomendarte los mejores restaurantes en Cali necesito tu ubicación.\\n📍 Compártela usando el clip 📎 en WhatsApp.' }}" },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-saludo",
+      "name": "Reply: Saludo",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, -40]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 ¡Perfecto! Ubicación recibida.\n\n🍽️ Ahora puedes:\n• \"quiero choripán\", \"busco hamburguesas\"\n• Por zona: \"en el norte\", \"en el centro\"\n• Por precio: \"comida económica\"\n• O \"no sé\" para variedad cerca de ti\n\n¿Qué se te antoja?" },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "ubicacion_enviada" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-ubic-recibida",
+      "name": "Reply: Ubicación Recibida",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 120]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 ¡Por supuesto! Envíame tu nueva ubicación con el clip 📎 de WhatsApp." },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-actualizar",
+      "name": "Reply: Actualizar Ubicación",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 280]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "to", "name": "to", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "txt", "name": "respuesta", "type": "string", "value": "📍 Para recomendarte restaurantes cercanos necesito tu ubicación. Compártela con el clip 📎 en WhatsApp." },
+            { "id": "msg", "name": "mensaje_usuario", "type": "string", "value": "={{ $json.texto }}" },
+            { "id": "uid", "name": "usuario_id", "type": "string", "value": "={{ $json.usuario_id }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-pedir-ubic",
+      "name": "Reply: Pedir Ubicación",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 440]
+    },
+
+    {
+      "parameters": {
+        "operation": "find",
+        "collection": "restaurantes",
+        "query": "={}",
+        "options": {}
+      },
+      "id": "mongo-restaurantes",
+      "name": "Mongo Find Restaurantes",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [720, 600]
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "agg-restaurantes",
+      "name": "Aggregate Restaurantes",
+      "type": "n8n-nodes-base.itemLists",
+      "typeVersion": 3,
+      "position": [960, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Receives the array of restaurants in input + intent context from earlier nodes.\nconst lista = $input.first().json.data || [];\nconst ctx = $('Detect Intent').first().json;\nconst u = ctx.ubicacion_usuario;\n\nasync function osrm(lat1, lon1, lat2, lon2) {\n  const url = `http://router.project-osrm.org/route/v1/driving/${lon1},${lat1};${lon2},${lat2}?overview=false`;\n  try {\n    const r = await this.helpers.httpRequest({ method: 'GET', url, json: true, timeout: 8000 });\n    if (!r || !r.routes || !r.routes.length) return null;\n    return r.routes[0].distance / 1000;\n  } catch (e) { return null; }\n}\n\nconst withDist = [];\nfor (const r of lista) {\n  const ub = r.ubicacion || {};\n  const lat = ub.lat;\n  const lon = ub.lng || ub.lon;\n  let dist = null;\n  if (lat && lon && u) {\n    dist = await osrm.call(this, u.lat, u.lon, lat, lon);\n  }\n  withDist.push({ ...r, distancia_real_km: dist == null ? null : Math.round(dist * 1000) / 1000 });\n}\nwithDist.sort((a, b) => (a.distancia_real_km ?? 9999) - (b.distancia_real_km ?? 9999));\n\nlet filtrados = withDist.slice();\nlet contexto = 'Usuario con ubicación disponible';\n\nif (!ctx.noSabe) {\n  if (ctx.etiquetaDetectada) {\n    const tag = ctx.etiquetaDetectada;\n    let f = filtrados.filter(r => Array.isArray(r.subtipo) && r.subtipo.some(s => String(s).toLowerCase().includes(tag)));\n    if (!f.length) f = withDist.filter(r => (r.tipo || '').toLowerCase().includes(tag));\n    filtrados = f;\n    contexto = `Usuario busca ${tag}`;\n  }\n  if (ctx.zonaDetectada) {\n    filtrados = filtrados.filter(r => (r.zona || '').toLowerCase().includes(ctx.zonaDetectada));\n    contexto += ` en ${ctx.zonaDetectada}`;\n  }\n  if (ctx.pideCerca) {\n    filtrados = filtrados.filter(r => (r.distancia_real_km ?? 999) <= 2.0);\n    contexto += ' (muy cercanos)';\n  }\n}\n\nconst top = (filtrados.length ? filtrados : withDist).slice(0, 15);\n\nfunction fmtDist(km) {\n  if (km == null) return 'Distancia no disponible';\n  if (km < 1) return `A ${Math.round(km * 1000)} m`;\n  if (km < 10) return `A ${km.toFixed(2)} km`;\n  return `A ${km.toFixed(1)} km`;\n}\nfunction fmtRedes(redes) {\n  if (!redes) return 'No disponibles';\n  const out = [];\n  if (redes.facebook && redes.facebook.startsWith('http')) out.push(`📘 [Facebook](${redes.facebook})`);\n  if (redes.instagram && redes.instagram.startsWith('http')) out.push(`📷 [Instagram](${redes.instagram})`);\n  if (redes.tiktok && redes.tiktok.startsWith('http')) out.push(`🎵 [TikTok](${redes.tiktok})`);\n  return out.length ? out.join(' | ') : 'No disponibles';\n}\nconst infoBlocks = top.map(r => {\n  const ub = r.ubicacion || {};\n  const lat = ub.lat, lon = ub.lng || ub.lon;\n  const mapa = ub.mapa_url || (lat && lon ? `https://www.google.com/maps?q=${lat},${lon}` : null);\n  const dir = mapa ? `🗺️ [Ver en Google Maps](${mapa})` : (ub.direccion || 'No disponible');\n  const sub = Array.isArray(r.subtipo) && r.subtipo.length ? `• 🏷️ Especialidad: ${r.subtipo.slice(0,3).join(', ')}\\n` : '';\n  return `\\n🍽️ ${r.nombre || 'Sin nombre'}\\n• 🏷️ Tipo: ${r.tipo || 'No especificado'}\\n${sub}• 📍 Zona: ${r.zona || 'No especificada'}\\n• 💰 Precio: ${r.precio || 'No especificado'}\\n• 📞 Contacto: ${r.contacto || 'No disponible'}\\n• 🌐 Redes: ${fmtRedes(r.redes)}\\n• 🗺️ Dirección: ${dir}\\n• 📏 ${fmtDist(r.distancia_real_km)}\\n`;\n});\n\nreturn [{\n  json: {\n    usuario_id: ctx.usuario_id,\n    mensaje_usuario: ctx.texto,\n    contexto,\n    ubicacion_usuario: u,\n    restaurantes_top: top,\n    restaurantes_texto: infoBlocks.join('\\n'),\n    sin_resultados: filtrados.length === 0\n  }\n}];"
+      },
+      "id": "code-osrm-filter",
+      "name": "OSRM + Filter",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1200, 600]
+    },
+
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [{ "name": "Content-Type", "value": "application/json" }]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"temperature\": 0.1,\n  \"max_tokens\": 1000,\n  \"messages\": [\n    { \"role\": \"system\", \"content\": \"Eres CaliFoodBot, asistente gastronómico de Cali. Usa SOLO los restaurantes y distancias provistas. No inventes datos. Mantén el formato con emojis y enlaces tal como vienen.\\n\\nCONTEXTO: {{ $json.contexto }}\\nUBICACIÓN USUARIO: lat {{ $json.ubicacion_usuario.lat }}, lon {{ $json.ubicacion_usuario.lon }}\\nMENSAJE: {{ $json.mensaje_usuario }}\\n\\nRESTAURANTES:\\n{{ $json.restaurantes_texto }}\" },\n    { \"role\": \"user\", \"content\": \"={{ $json.mensaje_usuario }}\" }\n  ]\n}",
+        "options": { "timeout": 30000 }
+      },
+      "id": "openai",
+      "name": "OpenAI Chat",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1440, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "const ai = $input.first().json;\nconst prev = $('OSRM + Filter').first().json;\nlet respuesta = '';\ntry {\n  respuesta = ai.choices[0].message.content.trim();\n} catch (e) {\n  respuesta = '🍽️ Te recomiendo estas opciones cercanas:\\n' + (prev.restaurantes_texto || '');\n}\nreturn [{ json: { to: prev.usuario_id, usuario_id: prev.usuario_id, mensaje_usuario: prev.mensaje_usuario, respuesta } }];"
+      },
+      "id": "code-final",
+      "name": "Compose Final Reply",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1680, 600]
+    },
+
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v18.0/{{ $env.PHONE_NUMBER_ID }}/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.WHATSAPP_TOKEN }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"messaging_product\": \"whatsapp\",\n  \"to\": \"{{ $json.to }}\",\n  \"type\": \"text\",\n  \"text\": { \"body\": {{ JSON.stringify($json.respuesta) }} }\n}",
+        "options": { "timeout": 15000 }
+      },
+      "id": "send-wsp",
+      "name": "Send WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1920, 280]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "collection": "conversaciones",
+        "fields": "usuario,mensaje,respuesta,fecha",
+        "options": {}
+      },
+      "id": "mongo-save-conv",
+      "name": "Save Conversation",
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.1,
+      "position": [2160, 280]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "u", "name": "usuario", "type": "string", "value": "={{ $json.usuario_id }}" },
+            { "id": "m", "name": "mensaje", "type": "string", "value": "={{ $json.mensaje_usuario }}" },
+            { "id": "r", "name": "respuesta", "type": "string", "value": "={{ $json.respuesta }}" },
+            { "id": "f", "name": "fecha", "type": "string", "value": "={{ $now.toISO() }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-conv-fields",
+      "name": "Set Conversation Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [1920, 440]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"status\": \"ok\"\n}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "resp-ok",
+      "name": "Respond 200 OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [2400, 280]
+    }
+  ],
+
+  "connections": {
+    "Webhook Verify (GET)": { "main": [[{ "node": "IF Verify Token", "type": "main", "index": 0 }]] },
+    "IF Verify Token": {
+      "main": [
+        [{ "node": "Respond Challenge", "type": "main", "index": 0 }],
+        [{ "node": "Respond 403", "type": "main", "index": 0 }]
+      ]
+    },
+
+    "Webhook Incoming (POST)": { "main": [[{ "node": "Parse Message", "type": "main", "index": 0 }]] },
+    "Parse Message": { "main": [[{ "node": "IF Skip Empty", "type": "main", "index": 0 }]] },
+    "IF Skip Empty": {
+      "main": [
+        [{ "node": "Respond Ignored", "type": "main", "index": 0 }],
+        [{ "node": "IF Is Location", "type": "main", "index": 0 }]
+      ]
+    },
+    "IF Is Location": {
+      "main": [
+        [{ "node": "Set Location Fields", "type": "main", "index": 0 }],
+        [{ "node": "Mongo Find Location", "type": "main", "index": 0 }]
+      ]
+    },
+    "Set Location Fields": { "main": [[{ "node": "Mongo Upsert Location", "type": "main", "index": 0 }]] },
+    "Mongo Upsert Location": { "main": [[{ "node": "Mongo Find Location", "type": "main", "index": 0 }]] },
+    "Mongo Find Location": { "main": [[{ "node": "Detect Intent", "type": "main", "index": 0 }]] },
+    "Detect Intent": { "main": [[{ "node": "Switch Intent", "type": "main", "index": 0 }]] },
+
+    "Switch Intent": {
+      "main": [
+        [{ "node": "Reply: Saludo", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Ubicación Recibida", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Actualizar Ubicación", "type": "main", "index": 0 }],
+        [{ "node": "Reply: Pedir Ubicación", "type": "main", "index": 0 }],
+        [{ "node": "Mongo Find Restaurantes", "type": "main", "index": 0 }]
+      ]
+    },
+
+    "Reply: Saludo": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Ubicación Recibida": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Actualizar Ubicación": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+    "Reply: Pedir Ubicación": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+
+    "Mongo Find Restaurantes": { "main": [[{ "node": "Aggregate Restaurantes", "type": "main", "index": 0 }]] },
+    "Aggregate Restaurantes": { "main": [[{ "node": "OSRM + Filter", "type": "main", "index": 0 }]] },
+    "OSRM + Filter": { "main": [[{ "node": "OpenAI Chat", "type": "main", "index": 0 }]] },
+    "OpenAI Chat": { "main": [[{ "node": "Compose Final Reply", "type": "main", "index": 0 }]] },
+    "Compose Final Reply": { "main": [[{ "node": "Send WhatsApp", "type": "main", "index": 0 }]] },
+
+    "Send WhatsApp": { "main": [[{ "node": "Set Conversation Fields", "type": "main", "index": 0 }]] },
+    "Set Conversation Fields": { "main": [[{ "node": "Save Conversation", "type": "main", "index": 0 }]] },
+    "Save Conversation": { "main": [[{ "node": "Respond 200 OK", "type": "main", "index": 0 }]] }
+  },
+
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "versionId": "1.0.0",
+  "id": "califood-whatsapp"
+}
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\n8n\README.md =====
+# CaliFoodBot — N8N Workflow
+
+This folder contains an N8N workflow (`califood-workflow.json`) that replicates the Flask bot in `routes/webhook_routes.py`. It receives WhatsApp messages from Meta, stores user location in MongoDB, runs the same intent filters, calls OSRM for road distance, generates a reply with OpenAI, and sends the answer back via the WhatsApp Cloud API.
+
+The point of moving this to N8N is operational: when you change the WhatsApp phone number in Meta, you only need to update **one variable** and **one webhook URL**. No redeploys.
+
+---
+
+## 1. Architecture mapping (Python → N8N)
+
+| Flask piece | N8N node |
+|---|---|
+| `GET /webhook` (Meta verification) | `Webhook Verify (GET)` → `IF Verify Token` → `Respond Challenge` / `Respond 403` |
+| `POST /webhook` | `Webhook Incoming (POST)` |
+| Parse `entry[0].changes[0].value.messages[0]` | `Parse Message` (Code) |
+| `guardar_ubicacion` | `Set Location Fields` → `Mongo Upsert Location` |
+| `obtener_ubicacion` | `Mongo Find Location` |
+| Intent detection (saludo / ubicacion / etiqueta / zona / cerca / no_sabe) | `Detect Intent` (Code) → `Switch Intent` |
+| `listar_restaurantes` | `Mongo Find Restaurantes` |
+| `calcular_distancias_reales` (OSRM) + filtros | `OSRM + Filter` (Code) |
+| `generar_respuesta_ia` | `OpenAI Chat` (HTTP) → `Compose Final Reply` |
+| `enviar_mensaje_whatsapp` | `Send WhatsApp` (HTTP to Graph API) |
+| `guardar_conversacion` | `Set Conversation Fields` → `Save Conversation` |
+
+---
+
+## 2. Import the workflow
+
+1. Open `http://localhost:5678/home/workflows`.
+2. Click **Add workflow → Import from file** and pick `califood-workflow.json` (copy it from `\\wsl$\...` or use the n8n CLI).
+3. The workflow imports inactive. Don't activate it yet — finish step 3 first.
+
+CLI alternative from inside WSL (`crist@HERACOTS:~/n8n$`):
+
+```bash
+cp /mnt/c/Users/crist/OneDrive/Documents/GitHub/califood-bot/n8n/califood-workflow.json ~/n8n/
+n8n import:workflow --input=$HOME/n8n/califood-workflow.json
+```
+
+---
+
+## 3. Configure credentials and env vars
+
+### 3.1 N8N environment variables (set in WSL before starting n8n)
+
+```bash
+export VERIFY_TOKEN="miclave_secreta_devrock"
+export PHONE_NUMBER_ID="1104699786053226"
+export WHATSAPP_TOKEN="EAAa...your-current-meta-token..."
+```
+
+Or persist them in `~/.bashrc` / your `n8n` systemd unit / docker-compose `environment:` section. Restart n8n after changing.
+
+### 3.2 N8N credentials (UI → Credentials → New)
+
+| Credential | Type | Where it's used |
+|---|---|---|
+| **MongoDB** | "MongoDB" | Bind to all four `Mongo *` nodes. Connection string from your `.env`: `mongodb+srv://...mongodb.net/califood`. Database: `califood`. |
+| **OpenAI** | "OpenAI API" | Bind to `OpenAI Chat`. Use the `OPENAI_API_KEY` from `.env`. |
+
+After binding, open each MongoDB node, pick the credential, and confirm the collection name (`ubicaciones`, `restaurantes`, `conversaciones`).
+
+> ⚠️ Your `.env` has the WhatsApp token, OpenAI key, and Mongo password committed locally. Rotate them before pushing — Meta and OpenAI revoke leaked keys aggressively.
+
+---
+
+## 4. Expose n8n to Meta
+
+Meta cannot reach `localhost:5678`. Choose one:
+
+**Option A — ngrok (same as the Flask flow):**
+```bash
+ngrok http 5678
+```
+Webhook URL becomes: `https://<random>.ngrok-free.app/webhook/wsp`
+
+**Option B — Cloudflare Tunnel (stable URL, free):**
+```bash
+cloudflared tunnel --url http://localhost:5678
+```
+
+The webhook **path** is `wsp` (set in both webhook nodes). The full URL Meta needs is:
+
+```
+https://<your-public-host>/webhook/wsp
+```
+
+Activate the workflow in the n8n UI before testing — inactive workflows return 404 on the production webhook URL.
+
+---
+
+## 5. Wire it up in Meta
+
+1. Meta Business Suite → **WhatsApp → Configuration → Webhook → Edit**.
+2. **Callback URL:** `https://<your-public-host>/webhook/wsp`.
+3. **Verify token:** the same string as `VERIFY_TOKEN` in step 3.1.
+4. Click **Verify and save**. Meta hits `GET /webhook/wsp?hub.mode=subscribe&hub.verify_token=...&hub.challenge=...`; the workflow's `IF Verify Token` checks the token and returns the challenge.
+5. Subscribe to the `messages` field.
+6. Send a test message from your phone.
+
+---
+
+## 6. Switching phone numbers (personal → business)
+
+This is the painful part you mentioned. Once the workflow exists, the swap takes ~5 minutes:
+
+1. **Meta Business Manager → WhatsApp Accounts → Phone numbers → Add phone number.** Verify it via SMS / call to the new business line.
+2. Once verified, copy its new **Phone number ID** (it's *not* the phone number itself — it's a numeric ID like `1104699786053226`).
+3. Generate (or reuse) a **System User token** that has the WhatsApp Business permission for the new WABA. Permanent system-user tokens are strongly preferred over the 24h temporary tokens — otherwise you'll be doing this every day.
+4. In WSL, update the env vars:
+   ```bash
+   export PHONE_NUMBER_ID="<new-id>"
+   export WHATSAPP_TOKEN="<new-token>"
+   ```
+   Restart n8n so the new values are picked up. (Or update them in your docker-compose / systemd unit and `systemctl restart n8n`.)
+5. **Webhook URL stays the same** — that's the whole point. In Meta's WhatsApp configuration for the new number, paste the same callback URL and the same verify token, then click Verify.
+6. Subscribe the new number to the `messages` field.
+7. Send a test message to the new business number.
+
+What used to break:
+- Forgetting to subscribe the new number to `messages` → Meta accepts the verification but never POSTs incoming messages.
+- Using the old token with the new WABA → 401 from Graph API. Tokens are scoped to a WABA / system user.
+- Using the *display phone number* instead of the *phone number ID* in `PHONE_NUMBER_ID` → 400 from Graph API.
+
+---
+
+## 7. Testing without Meta
+
+You can fire a fake Meta payload at the local webhook to validate the flow end-to-end:
+
+```bash
+curl -X POST http://localhost:5678/webhook/wsp \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "entry": [{
+      "changes": [{
+        "value": {
+          "messages": [{
+            "from": "573001112233",
+            "text": { "body": "hola" }
+          }]
+        }
+      }]
+    }]
+  }'
+```
+
+For a location test, swap the message body for:
+```json
+{ "from": "573001112233", "location": { "latitude": 3.451, "longitude": -76.534 } }
+```
+
+---
+
+## 8. Known differences vs. the Flask bot
+
+- **Aggregate Restaurantes:** uses the `Item Lists` node to collapse Mongo's many-document output into one array before the OSRM Code node. If your n8n version doesn't have it under that name, replace it with a Code node: `return [{ json: { data: $input.all().map(i => i.json) } }];`.
+- **OSRM rate limits:** the public OSRM server (`router.project-osrm.org`) is rate-limited. With more than ~20 restaurants per query you'll want to either self-host OSRM or precompute distances. The Code node loops sequentially to stay polite.
+- **Saludo branch:** does not require location, matches the Flask behavior.
+- The `Switch Intent` ordering matches the Flask priority: `saludo` > `ubicacion_recibida` > `actualizar_ubicacion` > `pedir_ubicacion` > `consulta`.
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\chat_routes.py =====
+# routes/chat_routes.py
+"""
+Rutas del chat conversacional.
+"""
+
+from flask import Blueprint, request, jsonify
+from services.ia_service import generar_respuesta_ia
+
+chat_bp = Blueprint("chat_bp", __name__)
+
+
+@chat_bp.route("/", methods=["POST"])
+def chat():
+    data = request.json
+    if "mensaje" not in data:
+        return jsonify({"error": "Falta el campo 'mensaje'"}), 400
+
+    respuesta = generar_respuesta_ia(data["mensaje"])
+    return jsonify({"respuesta": respuesta})
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\conversacion_routes.py =====
+from flask import Blueprint, jsonify
+from services.conversacion_service import listar_conversaciones
+
+conversacion_bp = Blueprint("conversaciones", __name__)
+
+@conversacion_bp.route("/api/conversaciones", methods=["GET"])
+def obtener_conversaciones():
+    """
+    Devuelve todas las conversaciones almacenadas.
+    """
+    conversaciones = listar_conversaciones()
+    for c in conversaciones:
+        c["_id"] = str(c["_id"])
+    return jsonify(conversaciones)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\menu_routes.py =====
+from flask import Blueprint, request, jsonify
+from services.menu_service import crear_menu, listar_menus, obtener_menu_por_restaurante
+
+menu_bp = Blueprint("menu_bp", __name__)
+
+@menu_bp.route("/", methods=["POST"])
+def post_menu():
+    data = request.json
+    return jsonify(crear_menu(data)), 201
+
+@menu_bp.route("/", methods=["GET"])
+def get_menus():
+    return jsonify(listar_menus()), 200
+
+@menu_bp.route("/restaurante/<restaurante_id>", methods=["GET"])
+def get_menu_por_restaurante(restaurante_id):
+    return jsonify(obtener_menu_por_restaurante(restaurante_id)), 200
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\pedido_routes.py =====
+from flask import Blueprint, request, jsonify
+from services.pedido_service import crear_pedido, listar_pedidos
+
+pedido_bp = Blueprint("pedido_bp", __name__)
+
+@pedido_bp.route("/", methods=["POST"])
+def post_pedido():
+    data = request.json
+    return jsonify(crear_pedido(data)), 201
+
+@pedido_bp.route("/", methods=["GET"])
+def get_pedidos():
+    return jsonify(listar_pedidos()), 200
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\restaurante_routes.py =====
+"""
+Rutas para manejar la API de restaurantes.
+"""
+from flask import Blueprint, request, jsonify
+from services.restaurante_service import (
+    crear_restaurante,
+    listar_restaurantes,
+    obtener_restaurante_por_id,
+    buscar_restaurante_por_nombre
+)
+
+restaurante_bp = Blueprint("restaurante_bp", __name__)
+
+@restaurante_bp.route("/", methods=["POST"])
+def post_restaurante():
+    data = request.json
+    nuevo_restaurante = crear_restaurante(data)
+    return jsonify(nuevo_restaurante), 201
+
+@restaurante_bp.route("/", methods=["GET"])
+def get_restaurantes():
+    return jsonify(listar_restaurantes()), 200
+
+@restaurante_bp.route("/<id>", methods=["GET"])
+def get_restaurante(id):
+    restaurante = obtener_restaurante_por_id(id)
+    return (jsonify(restaurante), 200) if restaurante else (jsonify({"error": "No encontrado"}), 404)
+
+@restaurante_bp.route("/buscar", methods=["GET"])
+def get_restaurante_por_nombre():
+    nombre = request.args.get("nombre")
+    if not nombre:
+        return jsonify({"error": "Falta el parámetro 'nombre'"}), 400
+    restaurante = buscar_restaurante_por_nombre(nombre)
+    return (jsonify(restaurante), 200) if restaurante else (jsonify({"error": "No encontrado"}), 404)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\ubicacion_routes.py =====
+# routes/ubicacion_routes.py
+from flask import Blueprint, request, jsonify
+from services.ubicacion_service import guardar_ubicacion, obtener_ubicacion
+
+ubicacion_bp = Blueprint("ubicaciones", __name__)
+
+@ubicacion_bp.route("/api/ubicacion", methods=["POST"])
+def guardar():
+    data = request.get_json()
+    usuario = data.get("usuario")
+    lat = data.get("lat")
+    lon = data.get("lon")
+
+    if not usuario or not lat or not lon:
+        return jsonify({"error": "Faltan datos"}), 400
+
+    guardar_ubicacion(usuario, lat, lon)
+    return jsonify({"mensaje": "Ubicación guardada"}), 201
+
+@ubicacion_bp.route("/api/ubicacion/<usuario>", methods=["GET"])
+def obtener(usuario):
+    ubic = obtener_ubicacion(usuario)
+    if not ubic:
+        return jsonify({"error": "Ubicación no encontrada"}), 404
+    
+    # Formatear respuesta con enlace al mapa
+    respuesta = {
+        "usuario": ubic["usuario"],
+        "lat": ubic["lat"],
+        "lon": ubic["lon"],
+        "fecha": ubic["fecha"].isoformat() if ubic.get("fecha") else None,
+        "mapa_url": ubic.get("mapa_url", f"https://www.google.com/maps?q={ubic['lat']},{ubic['lon']}")
+    }
+    
+    return jsonify(respuesta)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\webhook_routes.py =====
+# routes/webhook_routes.py
+from flask import Blueprint, request, jsonify
+from services.conversacion_service import guardar_conversacion
+from services.ubicacion_service import guardar_ubicacion, obtener_ubicacion
+from services.restaurante_service import listar_restaurantes
+from services.ia_service import calcular_distancias_reales, generar_respuesta_ia
+from services.telegram_service import enviar_mensaje_telegram
+from geopy.distance import geodesic
+import threading
+import os
+
+webhook_bp = Blueprint("webhook", __name__)
+
+def procesar_mensaje_background(data):
+    """
+    Esta función se ejecuta en segundo plano. Hace el trabajo pesado de buscar 
+    restaurantes y consultar a la IA sin hacer que Telegram espere.
+    """
+    mensaje_usuario = ""
+    usuario_id = None
+    ubicacion_usuario = None
+    es_ubicacion = False
+
+    try:
+        msg = data["message"]
+        usuario_id = str(msg["chat"]["id"])
+
+        # 🧭 Mensaje con ubicación
+        if "location" in msg:
+            lat = msg["location"]["latitude"]
+            lon = msg["location"]["longitude"]
+            ubicacion_usuario = {"lat": lat, "lon": lon}
+            guardar_ubicacion(usuario_id, lat, lon)
+            mensaje_usuario = "ubicacion_enviada"
+            es_ubicacion = True
+            print(f"📍 Ubicación recibida: {lat}, {lon}")
+
+        # 💬 Mensaje de texto
+        elif "text" in msg:
+            # 🛡️ SEGURIDAD: Cortamos el mensaje a 300 caracteres para evitar abusos de tokens
+            mensaje_usuario = msg["text"][:300].lower()
+            print(f"💬 Mensaje texto: {mensaje_usuario}")
+
+        else:
+            return
+
+    except Exception as e:
+        print("❌ Error extrayendo datos del mensaje:", e)
+        return
+
+    # ==========================================
+    # FLUJO CONVERSACIONAL Y MANEJO DE UBICACIÓN
+    # ==========================================
+    ubic = obtener_ubicacion(usuario_id)
+    if ubic:
+        ubicacion_usuario = {"lat": ubic["lat"], "lon": ubic["lon"]}
+
+    # 1. SALUDOS
+    saludos = ["hola", "hi", "hello", "buenos dias", "buenas tardes", "buenas", "buenas noches", "/start"]
+    if mensaje_usuario in saludos:
+        if ubicacion_usuario:
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️\n\nVeo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?\n\n• Específico: "choripán", "hamburguesas", "pizza", "sushi"\n• Por tipo: "comida mexicana", "comida rápida", "postres"\n• Por zona: "en el norte", "en el centro"\n• Por precio: "comida barata", "restaurante económico"\n• O di "no sé" para variedad cerca\n\n📍 También puedes actualizar tu ubicación enviándome tu nueva ubicación usando el clip 📎."""
+        else:
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️\n\nPara recomendarte los mejores restaurantes cercanos en Cali, necesito tu ubicación.\n📍 Por favor, comparte tu ubicación usando el clip 📎 en Telegram.\nLuego podrás buscar por tipo, zona o precio."""
+        
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
+
+    # 2. CORTESÍAS Y DESPEDIDAS
+    cortesias = ["gracias", "muchas gracias", "mil gracias", "ok", "vale", "perfecto", "listo", "adiós", "adios", "chao", "hasta luego", "genial", "excelente"]
+    if mensaje_usuario in cortesias or "gracias" in mensaje_usuario:
+        respuesta = "¡Con mucho gusto! 🍽️ Si se te antoja algo más adelante, aquí estaré. ¡Que tengas un gran día!"
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return  
+
+    if es_ubicacion:
+        respuesta = """📍 ¡Perfecto! Ubicación recibida.\n\n🍽️ Ahora puedes:\n• "quiero choripán", "busco hamburguesas"\n• Por zona: "en el norte", "en el centro"\n• Por precio: "comida económica"\n• O "no sé" para variedad cerca de ti\n\n¿Qué se te antoja comer?"""
+        guardar_conversacion(usuario_id, "ubicacion_enviada", respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
+
+    if not ubicacion_usuario:
+        respuesta = "📍 Para poder recomendarte restaurantes cercanos, necesito tu ubicación.\nPor favor, compártela usando el clip 📎 en Telegram."
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
+
+    if any(palabra in mensaje_usuario for palabra in ["actualizar ubicacion", "actualizar ubicación", "nueva ubicacion", "cambiar ubicacion"]):
+        respuesta = "📍 ¡Por supuesto! Envíame tu nueva ubicación usando el clip 📎 en Telegram."
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_telegram(usuario_id, respuesta)
+        return
+
+    # ==============================================================
+    # LÓGICA DE BÚSQUEDA OPTIMIZADA (FILTRO BD -> LÍNEA RECTA -> OSRM)
+    # ==============================================================
+    
+    restaurantes_filtrados = listar_restaurantes()
+    contexto = "Usuario con ubicación disponible"
+    
+    no_sabe = any(palabra in mensaje_usuario for palabra in ["no sé", "no se", "no idea", "no tengo idea", "qué recomiendas", "recomiéndame", "sugiere", "qué hay", "variedad"])
+    
+    if not no_sabe:
+        etiquetas_especificas = {
+            "choripán": ["choripán", "choripan", "chori"],
+            "hamburguesa": ["hamburguesa", "hamburguesas", "burger", "hamburgues"],
+            "pizza": ["pizza", "pizzas", "pizzería"],
+            "taco": ["taco", "tacos", "taquitos"],
+            "sushi": ["sushi", "rolls", "sashimi"],
+            "arepa": ["arepa", "arepas"],
+            "empanada": ["empanada", "empanadas"],
+            "pasta": ["pasta", "pastas", "espagueti", "lasaña", "lasagna"],
+            "postre": ["postre", "postres", "dulce", "helado", "torta"],
+            "café": ["café", "cafe", "capuchino", "expreso"]
+        }
+
+        etiqueta_detectada = None
+        for etiqueta, palabras in etiquetas_especificas.items():
+            if any(palabra in mensaje_usuario for palabra in palabras):
+                etiqueta_detectada = etiqueta
+                break
+
+        if etiqueta_detectada:
+            restaurantes_temp = [r for r in restaurantes_filtrados if r.get('subtipo') and any(etiqueta_detectada in str(subtipo).lower() for subtipo in r['subtipo'])]
+            contexto = f"Usuario busca {etiqueta_detectada}"
+            
+            if not restaurantes_temp:
+                restaurantes_temp = [r for r in restaurantes_filtrados if etiqueta_detectada in r.get("tipo", "").lower()]
+                contexto = f"Usuario busca {etiqueta_detectada} (en tipo general)"
+            
+            restaurantes_filtrados = restaurantes_temp
+
+        zonas = {
+            "norte": ["norte", "granada", "chipichape"],
+            "sur": ["sur", "ciudad jardín", "ciudad jardin", "limonar"],
+            "centro": ["centro", "san antonio"],
+            "oeste": ["oeste", "normandía", "normandia"],
+            "oriente": ["oriente", "este"]
+        }
+        
+        zona_detectada = None
+        for zona, palabras in zonas.items():
+            if any(palabra in mensaje_usuario for palabra in palabras):
+                zona_detectada = zona
+                break
+        
+        if zona_detectada:
+            restaurantes_filtrados = [r for r in restaurantes_filtrados if zona_detectada in r.get("zona", "").lower()]
+            contexto += f" en {zona_detectada}"
+
+    for r in restaurantes_filtrados:
+        ubic = r.get("ubicacion", {})
+        lat_rest = ubic.get("lat")
+        lon_rest = ubic.get("lng") or ubic.get("lon")
+        
+        if lat_rest and lon_rest:
+            r["distancia_lineal"] = geodesic((ubicacion_usuario["lat"], ubicacion_usuario["lon"]), (lat_rest, lon_rest)).km
+        else:
+            r["distancia_lineal"] = 999
+            
+    if any(palabra in mensaje_usuario for palabra in ["cerca", "cercano", "cercana", "cercanía", "próximo", "prxima"]):
+        restaurantes_filtrados = [r for r in restaurantes_filtrados if r["distancia_lineal"] <= 2.5] 
+        contexto += " (muy cercanos)"
+
+    restaurantes_filtrados.sort(key=lambda x: x["distancia_lineal"])
+    top_cercanos = restaurantes_filtrados[:15]
+
+    restaurantes_con_distancias = calcular_distancias_reales(top_cercanos, ubicacion_usuario)
+    
+    if not restaurantes_con_distancias:
+        if no_sabe:
+            respuesta = "😔 No tengo restaurantes registrados cerca de tu ubicación actual. ¿Quieres actualizar tu ubicación o buscar en otra zona?"
+        else:
+            todos_cercanos = listar_restaurantes()
+            for r in todos_cercanos:
+                ubic = r.get("ubicacion", {})
+                lat_rest, lon_rest = ubic.get("lat"), (ubic.get("lng") or ubic.get("lon"))
+                r["distancia_lineal"] = geodesic((ubicacion_usuario["lat"], ubicacion_usuario["lon"]), (lat_rest, lon_rest)).km if (lat_rest and lon_rest) else 999
+            
+            todos_cercanos.sort(key=lambda x: x["distancia_lineal"])
+            alternativos = calcular_distancias_reales(todos_cercanos[:5], ubicacion_usuario)
+            
+            if alternativos:
+                respuesta = f"🔍 No encontré restaurantes que coincidan exactamente con tu búsqueda. Te recomiendo estas opciones cercanas:\n\n"
+                from services.ia_service import formatear_distancia
+                for i, r in enumerate(alternativos, 1):
+                    dist_txt = formatear_distancia(r.get('distancia_real_km'))
+                    respuesta += f"{i}. {r['nombre']} - {r['tipo']} - {r['zona']} {dist_txt}\n"
+                respuesta += "\n💡 También puedes actualizar tu ubicación si te has movido."
+            else:
+                respuesta = "😔 No tengo restaurantes disponibles. Por favor, actualiza tu ubicación si te has movido."
+    else:
+        respuesta = generar_respuesta_ia(mensaje_usuario, restaurantes_con_distancias, ubicacion_usuario, contexto)
+
+    guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+    enviar_mensaje_telegram(usuario_id, respuesta)
+
+
+@webhook_bp.route("/webhook", methods=["POST"])
+def webhook():
+    # 🛡️ SEGURIDAD: Validar el token secreto de Telegram
+    token_secreto = request.headers.get("X-Telegram-Bot-Api-Secret-Token")
+    if token_secreto != "CaliFoodSecreto2026":
+        print("⛔ Intento de acceso no autorizado al webhook")
+        return jsonify({"error": "No autorizado"}), 403
+
+    data = request.get_json(silent=True)
+    
+    if not data:
+        return jsonify({"error": "Datos vacíos"}), 400
+
+    if "message" not in data:
+        return jsonify({"status": "Ignorado - no es un mensaje"}), 200
+
+    hilo = threading.Thread(target=procesar_mensaje_background, args=(data,))
+    hilo.start()
+
+    return jsonify({"status": "procesando en segundo plano"}), 200
+
+
+@webhook_bp.route("/webhook", methods=["GET"])
+def verify_webhook():
+    return jsonify({"status": "El webhook está activo y seguro."}), 200
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\routes\webhook_routes_old.py =====
+# routes/webhook_routes.py
+from flask import Blueprint, request, jsonify
+from services.conversacion_service import guardar_conversacion
+from services.ubicacion_service import guardar_ubicacion, obtener_ubicacion
+from services.restaurante_service import listar_restaurantes
+from services.ia_service import calcular_distancias_reales, generar_respuesta_ia
+import requests
+import os
+
+webhook_bp = Blueprint("webhook", __name__)
+
+@webhook_bp.route("/webhook", methods=["POST"])
+def webhook():
+    data = request.get_json(silent=True)
+    print("📩 Mensaje entrante:", data)
+
+    if not data:
+        return jsonify({"error": "Datos vacíos"}), 400
+
+    mensaje_usuario = ""
+    usuario_id = None
+    ubicacion_usuario = None
+    es_ubicacion = False
+
+    try:
+        entry = data["entry"][0]["changes"][0]["value"]
+        mensajes = entry.get("messages", [])
+
+        if not mensajes:
+            return jsonify({"error": "No hay mensajes"}), 400
+
+        msg = mensajes[0]
+        usuario_id = msg["from"]
+
+        # 🧭 Mensaje con ubicación
+        if msg.get("location"):
+            lat = msg["location"]["latitude"]
+            lon = msg["location"]["longitude"]
+            ubicacion_usuario = {"lat": lat, "lon": lon}
+            guardar_ubicacion(usuario_id, lat, lon)
+            mensaje_usuario = "ubicacion_enviada"
+            es_ubicacion = True
+            print(f"📍 Ubicación recibida/actualizada: {lat}, {lon}")
+
+        # 💬 Mensaje de texto
+        elif msg.get("text"):
+            mensaje_usuario = msg["text"]["body"].lower()
+            print(f"💬 Mensaje texto: {mensaje_usuario}")
+
+        else:
+            return jsonify({"error": "Tipo de mensaje no soportado"}), 400
+
+    except Exception as e:
+        print("❌ Error procesando mensaje:", e)
+        return jsonify({"error": "Formato inválido"}), 400
+
+    # FLUJO CONVERSACIONAL MEJORADO
+    ubic = obtener_ubicacion(usuario_id)
+    if ubic:
+        ubicacion_usuario = {"lat": ubic["lat"], "lon": ubic["lon"]}
+        print(f"📍 Ubicación guardada: {ubicacion_usuario}")
+
+    # MANEJO DE SALUDOS INICIALES
+    saludos = ["hola", "hi", "hello", "buenos dias", "buenas tardes", "buenas", "buenas noches"]
+    if mensaje_usuario in saludos:
+        if ubicacion_usuario:
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️
+
+Veo que ya tienes ubicación guardada. ¿Qué te apetece comer hoy?
+
+Puedes:
+• Específico: "choripán", "hamburguesas", "pizza", "sushi"
+• Por tipo: "comida mexicana", "comida rápida", "postres"  
+• Por zona: "en el norte", "en el centro"
+• Por precio: "comida barata", "restaurante económico"
+• O decir "no sé" para recomendarte variedad cerca
+
+También puedes actualizar tu ubicación en cualquier momento."""
+        else:
+            respuesta = """👋 ¡Hola! Soy CaliFoodBot 🍽️
+
+Para recomendarte los mejores restaurantes cercanos en Cali, necesito tu ubicación.
+
+📍 Por favor, comparte tu ubicación usando el clip 📎 en WhatsApp.
+
+Luego podrás buscar por tipo específico, zona o precio."""
+        
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_whatsapp(usuario_id, respuesta)
+        return jsonify({"respuesta": respuesta}), 200
+
+    # SI ACABA DE ENVIAR UBICACIÓN
+    if es_ubicacion:
+        respuesta = """📍 ¡Perfecto! Ubicación recibida. 
+
+🍽️ Ahora puedes:
+• Pedir algo específico: "quiero choripán", "busco hamburguesas"
+• Filtrar por zona: "en el norte", "en el centro"
+• Buscar por precio: "comida económica", "restaurante barato"  
+• O decir "no sé" para recomendarte variedad cerca de ti
+
+¿Qué se te antoja comer?"""
+        
+        guardar_conversacion(usuario_id, "ubicacion_enviada", respuesta)
+        enviar_mensaje_whatsapp(usuario_id, respuesta)
+        return jsonify({"respuesta": "ubicacion_recibida"}), 200
+
+    # SI NO TIENE UBICACIÓN Y NO ES SALUDO
+    if not ubicacion_usuario:
+        respuesta = "📍 Para poder recomendarte restaurantes cercanos, necesito tu ubicación. Por favor, compártela usando el clip 📎 en WhatsApp. También puedes actualizarla en cualquier momento si te mueves."
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_whatsapp(usuario_id, respuesta)
+        return jsonify({"respuesta": "ubicacion_requerida"}), 200
+
+    # DETECCIÓN DE ACTUALIZACIÓN DE UBICACIÓN
+    if any(palabra in mensaje_usuario for palabra in ["actualizar ubicacion", "actualizar ubicación", "nueva ubicacion", "cambiar ubicacion"]):
+        respuesta = "📍 ¡Por supuesto! Puedes actualizar tu ubicación enviándome tu nueva ubicación usando el clip 📎 en WhatsApp. Así tendré información más precisa para recomendarte."
+        guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+        enviar_mensaje_whatsapp(usuario_id, respuesta)
+        return jsonify({"respuesta": "solicitud_actualizar_ubicacion"}), 200
+
+    # PROCESAR CONSULTA CON UBICACIÓN DISPONIBLE
+    restaurantes = listar_restaurantes()
+    
+    # Calcular distancias REALES para todos los restaurantes
+    restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
+
+    # FILTRADO AVANZADO MULTI-CRITERIO
+    contexto = "Usuario con ubicación disponible"
+    restaurantes_filtrados = restaurantes_con_distancias.copy()
+    
+    # Detectar si no sabe qué quiere
+    no_sabe = any(palabra in mensaje_usuario for palabra in [
+        "no sé", "no se", "no idea", "no tengo idea", "qué recomiendas", 
+        "recomiéndame", "sugiere", "qué hay", "variedad"
+    ])
+    
+    if not no_sabe:
+        # FILTRO POR ETIQUETAS ESPECÍFICAS
+        etiquetas_especificas = {
+            "choripán": ["choripán", "choripan", "chori"],
+            "hamburguesa": ["hamburguesa", "hamburguesas", "burger", "hamburgues"],
+            "pizza": ["pizza", "pizzas", "pizzería"],
+            "taco": ["taco", "tacos", "taquitos"],
+            "sushi": ["sushi", "rolls", "sashimi"],
+            "arepa": ["arepa", "arepas"],
+            "empanada": ["empanada", "empanadas"],
+            "pasta": ["pasta", "pastas", "espagueti", "lasaña", "lasagna"],
+            "postre": ["postre", "postres", "dulce", "helado", "torta"],
+            "café": ["café", "cafe", "capuchino", "expreso"]
+        }
+
+        etiqueta_detectada = None
+        for etiqueta, palabras in etiquetas_especificas.items():
+            if any(palabra in mensaje_usuario for palabra in palabras):
+                etiqueta_detectada = etiqueta
+                break
+
+        # APLICAR FILTRO POR ETIQUETA ESPECÍFICA
+        if etiqueta_detectada:
+            restaurantes_filtrados = [r for r in restaurantes_filtrados 
+                                    if r.get('subtipo') and any(etiqueta_detectada in str(subtipo).lower() for subtipo in r['subtipo'])]
+            contexto = f"Usuario busca {etiqueta_detectada}"
+            
+            # Si no hay resultados con etiqueta específica, buscar en tipo general
+            if not restaurantes_filtrados:
+                restaurantes_filtrados = [r for r in restaurantes_con_distancias 
+                                        if etiqueta_detectada in r.get("tipo", "").lower()]
+                contexto = f"Usuario busca {etiqueta_detectada} (en tipo general)"
+
+        # FILTRO POR ZONA
+        zonas = {
+            "norte": ["norte", "granada", "chipichape"],
+            "sur": ["sur", "ciudad jardín", "ciudad jardin", "limonar"],
+            "centro": ["centro", "san antonio"],
+            "oeste": ["oeste", "normandía", "normandia"],
+            "oriente": ["oriente", "este"]
+        }
+        
+        zona_detectada = None
+        for zona, palabras in zonas.items():
+            if any(palabra in mensaje_usuario for palabra in palabras):
+                zona_detectada = zona
+                break
+        
+        if zona_detectada:
+            restaurantes_filtrados = [r for r in restaurantes_filtrados 
+                                    if zona_detectada in r.get("zona", "").lower()]
+            contexto += f" en {zona_detectada}"
+
+        # FILTRO POR CERCANÍA ESPECÍFICA
+        if any(palabra in mensaje_usuario for palabra in ["cerca", "cercano", "cercana", "cercanía", "próximo", "próxima"]):
+            restaurantes_filtrados = [r for r in restaurantes_filtrados 
+                                    if r.get("distancia_real_km", 999) <= 2.0]
+            contexto += " (muy cercanos)"
+
+    # GENERAR RESPUESTA CON IA MEJORADA
+    if not restaurantes_filtrados:
+        if no_sabe:
+            respuesta = "😔 No tengo restaurantes registrados cerca de tu ubicación actual. ¿Quieres actualizar tu ubicación o buscar en otra zona?"
+        else:
+            # Ofrecer alternativas sin filtros
+            restaurantes_alternativos = restaurantes_con_distancias[:5]
+        if restaurantes_alternativos:
+            respuesta = f"🔍 No encontré restaurantes que coincidan exactamente con tu búsqueda. Te recomiendo estas opciones cercanas:\n\n"
+            for i, r in enumerate(restaurantes_alternativos, 1):
+               from services.ia_service import formatear_distancia
+            distancia_texto = formatear_distancia(r.get('distancia_real_km'))
+            respuesta += f"{i}. {r['nombre']} - {r['tipo']} - {r['zona']} {distancia_texto}\n"
+            respuesta += "\n💡 También puedes actualizar tu ubicación si te has movido."
+        else:
+            respuesta = "😔 No tengo restaurantes disponibles. Por favor, actualiza tu ubicación si te has movido."
+    else:
+        respuesta = generar_respuesta_ia(mensaje_usuario, restaurantes_filtrados, ubicacion_usuario, contexto)
+
+    # Guardar conversación y enviar respuesta
+    guardar_conversacion(usuario_id, mensaje_usuario, respuesta)
+    success = enviar_mensaje_whatsapp(usuario_id, respuesta)
+
+    if success:
+        print("🤖 Respuesta enviada:", respuesta)
+        return jsonify({"respuesta": respuesta}), 200
+    else:
+        return jsonify({"error": "Error enviando mensaje"}), 500
+
+
+def enviar_mensaje_whatsapp(numero, texto):
+    token = os.getenv("WHATSAPP_TOKEN")
+    phone_number_id = os.getenv("PHONE_NUMBER_ID")
+
+    if not token:
+        print("❌ WHATSAPP_TOKEN no configurado en .env")
+        return False
+        
+    if not phone_number_id:
+        print("❌ PHONE_NUMBER_ID no configurado en .env")
+        return False
+
+    url = f"https://graph.facebook.com/v18.0/{phone_number_id}/messages"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "messaging_product": "whatsapp",
+        "to": numero,
+        "type": "text",
+        "text": {"body": texto}
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        if response.status_code == 200:
+            print(f"✅ Mensaje enviado correctamente a {numero}")
+            return True
+        else:
+            error_data = response.json()
+            print(f"❌ Error al enviar mensaje a {numero}: {response.status_code}")
+            print(f"📄 Detalles: {error_data}")
+            return False
+    except Exception as e:
+        print(f"❌ Excepción al enviar mensaje: {e}")
+        return False
+
+
+@webhook_bp.route("/webhook", methods=["GET"])
+def verify_webhook():
+    verify_token = os.getenv("VERIFY_TOKEN")
+    mode = request.args.get("hub.mode")
+    token = request.args.get("hub.verify_token")
+    challenge = request.args.get("hub.challenge")
+
+    if mode and token:
+        if mode == "subscribe" and token == verify_token:
+            print("✅ Webhook verificado correctamente")
+            return challenge, 200
+        else:
+            print("❌ Token de verificación inválido")
+            return "Error: token inválido", 403
+
+    return "Error: parámetros faltantes", 400
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\actualizar_todo.py =====
+# scripts/actualizar_todo.py
+"""
+Script para actualizar TODO: etiquetas, URLs de mapa y verificar coordenadas
+"""
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from db import get_db
+
+def verificar_coordenadas_restaurantes():
+    """Verifica que todos los restaurantes tengan coordenadas válidas"""
+    db = get_db()
+    
+    restaurantes = list(db.restaurantes.find())
+    problemas = []
+    
+    for r in restaurantes:
+        ubicacion = r.get("ubicacion", {})
+        lat = ubicacion.get("lat")
+        lon = ubicacion.get("lng") or ubicacion.get("lon")
+        
+        if not lat or not lon:
+            problemas.append(f"❌ {r['nombre']}: Sin coordenadas")
+        elif not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+            problemas.append(f"⚠️ {r['nombre']}: Coordenadas inválidas ({lat}, {lon})")
+    
+    if problemas:
+        print("\n🔍 PROBLEMAS CON COORDENADAS:")
+        for problema in problemas:
+            print(problema)
+    else:
+        print("✅ Todas las coordenadas son válidas")
+    
+    return len(problemas)
+
+def actualizar_etiquetas_restaurantes():
+    db = get_db()
+    
+    actualizaciones = [
+        {
+            "nombre": "Arepísima Gourmet",
+            "subtipo": ["arepas", "comida rápida", "venezolana"]
+        },
+        {
+            "nombre": "Hamburguesas Don Pepe", 
+            "subtipo": ["hamburguesas", "comida rápida", "hamburgues", "burger"]
+        },
+        {
+            "nombre": "Papas & Salsa",
+            "subtipo": ["papas", "comida rápida", "snacks", "aperitivos"]
+        },
+        {
+            "nombre": "Empanadas El Portal",
+            "subtipo": ["empanadas", "comida rápida", "frituras", "snacks"]
+        },
+        {
+            "nombre": "Choripán de Juanelo",
+            "subtipo": ["choripán", "choripan", "chori", "comida rápida", "parrilla", "sándwiches"]
+        },
+        {
+            "nombre": "La Pizzería del Parque",
+            "subtipo": ["pizza", "comida italiana", "pizzas", "masa"]
+        },
+        {
+            "nombre": "La Trattoria de Nonna", 
+            "subtipo": ["pasta", "comida italiana", "lasaña", "espagueti", "pizza"]
+        },
+        {
+            "nombre": "Pizzería Don Mario",
+            "subtipo": ["pizza", "comida italiana", "pizzas", "masa"]
+        },
+        {
+            "nombre": "El Rincón Mexa",
+            "subtipo": ["tacos", "comida mexicana", "burritos", "mexicana", "picante"]
+        },
+        {
+            "nombre": "Taquitos & Más",
+            "subtipo": ["tacos", "comida mexicana", "taquitos", "mexicana"]
+        },
+        {
+            "nombre": "Bambú Sushi Bar",
+            "subtipo": ["sushi", "comida japonesa", "sashimi", "rolls", "japonesa"]
+        },
+        {
+            "nombre": "Pekín Wok", 
+            "subtipo": ["comida china", "arroz chino", "chop suey", "wok", "china"]
+        },
+        {
+            "nombre": "La Cazuela de Doña Lucha",
+            "subtipo": ["comida típica", "valluna", "sancocho", "bandeja paisa", "tradicional"]
+        },
+        {
+            "nombre": "Tamalitos del Valle",
+            "subtipo": ["tamales", "comida típica", "valluna", "tradicional"]
+        },
+        {
+            "nombre": "Postres Anita",
+            "subtipo": ["postres", "dulces", "helados", "repostería", "postre"]
+        },
+        {
+            "nombre": "ChocoLatte House",
+            "subtipo": ["café", "postres", "chocolate", "capuchino", "cafetería"]
+        },
+        {
+            "nombre": "Café Aroma",
+            "subtipo": ["café", "cafetería", "capuchino", "té", "desayunos"]
+        },
+        {
+            "nombre": "Postres La Dulzura",
+            "subtipo": ["postres", "dulces", "tortas", "repostería", "postre"]
+        },
+        {
+            "nombre": "Café La Sucursal", 
+            "subtipo": ["café", "cafetería", "capuchino", "té", "desayunos"]
+        },
+        {
+            "nombre": "Green Bowl",
+            "subtipo": ["comida saludable", "ensaladas", "bowls", "saludable", "fit"]
+        },
+        {
+            "nombre": "Juice & Joy",
+            "subtipo": ["jugos", "jugos naturales", "batidos", "saludable", "zumo"]
+        }
+    ]
+    
+    etiquetas_actualizadas = 0
+    for actualizacion in actualizaciones:
+        result = db.restaurantes.update_one(
+            {"nombre": actualizacion["nombre"]},
+            {"$set": {"subtipo": actualizacion["subtipo"]}}
+        )
+        if result.modified_count > 0:
+            print(f"✅ Etiquetas: {actualizacion['nombre']}")
+            etiquetas_actualizadas += 1
+        else:
+            print(f"⚠️ No encontrado: {actualizacion['nombre']}")
+    
+    return etiquetas_actualizadas
+
+def actualizar_urls_mapa_restaurantes():
+    db = get_db()
+    
+    restaurantes = list(db.restaurantes.find())
+    urls_actualizadas = 0
+    
+    for restaurante in restaurantes:
+        ubicacion = restaurante.get("ubicacion", {})
+        lat = ubicacion.get("lat")
+        lon = ubicacion.get("lng") or ubicacion.get("lon")
+        
+        if lat and lon:
+            mapa_url = f"https://www.google.com/maps?q={lat},{lon}"
+            
+            result = db.restaurantes.update_one(
+                {"_id": restaurante["_id"]},
+                {"$set": {"ubicacion.mapa_url": mapa_url}}
+            )
+            
+            if result.modified_count > 0:
+                print(f"✅ Mapa: {restaurante['nombre']}")
+                urls_actualizadas += 1
+    
+    return urls_actualizadas
+
+def main():
+    print("🔄 Iniciando actualización completa...")
+    
+    print("\n🔍 Verificando coordenadas...")
+    problemas = verificar_coordenadas_restaurantes()
+    
+    print("\n📝 Actualizando etiquetas...")
+    etiquetas_count = actualizar_etiquetas_restaurantes()
+    
+    print("\n🗺️ Actualizando URLs de mapa...")
+    urls_count = actualizar_urls_mapa_restaurantes()
+    
+    print(f"\n🎉 ACTUALIZACIÓN COMPLETADA:")
+    print(f"   • Problemas de coordenadas: {problemas}")
+    print(f"   • Etiquetas actualizadas: {etiquetas_count}")
+    print(f"   • URLs de mapa actualizadas: {urls_count}")
+    
+    if problemas == 0:
+        print(f"\n🚀 El sistema está listo para usar con ubicaciones y etiquetas!")
+        print("💡 Ejecuta: python scripts/debug_distancias.py para verificar distancias")
+    else:
+        print(f"\n⚠️ Hay {problemas} problemas con las coordenadas. Revisa la base de datos.")
+
+if __name__ == "__main__":
+    main()
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\debug_distancias.py =====
+# scripts/debug_distancias.py
+"""
+Script para debuggear el cálculo de distancias con ubicación REAL del usuario
+"""
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from services.restaurante_service import listar_restaurantes
+from services.ia_service import calcular_distancias_reales, formatear_distancia
+from services.ubicacion_service import obtener_ubicacion
+
+def debug_distancias_usuario(usuario_id="573057134568"):
+    """Debug usando la ubicación REAL de un usuario"""
+    
+    # Obtener ubicación guardada del usuario
+    ubicacion_usuario = obtener_ubicacion(usuario_id)
+    
+    if not ubicacion_usuario:
+        print("❌ El usuario no tiene ubicación guardada")
+        print("💡 Envía una ubicación por WhatsApp primero")
+        return
+    
+    print(f"📍 Ubicación REAL del usuario {usuario_id}: {ubicacion_usuario}")
+    print("\n🔍 Calculando distancias desde esta ubicación...\n")
+    
+    restaurantes = listar_restaurantes()
+    print(f"📊 Total restaurantes: {len(restaurantes)}")
+    
+    # Verificar coordenadas de restaurantes
+    restaurantes_con_coordenadas = []
+    for r in restaurantes:
+        ubic = r.get('ubicacion', {})
+        if ubic.get('lat') and (ubic.get('lng') or ubic.get('lon')):
+            restaurantes_con_coordenadas.append(r)
+    
+    print(f"📍 Restaurantes con coordenadas: {len(restaurantes_con_coordenadas)}")
+    
+    # Calcular distancias desde la ubicación REAL del usuario
+    restaurantes_con_distancias = calcular_distancias_reales(restaurantes_con_coordenadas, ubicacion_usuario)
+    
+    print(f"\n📏 DISTANCIAS DESDE TU UBICACIÓN ACTUAL:\n")
+    for i, r in enumerate(restaurantes_con_distancias[:15], 1):
+        distancia = r.get('distancia_real_km')
+        distancia_formateada = formatear_distancia(distancia) if distancia is not None else "Sin calcular"
+        
+        print(f"{i}. {r['nombre']}")
+        print(f"   📍 {r['zona']} - {r['tipo']}")
+        print(f"   🗺️ Coordenadas restaurante: {r['ubicacion'].get('lat')}, {r['ubicacion'].get('lng')}")
+        print(f"   📏 Distancia desde TI: {distancia_formateada} ({distancia} km)")
+        print(f"   🏷️ Etiquetas: {r.get('subtipo', [])}")
+        print()
+
+def debug_distancias_personalizada(lat, lon):
+    """Debug con una ubicación personalizada"""
+    ubicacion_personalizada = {"lat": lat, "lon": lon}
+    
+    print(f"📍 Ubicación personalizada: {ubicacion_personalizada}")
+    print("\n🔍 Calculando distancias...\n")
+    
+    restaurantes = listar_restaurantes()
+    restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_personalizada)
+    
+    print(f"📏 TOP 10 RESTAURANTES MÁS CERCANOS:\n")
+    for i, r in enumerate(restaurantes_con_distancias[:10], 1):
+        distancia = r.get('distancia_real_km')
+        distancia_formateada = formatear_distancia(distancia) if distancia is not None else "Sin calcular"
+        
+        print(f"{i}. {r['nombre']} - {distancia_formateada}")
+        print(f"   {r['tipo']} · {r['zona']} · {r['precio']}")
+
+if __name__ == "__main__":
+    print("🔍 DEBUG DE DISTANCIAS")
+    print("1. Con ubicación de usuario guardada")
+    print("2. Con ubicación personalizada")
+    
+    opcion = input("Selecciona opción (1/2): ").strip()
+    
+    if opcion == "1":
+        usuario = input("ID de usuario (default: 573057134568): ").strip() or "573057134568"
+        debug_distancias_usuario(usuario)
+    elif opcion == "2":
+        try:
+            lat = float(input("Latitud (ej: 3.4516): "))
+            lon = float(input("Longitud (ej: -76.5320): "))
+            debug_distancias_personalizada(lat, lon)
+        except ValueError:
+            print("❌ Coordenadas inválidas")
+    else:
+        print("❌ Opción inválida")
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\generate_menus.py =====
+import os
+import sys
+import json
+from bson import ObjectId
+
+# 🔧 Asegura que Python pueda encontrar db.py (en la raíz del proyecto)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, BASE_DIR)
+
+from db import get_db  # ahora sí lo encontrará correctamente
+
+# Conexión a la base
+db = get_db()
+
+# Cargar restaurantes existentes
+restaurantes = list(db.restaurantes.find())
+
+# Definir platos base por tipo
+plantillas = {
+    "comida rápida": [
+        {"nombre": "Hamburguesa clásica", "precio": 16000},
+        {"nombre": "Perro caliente especial", "precio": 12000}
+    ],
+    "comida típica": [
+        {"nombre": "Sancocho valluno", "precio": 20000},
+        {"nombre": "Chuleta valluna", "precio": 18000}
+    ],
+    "comida japonesa": [
+        {"nombre": "Sushi roll tempura", "precio": 28000},
+        {"nombre": "Sashimi de atún", "precio": 26000}
+    ],
+    "comida mexicana": [
+        {"nombre": "Tacos al pastor", "precio": 16000},
+        {"nombre": "Burrito mixto", "precio": 18000}
+    ],
+    "comida italiana": [
+        {"nombre": "Pizza margarita", "precio": 20000},
+        {"nombre": "Lasaña boloñesa", "precio": 22000}
+    ],
+    "postres": [
+        {"nombre": "Cheesecake", "precio": 10000},
+        {"nombre": "Brownie con helado", "precio": 9000}
+    ],
+    "cafetería": [
+        {"nombre": "Capuchino", "precio": 7000},
+        {"nombre": "Tinto campesino", "precio": 3000}
+    ],
+    "comida china": [
+        {"nombre": "Arroz chino especial", "precio": 15000},
+        {"nombre": "Pollo agridulce", "precio": 17000}
+    ],
+    "comida saludable": [
+        {"nombre": "Ensalada César", "precio": 16000},
+        {"nombre": "Wrap de pollo", "precio": 15000}
+    ],
+    "jugos naturales": [
+        {"nombre": "Jugo de mango biche", "precio": 6000},
+        {"nombre": "Jugo de maracuyá", "precio": 6000}
+    ]
+}
+
+menus = []
+
+for r in restaurantes:
+    tipo = r.get("tipo", "").strip().lower()
+    base_platos = plantillas.get(tipo, [{"nombre": "Plato del día", "precio": 12000}])
+
+    for plato in base_platos:
+        menus.append({
+            "nombre": plato["nombre"],
+            "precio": plato["precio"],
+            "categoria": tipo.title(),
+            "restaurant_id": {"$oid": str(r["_id"])}
+        })
+
+# Guardar en JSON
+with open("menus.json", "w", encoding="utf-8") as f:
+    json.dump(menus, f, ensure_ascii=False, indent=2)
+
+print(f"✅ Generado menus.json con {len(menus)} platos.")
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\mejorar_coordenadas.py =====
+# scripts/mejorar_coordenadas.py
+"""
+Script para mejorar la precisión de las coordenadas en la base de datos
+"""
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from db import get_db
+
+def verificar_y_mejorar_coordenadas():
+    """Verifica y mejora la precisión de las coordenadas"""
+    db = get_db()
+    
+    # Coordenadas mejoradas con más decimales
+    coordenadas_mejoradas = {
+        "Choripán de Juanelo": {
+            "lat": 3.461099,
+            "lng": -76.529898
+        },
+        "Hamburguesas Don Pepe": {
+            "lat": 3.426000, 
+            "lng": -76.489000
+        },
+        "Arepísima Gourmet": {
+            "lat": 3.353000,
+            "lng": -76.532000
+        },
+        "La Cazuela de Doña Lucha": {
+            "lat": 3.451000,
+            "lng": -76.534000
+        },
+        "Bambú Sushi Bar": {
+            "lat": 3.468000,
+            "lng": -76.523000
+        },
+        "El Rincón Mexa": {
+            "lat": 3.358000,
+            "lng": -76.532000
+        },
+        "La Pizzería del Parque": {
+            "lat": 3.442000,
+            "lng": -76.560000
+        },
+        "Postres Anita": {
+            "lat": 3.469000,
+            "lng": -76.520000
+        },
+        "Café Aroma": {
+            "lat": 3.448000,
+            "lng": -76.532000
+        },
+        "Papas & Salsa": {
+            "lat": 3.350000,
+            "lng": -76.535000
+        },
+        "Pekín Wok": {
+            "lat": 3.468000,
+            "lng": -76.520000
+        },
+        "Empanadas El Portal": {
+            "lat": 3.449000,
+            "lng": -76.533000
+        },
+        "Green Bowl": {
+            "lat": 3.441000,
+            "lng": -76.561000
+        },
+        "Juice & Joy": {
+            "lat": 3.448000,
+            "lng": -76.534000
+        },
+        "La Trattoria de Nonna": {
+            "lat": 3.467000,
+            "lng": -76.520000
+        },
+        "Tamalitos del Valle": {
+            "lat": 3.430000,
+            "lng": -76.490000
+        },
+        "Taquitos & Más": {
+            "lat": 3.442000,
+            "lng": -76.560000
+        },
+        "ChocoLatte House": {
+            "lat": 3.353000,
+            "lng": -76.533000
+        },
+        "Postres La Dulzura": {
+            "lat": 3.440000,
+            "lng": -76.561000
+        },
+        "Café La Sucursal": {
+            "lat": 3.448000,
+            "lng": -76.533000
+        },
+        "Pizzería Don Mario": {
+            "lat": 3.469000,
+            "lng": -76.523000
+        }
+    }
+    
+    actualizados = 0
+    for nombre, coordenadas in coordenadas_mejoradas.items():
+        result = db.restaurantes.update_one(
+            {"nombre": nombre},
+            {"$set": {
+                "ubicacion.lat": coordenadas["lat"],
+                "ubicacion.lng": coordenadas["lng"],
+                "ubicacion.mapa_url": f"https://www.google.com/maps?q={coordenadas['lat']},{coordenadas['lng']}"
+            }}
+        )
+        
+        if result.modified_count > 0:
+            print(f"✅ Actualizado: {nombre}")
+            print(f"   📍 {coordenadas['lat']:.6f}, {coordenadas['lng']:.6f}")
+            actualizados += 1
+        else:
+            print(f"⚠️ No encontrado: {nombre}")
+    
+    print(f"\n🎯 Total restaurantes actualizados: {actualizados}")
+
+if __name__ == "__main__":
+    print("🔄 Mejorando precisión de coordenadas...")
+    verificar_y_mejorar_coordenadas()
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\verificar_permisos.py =====
+# scripts/verificar_permisos.py
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+def verificar_permisos_app():
+    token = os.getenv("WHATSAPP_TOKEN")
+    phone_number_id = os.getenv("PHONE_NUMBER_ID")
+    
+    if not token:
+        print("❌ WHATSAPP_TOKEN no encontrado")
+        return
+    
+    # Verificar permisos de la app
+    url = f"https://graph.facebook.com/v18.0/me/permissions"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        response = requests.get(url, headers=headers)
+        print(f"🔐 Estado de la solicitud: {response.status_code}")
+        
+        if response.status_code == 200:
+            data = response.json()
+            print("✅ Permisos de la aplicación:")
+            for perm in data.get('data', []):
+                print(f"   • {perm['permission']}: {perm['status']}")
+        else:
+            print(f"❌ Error: {response.text}")
+            
+    except Exception as e:
+        print(f"❌ Excepción: {e}")
+
+def verificar_configuracion_numero():
+    token = os.getenv("WHATSAPP_TOKEN")
+    phone_number_id = os.getenv("PHONE_NUMBER_ID")
+    
+    if not token or not phone_number_id:
+        print("❌ Faltan configuraciones en .env")
+        return
+    
+    url = f"https://graph.facebook.com/v18.0/{phone_number_id}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        response = requests.get(url, headers=headers)
+        print(f"\n📱 Estado del número: {response.status_code}")
+        
+        if response.status_code == 200:
+            data = response.json()
+            print("✅ Configuración del número:")
+            print(f"   • Número: {data.get('display_phone_number')}")
+            print(f"   • ID: {data.get('id')}")
+            print(f"   • Calidad: {data.get('quality_rating')}")
+            print(f"   • Estado: {data.get('verified_name')}")
+        else:
+            print(f"❌ Error: {response.text}")
+            
+    except Exception as e:
+        print(f"❌ Excepción: {e}")
+
+if __name__ == "__main__":
+    print("🔍 Verificando configuración de WhatsApp Business API...")
+    verificar_permisos_app()
+    verificar_configuracion_numero()
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\scripts\verificar_precision.py =====
+# scripts/verificar_precision.py
+"""
+Script para verificar la precisión de las coordenadas y distancias
+"""
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from services.restaurante_service import listar_restaurantes
+from services.ubicacion_service import obtener_ubicacion
+from services.ia_service import calcular_distancias_reales
+from geopy.distance import geodesic
+
+def verificar_precision_coordenadas(usuario_id="573185963855"):
+    """Verifica la precisión de las coordenadas guardadas"""
+    
+    # Obtener ubicación del usuario
+    ubicacion_usuario = obtener_ubicacion(usuario_id)
+    
+    if not ubicacion_usuario:
+        print("❌ El usuario no tiene ubicación guardada")
+        return
+    
+    print("🎯 VERIFICACIÓN DE PRECISIÓN DE COORDENADAS")
+    print(f"📍 Ubicación guardada del usuario:")
+    print(f"   Latitud: {ubicacion_usuario['lat']}") 
+    print(f"   Longitud: {ubicacion_usuario['lon']}")
+    print(f"   (6 decimales ≈ 0.1 m de precisión)")
+    print()
+    
+    restaurantes = listar_restaurantes()
+    
+    print("🔍 VERIFICANDO COORDENADAS DE RESTAURANTES:")
+    problemas = []
+    for r in restaurantes[:10]:  # Revisar solo los primeros 10
+        ubic = r.get('ubicacion', {})
+        lat = ubic.get('lat')
+        lon = ubic.get('lng') or ubic.get('lon')
+        
+        if lat and lon:
+            # Verificar precisión de coordenadas
+            if isinstance(lat, float) and isinstance(lon, float):
+                decimales_lat = len(str(lat).split('.')[1]) if '.' in str(lat) else 0
+                decimales_lon = len(str(lon).split('.')[1]) if '.' in str(lon) else 0
+                
+                if decimales_lat < 4 or decimales_lon < 4:
+                    problemas.append(f"⚠️ {r['nombre']}: Pocos decimales (lat:{decimales_lat}, lon:{decimales_lon})")
+            else:
+                problemas.append(f"❌ {r['nombre']}: Coordenadas no son números")
+        else:
+            problemas.append(f"❌ {r['nombre']}: Sin coordenadas")
+    
+    if problemas:
+        print("📋 PROBLEMAS ENCONTRADOS:")
+        for problema in problemas:
+            print(f"   {problema}")
+    else:
+        print("✅ Todas las coordenadas tienen buena precisión")
+    
+    return problemas
+
+def comparar_distancias(usuario_id="573185963855"):
+    """Compara distancias calculadas vs Google Maps"""
+    
+    ubicacion_usuario = obtener_ubicacion(usuario_id)
+    if not ubicacion_usuario:
+        return
+    
+    print("\n📏 COMPARACIÓN DE DISTANCIAS:")
+    print(f"📍 Desde: {ubicacion_usuario['lat']:.6f}, {ubicacion_usuario['lon']:.6f}")
+    print()
+    
+    restaurantes = listar_restaurantes()
+    restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
+    
+    for i, r in enumerate(restaurantes_con_distancias[:5], 1):
+        distancia = r.get('distancia_real_km')
+        ubic = r.get('ubicacion', {})
+        lat_rest = ubic.get('lat')
+        lon_rest = ubic.get('lng') or ubic.get('lon')
+        
+        if distancia and lat_rest and lon_rest:
+            # Generar enlace de Google Maps para verificación
+            enlace_maps = f"https://www.google.com/maps/dir/{ubicacion_usuario['lat']},{ubicacion_usuario['lon']}/{lat_rest},{lon_rest}"
+            
+            print(f"{i}. {r['nombre']}")
+            print(f"   📍 Coordenadas: {lat_rest:.6f}, {lon_rest:.6f}")
+            print(f"   📏 Distancia calculada: {distancia:.3f} km")
+            print(f"   🔗 Verificar en Maps: {enlace_maps}")
+            print()
+
+if __name__ == "__main__":
+    usuario = input("ID de usuario (default: 573185963855): ").strip() or "573185963855"
+    verificar_precision_coordenadas(usuario)
+    comparar_distancias(usuario)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\conversacion_service.py =====
+"""
+Servicio para guardar y consultar conversaciones.
+"""
+from db import get_db
+from models.conversacion_model import nueva_conversacion
+
+def guardar_conversacion(usuario, mensaje, respuesta):
+    db = get_db()
+    conv = nueva_conversacion(usuario, mensaje, respuesta)
+    db.conversaciones.insert_one(conv)
+
+def listar_conversaciones(usuario=None):
+    db = get_db()
+    filtro = {"usuario": usuario} if usuario else {}
+    return list(db.conversaciones.find(filtro).sort("fecha", -1))
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\ia_service.py =====
+# services/ia_service.py
+"""
+Servicio de IA MEJORADO: Cálculo PRECISO de distancias con OSRM (por carretera)
+"""
+
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+import requests  # <-- AHORA USAMOS REQUESTS EN VEZ DE GEODESIC
+
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def distancia_osrm(lat1, lon1, lat2, lon2):
+    """
+    Calcula distancia real por carretera usando OSRM (GRATIS)
+    """
+    url = f"http://router.project-osrm.org/route/v1/driving/{lon1},{lat1};{lon2},{lat2}?overview=false"
+
+    try:
+        resp = requests.get(url).json()
+
+        if "routes" not in resp or len(resp["routes"]) == 0:
+            return None
+
+        metros = resp["routes"][0]["distance"]
+        return metros / 1000  # convertir a km
+
+    except Exception as e:
+        print("❌ Error OSRM:", e)
+        return None
+
+
+def formatear_redes_sociales(redes):
+    """Formatea los enlaces de redes sociales de manera legible"""
+    if not redes:
+        return "No disponibles"
+    
+    redes_texto = []
+    if redes.get('facebook') and redes['facebook'].startswith('http'):
+        redes_texto.append(f"📘 [Facebook]({redes['facebook']})")
+    if redes.get('instagram') and redes['instagram'].startswith('http'):
+        redes_texto.append(f"📷 [Instagram]({redes['instagram']})")
+    if redes.get('tiktok') and redes['tiktok'].startswith('http'):
+        redes_texto.append(f"🎵 [TikTok]({redes['tiktok']})")
+    
+    return " | ".join(redes_texto) if redes_texto else "No disponibles"
+
+
+def calcular_distancias_reales(restaurantes, ubicacion_usuario):
+    """
+    Calcula distancias reales en km desde la ubicación del usuario a cada restaurante
+    AHORA usando OSRM (por carretera)
+    """
+    if not ubicacion_usuario or not ubicacion_usuario.get("lat") or not ubicacion_usuario.get("lon"):
+        print("❌ No hay ubicación del usuario para calcular distancias")
+        return restaurantes
+    
+    restaurantes_con_distancias = []
+    
+    for restaurante in restaurantes:
+        restaurante_copy = restaurante.copy()
+        ubic_rest = restaurante.get("ubicacion", {})
+        lat_rest = ubic_rest.get("lat")
+        lon_rest = ubic_rest.get("lng") or ubic_rest.get("lon")
+        
+        if lat_rest and lon_rest:
+            try:
+                distancia_km = distancia_osrm(
+                    ubicacion_usuario["lat"],
+                    ubicacion_usuario["lon"],
+                    lat_rest,
+                    lon_rest
+                )
+
+                restaurante_copy["distancia_real_km"] = round(distancia_km, 3) if distancia_km else None
+                
+                print(f"📍 Distancia OSRM para {restaurante.get('nombre')}: {distancia_km} km")
+                
+            except Exception as e:
+                print(f"❌ Error calculando distancia OSRM para {restaurante.get('nombre')}: {e}")
+                restaurante_copy["distancia_real_km"] = None
+        else:
+            print(f"⚠️ Restaurante {restaurante.get('nombre')} no tiene coordenadas válidas")
+            restaurante_copy["distancia_real_km"] = None
+        
+        restaurantes_con_distancias.append(restaurante_copy)
+    
+    restaurantes_con_distancias.sort(key=lambda x: x.get("distancia_real_km", 9999))
+    
+    return restaurantes_con_distancias
+
+
+def formatear_distancia(distancia_km):
+    """Formatea la distancia de manera legible con más precisión"""
+    if distancia_km is None:
+        return "Distancia no disponible"
+    
+    if distancia_km < 0.05:
+        return f"A {int(distancia_km * 1000)} metros"
+    elif distancia_km < 0.1:
+        return f"A {int(distancia_km * 1000)} metros"
+    elif distancia_km < 1:
+        metros = int(distancia_km * 1000)
+        return f"A {metros} m"
+    else:
+        if distancia_km < 10:
+            return f"A {distancia_km:.2f} km"
+        else:
+            return f"A {distancia_km:.1f} km"
+
+
+def generar_respuesta_ia(mensaje_usuario, restaurantes, ubicacion_usuario=None, contexto=""):
+    """
+    Versión MEJORADA: Genera respuesta usando GPT
+    (Ya no calcula distancias aquí, porque webhook_routes ya lo hizo)
+    """
+    
+    if not restaurantes:
+        return "🔍 No tengo restaurantes registrados en este momento. Pronto agregaré más opciones para ti. 😊"
+
+    # 🔥 ESTA ERA LA LÍNEA CULPABLE QUE HACÍA EL DOBLE CÁLCULO 🔥
+    # restaurantes_con_distancias = calcular_distancias_reales(restaurantes, ubicacion_usuario)
+    
+    # ✅ Ahora simplemente usamos la lista que ya viene con los cálculos hechos:
+    restaurantes_con_distancias = restaurantes
+
+    # --- resto del código SIN CAMBIOS ---
+    restaurantes_info = []
+    for r in restaurantes_con_distancias[:15]:
+        distancia_texto = formatear_distancia(r['distancia_real_km']) if r.get('distancia_real_km') else "Distancia no disponible"
+        
+        ubic = r.get('ubicacion', {})
+        lat_rest = ubic.get('lat')
+        lon_rest = ubic.get('lng') or ubic.get('lon')
+        
+        mapa_url = ubic.get('mapa_url') 
+        if not mapa_url and lat_rest and lon_rest:
+            mapa_url = f"https://www.google.com/maps?q={lat_rest},{lon_rest}"
+        
+        direccion_con_enlace = f"🗺️ [Ver en Google Maps]({mapa_url})" if mapa_url else ubic.get('direccion', 'No disponible')
+        
+        etiquetas_texto = f"• 🏷️ Especialidad: {', '.join(r['subtipo'][:3])}\n" if r.get('subtipo') else ""
+        redes_texto = formatear_redes_sociales(r.get('redes', {}))
+        
+        info = f"""
+🍽️ {r.get('nombre', 'Sin nombre')}
+• 🏷️ Tipo: {r.get('tipo', 'No especificado')}
+{etiquetas_texto}• 📍 Zona: {r.get('zona', 'No especificada')}
+• 💰 Precio: {r.get('precio', 'No especificado')}
+• 📞 Contacto: {r.get('contacto', 'No disponible')}
+• 🌐 Redes: {redes_texto}
+• 🗺️ Dirección: {direccion_con_enlace}
+• 📏 {distancia_texto}
+"""
+        restaurantes_info.append(info)
+
+    restaurantes_texto = "\n".join(restaurantes_info)
+
+    ubicacion_exacta = f"({ubicacion_usuario['lat']:.6f}, {ubicacion_usuario['lon']:.6f})" if ubicacion_usuario else ""
+
+    info_contexto = f"""
+CONTEXTO DE LA CONVERSACIÓN:
+{contexto}
+
+UBICACIÓN ACTUAL DEL USUARIO: {'✅ Disponible ' + ubicacion_exacta if ubicacion_usuario else '❌ No disponible'}
+
+MENSAJE DEL USUARIO: "{mensaje_usuario}"
+
+TOTAL RESTAURANTES FILTRADOS: {len(restaurantes_con_distancias)}
+"""
+
+    prompt = f"""
+Eres CaliFoodBot, un asistente gastronómico experto en Cali con acceso a base de datos real.
+{info_contexto}
+
+INFORMACIÓN DE RESTAURANTES DISPONIBLES (FILTRADOS):
+{restaurantes_texto}
+
+INSTRUCCIONES CRÍTICAS:
+1. **DISTANCIAS REALES OSRM**: Las distancias mostradas son cálculos REALES por carretera.
+2. **ENLACES EXACTOS**: Usa los enlaces EXACTOS proporcionados.
+3. **FORMATO CONSISTENTE**: Mantén el mismo formato.
+4. **NO MODIFICAR DISTANCIAS**: Muestra exactamente lo calculado.
+
+Ahora responde al usuario:
+"""
+
+    try:
+        respuesta = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": mensaje_usuario},
+            ],
+            temperature=0.1,
+            max_tokens=1000
+        )
+        
+        return respuesta.choices[0].message.content.strip()
+
+    except Exception as e:
+        print("❌ Error con OpenAI:", e)
+        return generar_respuesta_fallback_mejorada(restaurantes_con_distancias, ubicacion_usuario, contexto)
+
+
+def generar_respuesta_fallback_mejorada(restaurantes, ubicacion_usuario, contexto):
+    # <-- esta función NO se modifica
+    # ... (queda igual que en tu original)
+    
+    # Solo incluyo la cabecera para indicar que no cambió:
+    """Fallback mejorado cuando OpenAI falla"""
+    # ---- TODO EL CÓDIGO AQUÍ SIGUE EXACTO ----
+
+
+def obtener_emoji_tipo(tipo):
+    """Devuelve emoji según el tipo de comida"""
+    tipo = tipo.lower()
+    if 'pizza' in tipo or 'italiana' in tipo:
+        return '🍕'
+    elif 'sushi' in tipo or 'japonesa' in tipo:
+        return '🍣'
+    elif 'mexicana' in tipo:
+        return '🌮'
+    elif 'hamburguesa' in tipo or 'rápida' in tipo:
+        return '🍔'
+    elif 'café' in tipo or 'cafetería' in tipo:
+        return '☕'
+    elif 'postre' in tipo:
+        return '🍰'
+    elif 'típica' in tipo:
+        return '🥘'
+    elif 'china' in tipo:
+        return '🥡'
+    elif 'saludable' in tipo:
+        return '🥗'
+    elif 'jugo' in tipo:
+        return '🥤'
+    else:
+        return '🍽️'
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\menu_service.py =====
+from db import get_db
+from bson import ObjectId
+from models.menu_model import menu_schema
+
+db = get_db()
+
+def crear_menu(data):
+    result = db["menus"].insert_one(data)
+    data["_id"] = str(result.inserted_id)
+    return menu_schema(data)
+
+def listar_menus():
+    menus = list(db["menus"].find())
+    return [menu_schema(m) for m in menus]
+
+def obtener_menu_por_restaurante(restaurante_id):
+    menus = list(db["menus"].find({"restaurante_id": restaurante_id}))
+    return [menu_schema(m) for m in menus]
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\pedido_service.py =====
+from db import get_db
+from bson import ObjectId
+from datetime import datetime
+from models.pedido_model import pedido_schema
+
+db = get_db()
+
+def crear_pedido(data):
+    productos = data["productos"]
+    total = sum(item["cantidad"] * item["precio_unitario"] for item in productos)
+
+    pedido = {
+        "restaurante_id": ObjectId(data["restaurante_id"]),
+        "menu_id": ObjectId(data["menu_id"]),
+        "productos": productos,
+        "total": total,
+        "fecha": datetime.now()
+    }
+
+    result = db["pedidos"].insert_one(pedido)
+    pedido["_id"] = str(result.inserted_id)
+    return pedido_schema(pedido)
+
+def listar_pedidos():
+    pedidos = list(db["pedidos"].find())
+    return [pedido_schema(p) for p in pedidos]
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\restaurante_service.py =====
+"""
+Servicio para manejar operaciones CRUD de restaurantes.
+"""
+from db import get_db
+from bson import ObjectId
+from models.restaurante_model import restaurante_schema
+import re # Asegúrate de importar la librería regex nativa de Python
+
+db = get_db()
+
+def crear_restaurante(data):
+    # Asegurar estructura correcta de ubicación
+    if "ubicacion" not in data:
+        data["ubicacion"] = {}
+    if "redes" not in data:
+        data["redes"] = {}
+    
+    result = db["restaurantes"].insert_one(data)
+    data["_id"] = str(result.inserted_id)
+    return restaurante_schema(data)
+
+def listar_restaurantes():
+    restaurantes = list(db["restaurantes"].find())
+    return [restaurante_schema(r) for r in restaurantes]
+
+def obtener_restaurante_por_id(restaurante_id):
+    try:
+        restaurante = db["restaurantes"].find_one({"_id": ObjectId(restaurante_id)})
+        return restaurante_schema(restaurante) if restaurante else None
+    except:
+        return None
+
+def buscar_restaurante_por_nombre(nombre):
+    # Sanear el input escapando caracteres especiales de regex
+    nombre_seguro = re.escape(nombre)
+    restaurante = db["restaurantes"].find_one({"nombre": {"$regex": nombre_seguro, "$options": "i"}})
+    return restaurante_schema(restaurante) if restaurante else None
+
+# services/restaurante_service.py (AGREGAR ESTA FUNCIÓN)
+def obtener_restaurantes_cercanos(ubicacion_usuario, limite=5, radio_km=5.0):
+    """
+    Obtiene restaurantes cercanos a una ubicación específica
+    """
+    from geopy.distance import geodesic
+    
+    todos_restaurantes = listar_restaurantes()
+    restaurantes_con_distancia = []
+    
+    for r in todos_restaurantes:
+        ubic_rest = r.get("ubicacion", {})
+        lat_rest = ubic_rest.get("lat")
+        lon_rest = ubic_rest.get("lng") or ubic_rest.get("lon")
+        
+        if lat_rest and lon_rest:
+            try:
+                distancia = geodesic(
+                    (ubicacion_usuario["lat"], ubicacion_usuario["lon"]),
+                    (lat_rest, lon_rest)
+                ).km
+                
+                if distancia <= radio_km:
+                    r["distancia_km"] = round(distancia, 2)
+                    restaurantes_con_distancia.append(r)
+            except Exception as e:
+                print(f"❌ Error calculando distancia: {e}")
+    
+    # Ordenar por distancia y limitar resultados
+    restaurantes_ordenados = sorted(restaurantes_con_distancia, 
+                                  key=lambda x: x.get("distancia_km", 999))
+    
+    return restaurantes_ordenados[:limite]
+    
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\telegram_service.py =====
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
+def enviar_mensaje_telegram(chat_id, texto):
+    """
+    Envía un mensaje de texto a través de la API de Telegram.
+    """
+    if not TELEGRAM_TOKEN:
+        print("❌ TELEGRAM_BOT_TOKEN no configurado en .env")
+        return False
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    
+    payload = {
+        "chat_id": chat_id,
+        "text": texto,
+        "parse_mode": "Markdown", # Permite enviar texto en negrita y enlaces funcionales
+        "disable_web_page_preview": True
+    }
+
+    try:
+        response = requests.post(url, json=payload)
+        if response.status_code == 200:
+            print(f"✅ Mensaje enviado correctamente a Telegram (Chat ID: {chat_id})")
+            return True
+        else:
+            print(f"❌ Error al enviar mensaje a Telegram: {response.text}")
+            return False
+    except Exception as e:
+        print(f"❌ Excepción al enviar mensaje a Telegram: {e}")
+        return False
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\ubicacion_service.py =====
+# services/ubicacion_service.py
+"""
+Servicio para manejar la ubicación de los usuarios.
+"""
+from db import get_db
+from models.ubicacion_model import nueva_ubicacion
+
+def guardar_ubicacion(usuario, lat, lon):
+    db = get_db()
+    doc = nueva_ubicacion(usuario, lat, lon)
+    db.ubicaciones.update_one(
+        {"usuario": usuario},
+        {"$set": doc},
+        upsert=True
+    )
+
+def obtener_ubicacion(usuario):
+    db = get_db()
+    ubicacion = db.ubicaciones.find_one({"usuario": usuario})
+    if ubicacion:
+        # Asegurar que siempre tenga el campo mapa_url
+        if "mapa_url" not in ubicacion and "lat" in ubicacion and "lon" in ubicacion:
+            ubicacion["mapa_url"] = f"https://www.google.com/maps?q={ubicacion['lat']},{ubicacion['lon']}"
+    return ubicacion
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\services\whatsapp_service.py =====
+# services/whatsapp_service.py
+"""
+Servicio para enviar mensajes por WhatsApp usando la API de Meta.
+"""
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
+PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
+
+def enviar_mensaje(numero, texto):
+    """
+    Envía un mensaje de texto a través de la API de WhatsApp Cloud.
+    """
+    if not WHATSAPP_TOKEN or not PHONE_NUMBER_ID:
+        print("⚠️ No se encontró configuración de WhatsApp en .env")
+        return
+
+    url = f"https://graph.facebook.com/v17.0/{PHONE_NUMBER_ID}/messages"
+    headers = {
+        "Authorization": f"Bearer {WHATSAPP_TOKEN}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "messaging_product": "whatsapp",
+        "to": numero,
+        "type": "text",
+        "text": {"body": texto}
+    }
+
+    try:
+        r = requests.post(url, headers=headers, json=data)
+        if r.status_code == 200:
+            print(f"✅ Mensaje enviado correctamente a: {numero}")
+        else:
+            print(f"❌ Error al enviar mensaje ({r.status_code}): {r.text}")
+    except Exception as e:
+        print("❌ Excepción al enviar mensaje:", e)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\utils\map_utils.py =====
+# utils/map_utils.py
+"""
+Utilidades para generar enlaces a mapas
+"""
+
+def generar_url_google_maps(lat, lon):
+    """Genera URL para Google Maps"""
+    return f"https://www.google.com/maps?q={lat},{lon}"
+
+def generar_url_google_maps_directions(from_lat, from_lon, to_lat, to_lon):
+    """Genera URL para direcciones en Google Maps"""
+    return f"https://www.google.com/maps/dir/{from_lat},{from_lon}/{to_lat},{to_lon}"
+
+def generar_url_waze(lat, lon):
+    """Genera URL para Waze"""
+    return f"https://waze.com/ul?ll={lat},{lon}&navigate=yes"
+
+def generar_enlaces_ubicacion(lat, lon, direccion=None):
+    """Genera múltiples opciones de enlaces de mapas"""
+    return {
+        "google_maps": generar_url_google_maps(lat, lon),
+        "waze": generar_url_waze(lat, lon),
+        "direccion": direccion or f"{lat}, {lon}"
+    }
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\app.py =====
+from flask import Flask
+from routes.restaurante_routes import restaurante_bp
+from routes.menu_routes import menu_bp
+from routes.pedido_routes import pedido_bp
+from routes.conversacion_routes import conversacion_bp
+from routes.ubicacion_routes import ubicacion_bp
+from routes.webhook_routes import webhook_bp
+from waitress import serve  
+
+app = Flask(__name__)
+
+# Registrar blueprints (Tus rutas de la API y Webhook)
+app.register_blueprint(restaurante_bp, url_prefix="/api/restaurantes")
+app.register_blueprint(menu_bp, url_prefix="/api/menus")
+app.register_blueprint(pedido_bp, url_prefix="/api/pedidos")
+app.register_blueprint(conversacion_bp)
+app.register_blueprint(ubicacion_bp)
+app.register_blueprint(webhook_bp)
+
+if __name__ == "__main__":
+    print("🚀 Servidor iniciando con Waitress en http://localhost:5000")
+    serve(app, host="127.0.0.1", port=5000)
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\check_data.py =====
+#  check_data.py
+from db import get_db
+
+db = get_db()
+
+def verificar_restaurantes():
+    restaurantes = list(db.restaurantes.find())
+    print(f"📊 Total restaurantes: {len(restaurantes)}")
+    
+    for r in restaurantes:
+        redes = r.get("redes", {})
+        ubicacion = r.get("ubicacion", {})
+        
+        print(f"\n📍 {r.get('nombre')}")
+        print(f"   Tipo: {r.get('tipo')}")
+        print(f"   Zona: {r.get('zona')}")
+        
+        # Verificar redes sociales
+        print(f"   📱 REDES SOCIALES:")
+        print(f"      Facebook: {redes.get('facebook', 'No tiene')}")
+        print(f"      Instagram: {redes.get('instagram', 'No tiene')}")
+        print(f"      TikTok: {redes.get('tiktok', 'No tiene')}")
+        
+        # Verificar si tiene al menos una red social
+        tiene_redes = any(redes.get(red) for red in ['facebook', 'instagram', 'tiktok'])
+        print(f"   ✅ Tiene redes sociales: {tiene_redes}")
+        
+        # Verificar ubicación
+        longitud = ubicacion.get("lng") or ubicacion.get("lon")
+        print(f"   🗺️ Ubicación: {ubicacion.get('direccion', 'No disponible')}")
+        print(f"      Lat: {ubicacion.get('lat')}, Lng: {longitud}")
+
+def verificar_estructura_redes():
+    """Verifica específicamente la estructura de las redes sociales"""
+    restaurantes = list(db.restaurantes.find())
+    
+    print(f"\n🔍 VERIFICACIÓN ESTRUCTURA REDES SOCIALES")
+    print("=" * 50)
+    
+    for r in restaurantes:
+        nombre = r.get('nombre')
+        redes = r.get("redes", {})
+        
+        print(f"\n🍽️ {nombre}")
+        print(f"   Tipo objeto 'redes': {type(redes)}")
+        print(f"   Contenido 'redes': {redes}")
+        
+        # Verificar cada red individualmente
+        for red_nombre in ['facebook', 'instagram', 'tiktok']:
+            red_url = redes.get(red_nombre)
+            print(f"   {red_nombre.upper()}: '{red_url}' (tipo: {type(red_url)})")
+            
+            # Verificar si es un string válido
+            if red_url:
+                es_valido = isinstance(red_url, str) and red_url.startswith('http')
+                print(f"      ✅ Válido: {es_valido}")
+            else:
+                print(f"      ❌ No tiene o es inválido")
+
+def contar_redes_sociales():
+    """Cuenta cuántos restaurantes tienen cada tipo de red social"""
+    restaurantes = list(db.restaurantes.find())
+    
+    stats = {
+        'total_restaurantes': len(restaurantes),
+        'con_facebook': 0,
+        'con_instagram': 0,
+        'con_tiktok': 0,
+        'con_almenos_una_red': 0,
+        'sin_redes': 0
+    }
+    
+    for r in restaurantes:
+        redes = r.get("redes", {})
+        
+        tiene_facebook = bool(redes.get('facebook'))
+        tiene_instagram = bool(redes.get('instagram'))
+        tiene_tiktok = bool(redes.get('tiktok'))
+        tiene_almenos_una = tiene_facebook or tiene_instagram or tiene_tiktok
+        
+        if tiene_facebook: stats['con_facebook'] += 1
+        if tiene_instagram: stats['con_instagram'] += 1
+        if tiene_tiktok: stats['con_tiktok'] += 1
+        if tiene_almenos_una: 
+            stats['con_almenos_una_red'] += 1
+        else:
+            stats['sin_redes'] += 1
+    
+    print(f"\n📈 ESTADÍSTICAS DE REDES SOCIALES")
+    print("=" * 40)
+    print(f"Total restaurantes: {stats['total_restaurantes']}")
+    print(f"Con Facebook: {stats['con_facebook']}")
+    print(f"Con Instagram: {stats['con_instagram']}")
+    print(f"Con TikTok: {stats['con_tiktok']}")
+    print(f"Con al menos una red: {stats['con_almenos_una_red']}")
+    print(f"Sin redes sociales: {stats['sin_redes']}")
+
+if __name__ == "__main__":
+    print("🔍 INICIANDO VERIFICACIÓN DE DATOS")
+    print("=" * 50)
+    
+    # Ejecutar todas las verificaciones
+    verificar_restaurantes()
+    verificar_estructura_redes()
+    contar_redes_sociales()
+    
+    print(f"\n✅ Verificación completada")
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\db.py =====
+"""
+Conexión a MongoDB para Califood-Bot.
+"""
+from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+MONGO_URI = os.getenv("MONGO_URI")
+MONGO_DB_NAME = os.getenv("MONGO_DB_NAME")
+
+try:
+    client = MongoClient(MONGO_URI)
+    db = client[MONGO_DB_NAME]
+    print(f"✅ Conectado exitosamente a MongoDB: {MONGO_DB_NAME}")
+except Exception as e:
+    print("❌ Error al conectar con MongoDB:", e)
+    db = None
+
+def get_db():
+    if db is None:
+        raise ConnectionError("La conexión a MongoDB no está disponible.")
+    return db
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\debug_redes.py =====
+# debug_redes.py
+from services.restaurante_service import listar_restaurantes
+
+def verificar_redes_en_servicio():
+    print("🔍 VERIFICANDO REDES EN SERVICIO DE RESTAURANTES")
+    print("=" * 50)
+    
+    restaurantes = listar_restaurantes()
+    
+    for i, r in enumerate(restaurantes[:21]):  # Solo primeros 3 para prueba
+        print(f"\n{i+1}. {r.get('nombre')}")
+        print(f"   Redes objeto: {r.get('redes')}")
+        print(f"   Tipo: {type(r.get('redes'))}")
+        print(f"   Facebook: {r.get('redes', {}).get('facebook')}")
+        print(f"   Instagram: {r.get('redes', {}).get('instagram')}")
+        print(f"   TikTok: {r.get('redes', {}).get('tiktok')}")
+
+if __name__ == "__main__":
+    verificar_redes_en_servicio()
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\estructura.txt =====
+C:\Users\crist\OneDrive\Documents\GitHub\califood-bot
++ bd_data
+  - menus.json
+  - restaurantes.json
++ datos
+  - sitios.csv
++ models
+  - conversacion_model.py
+  - menu_model.py
+  - pedido_model.py
+  - restaurante_model.py
+  - ubicacion_model.py
++ n8n
+  - califood-workflow.json
+  - README.md
++ routes
+  - chat_routes.py
+  - conversacion_routes.py
+  - menu_routes.py
+  - pedido_routes.py
+  - restaurante_routes.py
+  - ubicacion_routes.py
+  - webhook_routes.py
+  - webhook_routes_old.py
++ scripts
+  - actualizar_todo.py
+  - debug_distancias.py
+  - generate_menus.py
+  - mejorar_coordenadas.py
+  - verificar_permisos.py
+  - verificar_precision.py
++ services
+  - conversacion_service.py
+  - ia_service.py
+  - menu_service.py
+  - pedido_service.py
+  - restaurante_service.py
+  - telegram_service.py
+  - ubicacion_service.py
+  - whatsapp_service.py
++ utils
+  - map_utils.py
+- app.py
+- check_data.py
+- db.py
+- debug_redes.py
+- estructura.txt
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\instrucciones.md =====
+# Instrucciones de Configuración: Califood-Bot
+
+> **Webhook actual:** `https://0dcbcdc5b699.ngrok-free.app/webhook`
+
+## 1. Crear y activar entorno virtual
+
+Primero, ingresa a la carpeta del proyecto y crea el entorno virtual:
+
+```bash
+cd califood-bot
+python -m venv venv
+```
+
+Luego, actívalo según tu sistema operativo:
+
+* **Windows:**
+  ```bash
+  venv\Scripts\activate
+  ```
+* **Mac/Linux:**
+  ```bash
+  source venv/bin/actívate
+  ```
+
+### 1.1 Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 2. Completar .env
+
+Copia el archivo `.env.example`, renómbralo a `.env` y coloca las siguientes variables:
+
+* **`WHATSAPP_TOKEN`** → token desde Meta (Panel de WhatsApp > Show token).
+* **`WHATSAPP_PHONE_ID`** → phone number ID que te dio Meta.
+* **`WEBHOOK_VERIFY_TOKEN`** → el token que usarás para verificar (debe ser el mismo en Flask).
+* **`OLLAMA_MODEL`** → nombre del modelo que tienes en Ollama.
+
+---
+
+## 3. Levantar Flask
+
+```bash
+python app.py
+```
+
+---
+
+## 4. Abrir ngrok para exponer puerto 5000
+
+```bash
+ngrok http 5000
+```
+
+---
+
+## 🛠️ Comandos Adicionales Útiles
+
+**Para saber las librerías instaladas:**
+```bash
+pip list
+```
+
+**Para exportar las dependencias a un archivo requirements.txt:**
+```bash
+pip freeze > requirements.txt
+```
+
+**Para correr el script de menús:**
+```bash
+python generate_menus.py
+```
+
+**Para desactivar y reactivar el entorno virtual (Windows):**
+```bash
+deactivate
+.\venv\Scripts\activate
+```
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\Instrucciones.txt =====
+https://0dcbcdc5b699.ngrok-free.app/webhook
+
+1. Crear y activar entorno virtual
+
+cd califood-bot
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# mac/linux
+source venv/bin/actívate
+
+1.1 Instalar dependencias
+
+pip install -r requirements.txt
+
+2. Completar .env
+
+Copia .env.example a .env y coloca:
+
+WHATSAPP_TOKEN → token desde Meta (Panel de WhatsApp > Show token)
+
+WHATSAPP_PHONE_ID → phone number ID que te dio Meta
+
+WEBHOOK_VERIFY_TOKEN → el token que usarás para verificar (igual en Flask)
+
+OLLAMA_MODEL → nombre del modelo que tienes en Ollama
+
+
+3. Levantar Flask
+
+python app.py
+
+4. Abrir ngrok para exponer puerto 5000
+ngrok http 5000
+
+
+
+para saber las librerias installadas
+pip list
+
+
+para exportar a un archivos requirements.txt
+pip freeze > requirements.txt
+
+
+para correr el script generate_menus.py
+
+python generate_menus.py
+
+
+Activar y desactivar el entorno virtual
+deactivate
+.\venv\Scripts\activate
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\META.txt =====
+Identificador de acceso:
+
+EAAJbRbNc1vMBPvA5VwC2iXuC57IWf4RdZB60xKoe5uqfdFoPRZAqaGpT2KOZAxoaULSnKwlZBZCZBolWlZBeZBk1Ty19i8bzZBQqvA8qt8DrNGZAbZCcd1svalsmvSK9iLU6xKt8vaLaWcZAXRJy5N7CDZA2agi7pm7uJvZAuYbZB9TzHNFff6OwOk7ZBZAYSXXtySKjowNR8uoWmCg0SqXktBllEt53BaCMTg9qTLqEL09Yx7J6qbDStDQAFNciuBOdCjYMZD
+
+Identificador del número de teléfono:
+847494841778356
+
+
+
+
+Identificador de la cuenta de WhatsApp Business:
+1116575093968596
+
+
+
+===== FILE: C:\Users\crist\OneDrive\Documents\GitHub\califood-bot\requirements.txt =====
+annotated-types==0.7.0
+anyio==4.11.0
+blinker==1.9.0
+certifi==2025.10.5
+charset-normalizer==3.4.3
+click==8.3.0
+colorama==0.4.6
+distro==1.9.0
+dnspython==2.8.0
+Flask==2.3.2
+geographiclib==2.1
+geopy==2.4.1
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.11
+itsdangerous==2.2.0
+Jinja2==3.1.6
+jiter==0.11.0
+MarkupSafe==3.0.3
+numpy==2.3.4
+openai==2.3.0
+osrm-py==0.5
+pandas==2.3.3
+pydantic==2.12.2
+pydantic_core==2.41.4
+pymongo==4.15.3
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2025.2
+requests==2.31.0
+setuptools==80.9.0
+six==1.17.0
+sniffio==1.3.1
+tqdm==4.67.1
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.2
+urllib3==2.5.0
+waitress==3.0.2
+Werkzeug==3.1.3
+wheel==0.45.1
+
+
+

@@ -1,0 +1,51 @@
+﻿C:\Users\crist\OneDrive\Documents\GitHub\califood-bot
++ bd_data
+  - menus.json
+  - restaurantes.json
++ datos
+  - sitios.csv
++ models
+  - conversacion_model.py
+  - menu_model.py
+  - pedido_model.py
+  - restaurante_model.py
+  - ubicacion_model.py
++ n8n
+  - califood-workflow.json
+  - README.md
++ routes
+  - chat_routes.py
+  - conversacion_routes.py
+  - menu_routes.py
+  - pedido_routes.py
+  - restaurante_routes.py
+  - ubicacion_routes.py
+  - webhook_routes.py
+  - webhook_routes_old.py
++ scripts
+  - actualizar_todo.py
+  - debug_distancias.py
+  - generate_menus.py
+  - mejorar_coordenadas.py
+  - verificar_permisos.py
+  - verificar_precision.py
++ services
+  - conversacion_service.py
+  - ia_service.py
+  - menu_service.py
+  - pedido_service.py
+  - restaurante_service.py
+  - telegram_service.py
+  - ubicacion_service.py
+  - whatsapp_service.py
++ utils
+  - map_utils.py
+- app.py
+- check_data.py
+- db.py
+- debug_redes.py
+- estructura.txt
+- instrucciones.md
+- Instrucciones.txt
+- META.txt
+- requirements.txt

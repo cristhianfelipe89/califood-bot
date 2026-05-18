@@ -4,6 +4,7 @@ Servicio para manejar operaciones CRUD de restaurantes.
 from db import get_db
 from bson import ObjectId
 from models.restaurante_model import restaurante_schema
+import re # Asegúrate de importar la librería regex nativa de Python
 
 db = get_db()
 
@@ -30,9 +31,10 @@ def obtener_restaurante_por_id(restaurante_id):
         return None
 
 def buscar_restaurante_por_nombre(nombre):
-    restaurante = db["restaurantes"].find_one({"nombre": {"$regex": nombre, "$options": "i"}})
+    # Sanear el input escapando caracteres especiales de regex
+    nombre_seguro = re.escape(nombre)
+    restaurante = db["restaurantes"].find_one({"nombre": {"$regex": nombre_seguro, "$options": "i"}})
     return restaurante_schema(restaurante) if restaurante else None
-# services/restaurante_service.py (AGREGAR FUNCIÓN)
 
 # services/restaurante_service.py (AGREGAR ESTA FUNCIÓN)
 def obtener_restaurantes_cercanos(ubicacion_usuario, limite=5, radio_km=5.0):
