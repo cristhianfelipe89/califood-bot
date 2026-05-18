@@ -14,7 +14,14 @@
             "lat": 3.468,
             "lon": -76.539,
             "direccion": "Santa Mónica, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla",
+            "pollo asado"
+        ]
     },
     {
         "nombre": "El Asador Argentino",
@@ -31,7 +38,14 @@
             "lat": 3.4683,
             "lon": -76.5294,
             "direccion": "Av. 9N, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "argentina",
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "La Brasa Roja Granada",
@@ -48,7 +62,14 @@
             "lat": 3.4643,
             "lon": -76.5318,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla",
+            "pollo asado"
+        ]
     },
     {
         "nombre": "La Cosecha Parrilla",
@@ -65,7 +86,13 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Av. 9N, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "La Parrilla del Gaucho",
@@ -82,7 +109,14 @@
             "lat": 3.4659,
             "lon": -76.5326,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "argentina",
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Lomo y Carbón",
@@ -99,7 +133,13 @@
             "lat": 3.4667,
             "lon": -76.5286,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Rodizzio Restaurant and Bar",
@@ -116,7 +156,15 @@
             "lat": 3.4768,
             "lon": -76.5251,
             "direccion": "Calle 44N #4N-78, La Flora, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "brasileña",
+            "carnes",
+            "parrilla",
+            "rodizio"
+        ]
     },
     {
         "nombre": "Café San Alberto Granada",
@@ -133,7 +181,15 @@
             "lat": 3.4683,
             "lon": -76.5294,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "especialidad",
+            "té"
+        ]
     },
     {
         "nombre": "Café del Norte",
@@ -150,7 +206,14 @@
             "lat": 3.4696,
             "lon": -76.531,
             "direccion": "Santa Mónica, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Juan Valdez Chipichape",
@@ -167,7 +230,15 @@
             "lat": 3.4743,
             "lon": -76.529,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Juan Valdez Granada",
@@ -184,7 +255,15 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Okafe Roasters",
@@ -201,7 +280,15 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Av. 6 Bis #26N-58, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "tostado",
+            "té"
+        ]
     },
     {
         "nombre": "Oma Chipichape",
@@ -218,7 +305,14 @@
             "lat": 3.4743,
             "lon": -76.529,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Oma Granada",
@@ -235,7 +329,14 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Pergamino Café Cali",
@@ -252,7 +353,15 @@
             "lat": 3.4635,
             "lon": -76.5358,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "especialidad",
+            "té"
+        ]
     },
     {
         "nombre": "Starbucks Chipichape",
@@ -269,7 +378,14 @@
             "lat": 3.4775,
             "lon": -76.5306,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Tostao Granada",
@@ -286,7 +402,16 @@
             "lat": 3.4691,
             "lon": -76.5342,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "panadería",
+            "tostadas",
+            "té"
+        ]
     },
     {
         "nombre": "Tostao Versalles",
@@ -303,7 +428,16 @@
             "lat": 3.4697,
             "lon": -76.5412,
             "direccion": "Versalles, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "panadería",
+            "tostadas",
+            "té"
+        ]
     },
     {
         "nombre": "Buffalo Wings Cali",
@@ -320,7 +454,15 @@
             "lat": 3.4643,
             "lon": -76.5318,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "alitas",
+            "americana",
+            "burger",
+            "comida americana",
+            "ribs",
+            "wings"
+        ]
     },
     {
         "nombre": "Hooters Cali",
@@ -337,7 +479,16 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Av. 9N, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "alitas",
+            "americana",
+            "burger",
+            "comida americana",
+            "hamburguesas",
+            "ribs",
+            "wings"
+        ]
     },
     {
         "nombre": "Route 66 Granada",
@@ -354,7 +505,16 @@
             "lat": 3.4691,
             "lon": -76.5342,
             "direccion": "Av. 9N #20N-14, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "alitas",
+            "americana",
+            "bar",
+            "burger",
+            "comida americana",
+            "hamburguesas",
+            "ribs"
+        ]
     },
     {
         "nombre": "Wok Chipichape",
@@ -371,7 +531,13 @@
             "lat": 3.4767,
             "lon": -76.5258,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "asiática",
+            "comida asiática",
+            "wok"
+        ]
     },
     {
         "nombre": "Wok Granada",
@@ -388,7 +554,13 @@
             "lat": 3.4635,
             "lon": -76.5358,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "asiática",
+            "comida asiática",
+            "wok"
+        ]
     },
     {
         "nombre": "Gran Muralla Cali",
@@ -405,7 +577,13 @@
             "lat": 3.4635,
             "lon": -76.5358,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "china",
+            "comida china",
+            "wok"
+        ]
     },
     {
         "nombre": "Restaurante Chino Pekín",
@@ -422,7 +600,13 @@
             "lat": 3.4715,
             "lon": -76.531,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "china",
+            "comida china",
+            "wok"
+        ]
     },
     {
         "nombre": "Carambolo",
@@ -439,7 +623,14 @@
             "lat": 3.4691,
             "lon": -76.5342,
             "direccion": "Calle 16N #9N-69, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "alta cocina",
+            "autor",
+            "comida de autor",
+            "fusión",
+            "gourmet"
+        ]
     },
     {
         "nombre": "Platillos Voladores",
@@ -456,7 +647,15 @@
             "lat": 3.4582,
             "lon": -76.5408,
             "direccion": "Av. 3 Norte #7-19, Centenario, Cali"
-        }
+        },
+        "subtipo": [
+            "alta cocina",
+            "autor",
+            "comida de autor",
+            "fusión",
+            "gourmet",
+            "pacífica"
+        ]
     },
     {
         "nombre": "La Tasca Versalles",
@@ -473,7 +672,13 @@
             "lat": 3.4689,
             "lon": -76.5364,
             "direccion": "Versalles, Cali"
-        }
+        },
+        "subtipo": [
+            "comida española",
+            "española",
+            "paella",
+            "tapas"
+        ]
     },
     {
         "nombre": "Crepes & Waffles Chipichape",
@@ -490,7 +695,14 @@
             "lat": 3.4759,
             "lon": -76.5298,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "crepes",
+            "internacional",
+            "postres",
+            "wafles"
+        ]
     },
     {
         "nombre": "Sin Fronteras Versalles",
@@ -507,7 +719,11 @@
             "lat": 3.4625,
             "lon": -76.542,
             "direccion": "Versalles, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "internacional"
+        ]
     },
     {
         "nombre": "Domino's Pizza Granada",
@@ -524,7 +740,14 @@
             "lat": 3.4659,
             "lon": -76.5326,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Jeno's Pizza Granada",
@@ -541,7 +764,14 @@
             "lat": 3.4635,
             "lon": -76.5358,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Papa John's Granada",
@@ -558,7 +788,13 @@
             "lat": 3.4651,
             "lon": -76.5278,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Piazza by Storia D'Amore Chipichape",
@@ -575,7 +811,13 @@
             "lat": 3.4815,
             "lon": -76.5282,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Pizzeria Carpaneto",
@@ -592,7 +834,14 @@
             "lat": 3.4691,
             "lon": -76.5342,
             "direccion": "Av. 9 Norte #15A-30, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Pizzería Santa Mónica",
@@ -609,7 +858,14 @@
             "lat": 3.4736,
             "lon": -76.5374,
             "direccion": "Santa Mónica, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Storia D'Amore Granada",
@@ -626,7 +882,13 @@
             "lat": 3.4643,
             "lon": -76.5318,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Telepizza Chipichape",
@@ -643,7 +905,14 @@
             "lat": 3.4791,
             "lon": -76.5314,
             "direccion": "Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Bento Sushi Express",
@@ -660,7 +929,15 @@
             "lat": 3.4667,
             "lon": -76.5286,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "express",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Osaki Sushi",
@@ -677,7 +954,14 @@
             "lat": 3.4643,
             "lon": -76.5318,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Sukiyaki",
@@ -694,7 +978,13 @@
             "lat": 3.4751,
             "lon": -76.525,
             "direccion": "Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Sushi Light Granada",
@@ -711,7 +1001,14 @@
             "lat": 3.4683,
             "lon": -76.5294,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Sushi Market Granada",
@@ -728,7 +1025,16 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "mariscos",
+            "pescados",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "La Zarzuela",
@@ -745,7 +1051,13 @@
             "lat": 3.4651,
             "lon": -76.5278,
             "direccion": "Av. 9 Norte, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "autor",
+            "comida mediterránea",
+            "internacional",
+            "mediterránea"
+        ]
     },
     {
         "nombre": "La Zarzuela Chipichape",
@@ -762,7 +1074,13 @@
             "lat": 3.4791,
             "lon": -76.5314,
             "direccion": "Hotel Spiwak, Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "autor",
+            "comida mediterránea",
+            "internacional",
+            "mediterránea"
+        ]
     },
     {
         "nombre": "La Sazón Mexicana",
@@ -779,7 +1097,13 @@
             "lat": 3.4675,
             "lon": -76.5334,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "burritos",
+            "comida mexicana",
+            "mexicana",
+            "tacos"
+        ]
     },
     {
         "nombre": "Las Margaritas Cantina",
@@ -796,7 +1120,15 @@
             "lat": 3.4691,
             "lon": -76.5342,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "burritos",
+            "comida mexicana",
+            "mariscos",
+            "mexicana",
+            "pescados",
+            "tacos"
+        ]
     },
     {
         "nombre": "Inca Perú Granada",
@@ -813,7 +1145,13 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "ceviche",
+            "comida peruana",
+            "lomo saltado",
+            "peruana"
+        ]
     },
     {
         "nombre": "Burger King Chipichape",
@@ -830,7 +1168,15 @@
             "lat": 3.4791,
             "lon": -76.5314,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Choripán de Juanelo",
@@ -844,10 +1190,20 @@
             "tiktok": "https://www.tiktok.com/@loschoripanesjuanelo"
         },
         "ubicacion": {
-            "lat": 3.4749798,
-            "lon": -76.5205116,
+            "lat": 3.4798,
+            "lon": -76.5295,
             "direccion": "Calle 38 Norte #3N-95, Prados del Norte, Cali"
-        }
+        },
+        "subtipo": [
+            "chori",
+            "choripan",
+            "choripán",
+            "comida rápida",
+            "fast food",
+            "parrilla",
+            "rápida",
+            "sándwiches"
+        ]
     },
     {
         "nombre": "El Corral Chipichape",
@@ -864,7 +1220,14 @@
             "lat": 3.4791,
             "lon": -76.5314,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Frisby Chipichape",
@@ -881,7 +1244,14 @@
             "lat": 3.4735,
             "lon": -76.533,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo apanado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Home Burgers Granada",
@@ -898,7 +1268,16 @@
             "lat": 3.4643,
             "lon": -76.5318,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida",
+            "smash"
+        ]
     },
     {
         "nombre": "KFC Chipichape",
@@ -915,7 +1294,14 @@
             "lat": 3.4783,
             "lon": -76.5266,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo frito",
+            "rápida"
+        ]
     },
     {
         "nombre": "Kokoriko Chipichape",
@@ -932,7 +1318,14 @@
             "lat": 3.4759,
             "lon": -76.5298,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "McDonald's Chipichape",
@@ -949,7 +1342,14 @@
             "lat": 3.4775,
             "lon": -76.5306,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Mister Wings Chipichape",
@@ -966,7 +1366,16 @@
             "lat": 3.4783,
             "lon": -76.5266,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "alas",
+            "alitas",
+            "americana",
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "wings"
+        ]
     },
     {
         "nombre": "Mister Wings Granada",
@@ -983,7 +1392,16 @@
             "lat": 3.4651,
             "lon": -76.5278,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "alas",
+            "alitas",
+            "americana",
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "wings"
+        ]
     },
     {
         "nombre": "Presto Chipichape",
@@ -1000,7 +1418,13 @@
             "lat": 3.4743,
             "lon": -76.529,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Presto Granada",
@@ -1017,7 +1441,13 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Sandwich Qbano Granada",
@@ -1034,7 +1464,14 @@
             "lat": 3.4683,
             "lon": -76.5294,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "sandwiches",
+            "sándwiches"
+        ]
     },
     {
         "nombre": "Smash Burger Cali",
@@ -1051,7 +1488,16 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida",
+            "smash burger"
+        ]
     },
     {
         "nombre": "Subway Chipichape",
@@ -1068,7 +1514,15 @@
             "lat": 3.4767,
             "lon": -76.5258,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "saludable",
+            "sandwiches",
+            "sándwiches"
+        ]
     },
     {
         "nombre": "Versalles Burger",
@@ -1085,7 +1539,15 @@
             "lat": 3.4705,
             "lon": -76.5372,
             "direccion": "Versalles, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Wayne's Burger Granada",
@@ -1102,7 +1564,15 @@
             "lat": 3.4635,
             "lon": -76.5358,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Verde Oliva",
@@ -1119,7 +1589,15 @@
             "lat": 3.4683,
             "lon": -76.5294,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "saludable",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "K-Listo",
@@ -1136,7 +1614,15 @@
             "lat": 3.4807,
             "lon": -76.5322,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Ringlete",
@@ -1153,7 +1639,17 @@
             "lat": 3.4667,
             "lon": -76.5286,
             "direccion": "Calle 15A Norte #9N-31, Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "arroz atollado",
+            "colombiana",
+            "comida típica",
+            "sancocho",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Beirut Restaurante",
@@ -1170,7 +1666,15 @@
             "lat": 3.4699,
             "lon": -76.5302,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida árabe",
+            "falafel",
+            "kebab",
+            "libanesa",
+            "shawarma",
+            "árabe"
+        ]
     },
     {
         "nombre": "Sahara Restaurante Árabe",
@@ -1187,7 +1691,15 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "comida árabe",
+            "falafel",
+            "kebab",
+            "libanesa",
+            "shawarma",
+            "árabe"
+        ]
     },
     {
         "nombre": "Cocora Pastelería",
@@ -1204,7 +1716,16 @@
             "lat": 3.4675,
             "lon": -76.5334,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "panadería",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Dulces Caprichos Granada",
@@ -1221,7 +1742,15 @@
             "lat": 3.4707,
             "lon": -76.535,
             "direccion": "Granada, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Helados Mimo's Chipichape",
@@ -1238,7 +1767,15 @@
             "lat": 3.4759,
             "lon": -76.5298,
             "direccion": "Centro Comercial Chipichape, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Andrés Carne de Res Cali",
@@ -1255,7 +1792,15 @@
             "lat": 3.3765,
             "lon": -76.5332,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla",
+            "tradicional",
+            "típica"
+        ]
     },
     {
         "nombre": "Buenos Aires Parrilla",
@@ -1272,7 +1817,14 @@
             "lat": 3.3757,
             "lon": -76.5372,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "argentina",
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Don Carne",
@@ -1289,7 +1841,13 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Av. Cañasgordas, Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "El Rancho de Jonás",
@@ -1306,7 +1864,15 @@
             "lat": 3.3328,
             "lon": -76.5326,
             "direccion": "Pance, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "campestre",
+            "carnes",
+            "parrilla",
+            "típica"
+        ]
     },
     {
         "nombre": "La Brasa Roja Limonar",
@@ -1323,7 +1889,14 @@
             "lat": 3.3896,
             "lon": -76.517,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla",
+            "pollo asado"
+        ]
     },
     {
         "nombre": "La Comitiva",
@@ -1340,7 +1913,13 @@
             "lat": 3.3741,
             "lon": -76.5364,
             "direccion": "Av. Cañasgordas, Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Juan Valdez Cosmocentro",
@@ -1357,7 +1936,15 @@
             "lat": 3.4228,
             "lon": -76.5406,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Juan Valdez Jardín Plaza",
@@ -1374,7 +1961,15 @@
             "lat": 3.3717,
             "lon": -76.5308,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Juan Valdez Unicentro",
@@ -1391,7 +1986,15 @@
             "lat": 3.3693,
             "lon": -76.534,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Starbucks Jardín Plaza",
@@ -1408,7 +2011,14 @@
             "lat": 3.3749,
             "lon": -76.5324,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Starbucks Unicentro",
@@ -1425,7 +2035,14 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Tostao Ciudad Jardín",
@@ -1442,7 +2059,16 @@
             "lat": 3.3693,
             "lon": -76.534,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "panadería",
+            "tostadas",
+            "té"
+        ]
     },
     {
         "nombre": "Tostao San Fernando",
@@ -1459,7 +2085,16 @@
             "lat": 3.4225,
             "lon": -76.5387,
             "direccion": "San Fernando, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "panadería",
+            "tostadas",
+            "té"
+        ]
     },
     {
         "nombre": "Route 66 Sur",
@@ -1476,7 +2111,16 @@
             "lat": 3.3912,
             "lon": -76.5178,
             "direccion": "Carrera 66 #11-60, Sur, Cali"
-        }
+        },
+        "subtipo": [
+            "alitas",
+            "americana",
+            "bar",
+            "burger",
+            "comida americana",
+            "hamburguesas",
+            "ribs"
+        ]
     },
     {
         "nombre": "P.F. Chang's Jardín Plaza",
@@ -1493,7 +2137,13 @@
             "lat": 3.3709,
             "lon": -76.5348,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "asiática",
+            "china",
+            "comida asiática",
+            "wok"
+        ]
     },
     {
         "nombre": "Wok Jardín Plaza",
@@ -1510,7 +2160,13 @@
             "lat": 3.3741,
             "lon": -76.5364,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "asiática",
+            "comida asiática",
+            "wok"
+        ]
     },
     {
         "nombre": "Wok Unicentro",
@@ -1527,7 +2183,13 @@
             "lat": 3.3717,
             "lon": -76.5308,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "arroz chino",
+            "asiática",
+            "comida asiática",
+            "wok"
+        ]
     },
     {
         "nombre": "La Tartine Bistró",
@@ -1544,7 +2206,12 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "bistró",
+            "comida francesa",
+            "francesa"
+        ]
     },
     {
         "nombre": "Crepes & Waffles Cosmocentro",
@@ -1561,7 +2228,14 @@
             "lat": 3.4244,
             "lon": -76.5414,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "crepes",
+            "internacional",
+            "postres",
+            "wafles"
+        ]
     },
     {
         "nombre": "Crepes & Waffles Jardín Plaza",
@@ -1578,7 +2252,14 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "crepes",
+            "internacional",
+            "postres",
+            "wafles"
+        ]
     },
     {
         "nombre": "Crepes & Waffles Palmetto",
@@ -1595,7 +2276,14 @@
             "lat": 3.3701,
             "lon": -76.53,
             "direccion": "Centro Comercial Palmetto, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "crepes",
+            "internacional",
+            "postres",
+            "wafles"
+        ]
     },
     {
         "nombre": "Crepes & Waffles Unicentro",
@@ -1612,7 +2300,14 @@
             "lat": 3.3709,
             "lon": -76.5348,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida internacional",
+            "crepes",
+            "internacional",
+            "postres",
+            "wafles"
+        ]
     },
     {
         "nombre": "Da Vinci Pizza Ciudad Jardín",
@@ -1629,7 +2324,14 @@
             "lat": 3.3749,
             "lon": -76.5324,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Domino's Pizza Ciudad Jardín",
@@ -1646,7 +2348,14 @@
             "lat": 3.3749,
             "lon": -76.5324,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Jeno's Pizza Ciudad Jardín",
@@ -1663,7 +2372,14 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Papa John's Limonar",
@@ -1680,7 +2396,13 @@
             "lat": 3.3904,
             "lon": -76.5218,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Pasta y Pizza Limonar",
@@ -1697,7 +2419,14 @@
             "lat": 3.3912,
             "lon": -76.5178,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Tutto Pasta",
@@ -1714,7 +2443,13 @@
             "lat": 3.3693,
             "lon": -76.534,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Sushi Light Ciudad Jardín",
@@ -1731,7 +2466,14 @@
             "lat": 3.3685,
             "lon": -76.538,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Chipotle Mexican Grill Jardín Plaza",
@@ -1748,7 +2490,14 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "burritos",
+            "comida mexicana",
+            "mexicana",
+            "tacos"
+        ]
     },
     {
         "nombre": "Don Tacos Cali",
@@ -1765,7 +2514,13 @@
             "lat": 3.392,
             "lon": -76.5226,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "burritos",
+            "comida mexicana",
+            "mexicana",
+            "tacos"
+        ]
     },
     {
         "nombre": "Mexican Roots",
@@ -1782,7 +2537,13 @@
             "lat": 3.3685,
             "lon": -76.538,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "burritos",
+            "comida mexicana",
+            "mexicana",
+            "tacos"
+        ]
     },
     {
         "nombre": "Mistura Peruana",
@@ -1799,7 +2560,14 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "ceviche",
+            "comida peruana",
+            "fusión",
+            "lomo saltado",
+            "peruana"
+        ]
     },
     {
         "nombre": "Burger King Cosmocentro",
@@ -1816,7 +2584,15 @@
             "lat": 3.4188,
             "lon": -76.543,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Burger King Jardín Plaza",
@@ -1833,7 +2609,15 @@
             "lat": 3.3765,
             "lon": -76.5332,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "El Corral Jardín Plaza",
@@ -1850,7 +2634,14 @@
             "lat": 3.3765,
             "lon": -76.5332,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "El Corral Palmetto",
@@ -1867,7 +2658,14 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Centro Comercial Palmetto, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "El Corral Unicentro",
@@ -1884,7 +2682,14 @@
             "lat": 3.3741,
             "lon": -76.5364,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Frisby Cosmocentro",
@@ -1901,7 +2706,14 @@
             "lat": 3.422,
             "lon": -76.5446,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo apanado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Frisby Jardín Plaza",
@@ -1918,7 +2730,14 @@
             "lat": 3.3709,
             "lon": -76.5348,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo apanado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Frisby Limonar",
@@ -1935,7 +2754,14 @@
             "lat": 3.3944,
             "lon": -76.5194,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo apanado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Frisby Unicentro",
@@ -1952,7 +2778,14 @@
             "lat": 3.3685,
             "lon": -76.538,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo apanado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Hamburguesas El Corral Limonar",
@@ -1969,7 +2802,14 @@
             "lat": 3.3912,
             "lon": -76.5178,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "KFC Jardín Plaza",
@@ -1986,7 +2826,14 @@
             "lat": 3.3757,
             "lon": -76.5372,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo frito",
+            "rápida"
+        ]
     },
     {
         "nombre": "KFC Unicentro",
@@ -2003,7 +2850,14 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo frito",
+            "rápida"
+        ]
     },
     {
         "nombre": "Kokoriko Cosmocentro",
@@ -2020,7 +2874,14 @@
             "lat": 3.4244,
             "lon": -76.5414,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Kokoriko Unicentro",
@@ -2037,7 +2898,14 @@
             "lat": 3.3709,
             "lon": -76.5348,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "McDonald's Cosmocentro",
@@ -2054,7 +2922,14 @@
             "lat": 3.426,
             "lon": -76.5422,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "McDonald's Jardín Plaza",
@@ -2071,7 +2946,14 @@
             "lat": 3.3749,
             "lon": -76.5324,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "McDonald's Unicentro",
@@ -2088,7 +2970,14 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Subway Cosmocentro",
@@ -2105,7 +2994,15 @@
             "lat": 3.4252,
             "lon": -76.5462,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "saludable",
+            "sandwiches",
+            "sándwiches"
+        ]
     },
     {
         "nombre": "Subway Unicentro",
@@ -2122,7 +3019,15 @@
             "lat": 3.3717,
             "lon": -76.5308,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida",
+            "saludable",
+            "sandwiches",
+            "sándwiches"
+        ]
     },
     {
         "nombre": "Wayne's Burger Ciudad Jardín",
@@ -2139,7 +3044,15 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "burger",
+            "comida rápida",
+            "fast food",
+            "hamburguesa",
+            "hamburguesas",
+            "rápida"
+        ]
     },
     {
         "nombre": "Bio Plaza Cali",
@@ -2156,7 +3069,16 @@
             "lat": 3.3701,
             "lon": -76.53,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "orgánico",
+            "saludable",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "Cilantro Bistro",
@@ -2173,7 +3095,15 @@
             "lat": 3.3749,
             "lon": -76.5324,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "saludable",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "El Mesón del Limonar",
@@ -2190,7 +3120,15 @@
             "lat": 3.3888,
             "lon": -76.521,
             "direccion": "El Limonar, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "El Solar",
@@ -2207,7 +3145,15 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Av. Cañasgordas, Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Hacienda San Isidro",
@@ -2224,7 +3170,17 @@
             "lat": 3.332,
             "lon": -76.5366,
             "direccion": "Pance, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "asados",
+            "campestre",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Las Tinajas",
@@ -2241,7 +3197,15 @@
             "lat": 3.3685,
             "lon": -76.538,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante Cali Viejo",
@@ -2258,7 +3222,15 @@
             "lat": 3.332,
             "lon": -76.5366,
             "direccion": "Pance, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante Pance",
@@ -2275,7 +3247,16 @@
             "lat": 3.3344,
             "lon": -76.5334,
             "direccion": "Pance, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "campestre",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Bahía Sebastián",
@@ -2292,7 +3273,14 @@
             "lat": 3.402,
             "lon": -76.548,
             "direccion": "El Lido, Cali"
-        }
+        },
+        "subtipo": [
+            "cazuela de mariscos",
+            "ceviche",
+            "mariscos",
+            "pacífica",
+            "pescados"
+        ]
     },
     {
         "nombre": "La Cazuela del Mar",
@@ -2309,7 +3297,16 @@
             "lat": 3.4209,
             "lon": -76.5379,
             "direccion": "San Fernando, Cali"
-        }
+        },
+        "subtipo": [
+            "cazuela",
+            "cazuela de mariscos",
+            "ceviche",
+            "mariscos",
+            "pacífica",
+            "pescados",
+            "típica"
+        ]
     },
     {
         "nombre": "Mar Dorado",
@@ -2326,7 +3323,14 @@
             "lat": 3.4225,
             "lon": -76.5387,
             "direccion": "San Fernando, Cali"
-        }
+        },
+        "subtipo": [
+            "cazuela de mariscos",
+            "ceviche",
+            "mariscos",
+            "pacífica",
+            "pescados"
+        ]
     },
     {
         "nombre": "Cinnabon Jardín Plaza",
@@ -2343,7 +3347,17 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "panadería",
+            "postre",
+            "postres",
+            "repostería",
+            "rollos",
+            "torta"
+        ]
     },
     {
         "nombre": "Helados Mimo's Jardín Plaza",
@@ -2360,7 +3374,15 @@
             "lat": 3.3733,
             "lon": -76.5316,
             "direccion": "Centro Comercial Jardín Plaza, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Helados Popsy Cosmocentro",
@@ -2377,7 +3399,15 @@
             "lat": 3.4228,
             "lon": -76.5406,
             "direccion": "Centro Comercial Cosmocentro, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Helados Popsy Unicentro",
@@ -2394,7 +3424,15 @@
             "lat": 3.3693,
             "lon": -76.534,
             "direccion": "Centro Comercial Unicentro, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "La Boutique del Postre",
@@ -2411,7 +3449,16 @@
             "lat": 3.3725,
             "lon": -76.5356,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta",
+            "tortas"
+        ]
     },
     {
         "nombre": "Maracuyá Pastelería",
@@ -2428,7 +3475,18 @@
             "lat": 3.3685,
             "lon": -76.538,
             "direccion": "Ciudad Jardín, Cali"
-        }
+        },
+        "subtipo": [
+            "dulces",
+            "helados",
+            "mariscos",
+            "panadería",
+            "pescados",
+            "postre",
+            "postres",
+            "repostería",
+            "torta"
+        ]
     },
     {
         "nombre": "Rayuela Restaurante",
@@ -2445,7 +3503,14 @@
             "lat": 3.4563,
             "lon": -76.5411,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla",
+            "vinos"
+        ]
     },
     {
         "nombre": "Café Macondo San Antonio",
@@ -2462,7 +3527,17 @@
             "lat": 3.458,
             "lon": -76.5447,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "colombiana",
+            "desayunos",
+            "tradicional",
+            "té",
+            "típica"
+        ]
     },
     {
         "nombre": "Lulo Café Bar",
@@ -2479,7 +3554,15 @@
             "lat": 3.4524,
             "lon": -76.5463,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "brunch",
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "El Gringo American Kitchen",
@@ -2496,7 +3579,16 @@
             "lat": 3.4571,
             "lon": -76.5459,
             "direccion": "Calle 2 Oeste #1-37, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "alitas",
+            "americana",
+            "burger",
+            "comfort food",
+            "comida americana",
+            "hamburguesas",
+            "ribs"
+        ]
     },
     {
         "nombre": "La Galería",
@@ -2513,7 +3605,16 @@
             "lat": 3.4548,
             "lon": -76.5431,
             "direccion": "Carrera 5 #2-97, San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "alta cocina",
+            "comida de autor",
+            "fusión",
+            "gourmet",
+            "mercado",
+            "tradicional",
+            "típica"
+        ]
     },
     {
         "nombre": "Cheers Pizzería El Peñón",
@@ -2530,7 +3631,14 @@
             "lat": 3.4571,
             "lon": -76.5459,
             "direccion": "Hotel Haus, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Faró",
@@ -2547,7 +3655,13 @@
             "lat": 3.4563,
             "lon": -76.5411,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Mía Pizzería",
@@ -2564,7 +3678,15 @@
             "lat": 3.4564,
             "lon": -76.5439,
             "direccion": "Colina de San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "artesanal",
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza",
+            "pizzas"
+        ]
     },
     {
         "nombre": "Pulcinella",
@@ -2581,7 +3703,14 @@
             "lat": 3.4571,
             "lon": -76.5459,
             "direccion": "Calle 3 Oeste #3-28, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "francesa",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Tortelli",
@@ -2598,7 +3727,13 @@
             "lat": 3.4515,
             "lon": -76.5475,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida italiana",
+            "italiana",
+            "pasta",
+            "pizza"
+        ]
     },
     {
         "nombre": "Sushi Bar Cali",
@@ -2615,7 +3750,14 @@
             "lat": 3.4571,
             "lon": -76.5459,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Sushi Market El Peñón",
@@ -2632,7 +3774,16 @@
             "lat": 3.4531,
             "lon": -76.5395,
             "direccion": "Calle 2 Oeste #1-46, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "mariscos",
+            "pescados",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "Sushigood",
@@ -2649,7 +3800,14 @@
             "lat": 3.4523,
             "lon": -76.5435,
             "direccion": "Calle 3 Oeste #1-80, Mercadillo del Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "comida japonesa",
+            "japonesa",
+            "rolls",
+            "sashimi",
+            "sushi"
+        ]
     },
     {
         "nombre": "El Buen Alimento",
@@ -2666,7 +3824,15 @@
             "lat": 3.458,
             "lon": -76.5447,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "saludable",
+            "tradicional"
+        ]
     },
     {
         "nombre": "Frutos del Sol",
@@ -2683,7 +3849,15 @@
             "lat": 3.4539,
             "lon": -76.5443,
             "direccion": "Calle 3 Oeste #3-20, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "saludable",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "La Huerta",
@@ -2700,7 +3874,16 @@
             "lat": 3.4595,
             "lon": -76.5427,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "bowls",
+            "comida saludable",
+            "ensaladas",
+            "fit",
+            "fresco",
+            "saludable",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "El Falso Conejo",
@@ -2717,7 +3900,15 @@
             "lat": 3.4516,
             "lon": -76.5415,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Macondo",
@@ -2734,7 +3925,15 @@
             "lat": 3.4532,
             "lon": -76.5423,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Mirador Sebastián de Belalcázar Restaurante",
@@ -2751,7 +3950,17 @@
             "lat": 3.4645,
             "lon": -76.565,
             "direccion": "Mirador Sebastián de Belalcázar, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "campestre",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna",
+            "vista"
+        ]
     },
     {
         "nombre": "Restaurante El Peñón de San Antonio",
@@ -2768,7 +3977,15 @@
             "lat": 3.4556,
             "lon": -76.5479,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante Terrón",
@@ -2785,7 +4002,15 @@
             "lat": 3.4661,
             "lon": -76.557,
             "direccion": "Terrón Colorado, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Sattva Restaurante",
@@ -2802,7 +4027,14 @@
             "lat": 3.4556,
             "lon": -76.5479,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "comida vegetariana",
+            "saludable",
+            "vegana",
+            "vegano",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "Babilonia Café Árabe",
@@ -2819,7 +4051,19 @@
             "lat": 3.4531,
             "lon": -76.5395,
             "direccion": "El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "comida árabe",
+            "desayunos",
+            "falafel",
+            "kebab",
+            "libanesa",
+            "shawarma",
+            "árabe"
+        ]
     },
     {
         "nombre": "Tostaky",
@@ -2836,7 +4080,15 @@
             "lat": 3.4508,
             "lon": -76.5455,
             "direccion": "San Antonio, Cali"
-        }
+        },
+        "subtipo": [
+            "crepas",
+            "crepes",
+            "desayunos",
+            "francesa",
+            "tostadas",
+            "wafles"
+        ]
     },
     {
         "nombre": "Mercadillo del Peñón",
@@ -2853,7 +4105,13 @@
             "lat": 3.4547,
             "lon": -76.5403,
             "direccion": "Parque del Peñón, El Peñón, Cali"
-        }
+        },
+        "subtipo": [
+            "food court",
+            "mercado",
+            "mercado gastronómico",
+            "varios"
+        ]
     },
     {
         "nombre": "Cafetería La Catedral",
@@ -2870,7 +4128,14 @@
             "lat": 3.4508,
             "lon": -76.5288,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "té"
+        ]
     },
     {
         "nombre": "Tostao Centro",
@@ -2887,7 +4152,16 @@
             "lat": 3.45,
             "lon": -76.5328,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "cafetería",
+            "café",
+            "capuchino",
+            "desayunos",
+            "panadería",
+            "tostadas",
+            "té"
+        ]
     },
     {
         "nombre": "Odiseo Bistro",
@@ -2904,7 +4178,13 @@
             "lat": 3.4548,
             "lon": -76.5352,
             "direccion": "Plazoleta Jairo Varela, Cali"
-        }
+        },
+        "subtipo": [
+            "comida mediterránea",
+            "internacional",
+            "italiana",
+            "mediterránea"
+        ]
     },
     {
         "nombre": "Empanadas Típicas del Valle",
@@ -2921,7 +4201,15 @@
             "lat": 3.45,
             "lon": -76.5328,
             "direccion": "Calle 5, Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "empanadas",
+            "fast food",
+            "frituras",
+            "rápida",
+            "snacks"
+        ]
     },
     {
         "nombre": "La Esquina del Sabor",
@@ -2938,7 +4226,12 @@
             "lat": 3.4484,
             "lon": -76.532,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida"
+        ]
     },
     {
         "nombre": "Almuerzo Ejecutivo Centro",
@@ -2955,7 +4248,15 @@
             "lat": 3.4556,
             "lon": -76.5312,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Comedor El Centenario",
@@ -2972,7 +4273,15 @@
             "lat": 3.4421,
             "lon": -76.53,
             "direccion": "Belalcázar, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Donde Don Lalo",
@@ -2989,7 +4298,15 @@
             "lat": 3.4333,
             "lon": -76.529,
             "direccion": "Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "La Cueva del Centro",
@@ -3006,7 +4323,16 @@
             "lat": 3.4484,
             "lon": -76.532,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "bar",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "La Fonda de Doña Berta",
@@ -3023,7 +4349,16 @@
             "lat": 3.4532,
             "lon": -76.5344,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "casera",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Las Delicias del Centro",
@@ -3040,7 +4375,15 @@
             "lat": 3.4512,
             "lon": -76.5338,
             "direccion": "San Pedro, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante Don Carlos",
@@ -3057,7 +4400,15 @@
             "lat": 3.4556,
             "lon": -76.5312,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante La Catorce",
@@ -3074,7 +4425,15 @@
             "lat": 3.4573,
             "lon": -76.5266,
             "direccion": "San Nicolás, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante La Galería",
@@ -3091,7 +4450,16 @@
             "lat": 3.4341,
             "lon": -76.525,
             "direccion": "Galería Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "mercado",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Sancochería Vallecaucana",
@@ -3108,7 +4476,15 @@
             "lat": 3.4333,
             "lon": -76.529,
             "direccion": "Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Govinda's Cali",
@@ -3125,7 +4501,15 @@
             "lat": 3.4532,
             "lon": -76.5344,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida vegetariana",
+            "hindú",
+            "saludable",
+            "vegana",
+            "vegano",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "Vegetariano El Buen Sabor",
@@ -3142,7 +4526,13 @@
             "lat": 3.4508,
             "lon": -76.5288,
             "direccion": "Centro, Cali"
-        }
+        },
+        "subtipo": [
+            "comida vegetariana",
+            "vegana",
+            "vegano",
+            "vegetariana"
+        ]
     },
     {
         "nombre": "Cevichería del Pacífico",
@@ -3159,7 +4549,15 @@
             "lat": 3.4365,
             "lon": -76.5306,
             "direccion": "Galería Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "cazuela de mariscos",
+            "ceviche",
+            "mariscos",
+            "pacífica",
+            "peruana",
+            "pescados"
+        ]
     },
     {
         "nombre": "Pescadería Don Manuel",
@@ -3176,7 +4574,14 @@
             "lat": 3.4333,
             "lon": -76.529,
             "direccion": "Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "cazuela de mariscos",
+            "ceviche",
+            "mariscos",
+            "pacífica",
+            "pescados"
+        ]
     },
     {
         "nombre": "Galería Alameda",
@@ -3193,7 +4598,15 @@
             "lat": 3.4397,
             "lon": -76.5322,
             "direccion": "Galería Alameda, Cali"
-        }
+        },
+        "subtipo": [
+            "food court",
+            "mercado",
+            "mercado gastronómico",
+            "tradicional",
+            "típica",
+            "varios"
+        ]
     },
     {
         "nombre": "Asadero El Buen Sazón Oriente",
@@ -3210,7 +4623,13 @@
             "lat": 3.463,
             "lon": -76.487,
             "direccion": "Alfonso López, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Asadero La Esmeralda",
@@ -3227,7 +4646,13 @@
             "lat": 3.4274,
             "lon": -76.5084,
             "direccion": "La Esmeralda, Cali"
-        }
+        },
+        "subtipo": [
+            "asado",
+            "asados",
+            "carnes",
+            "parrilla"
+        ]
     },
     {
         "nombre": "Comidas Rápidas Decepaz",
@@ -3244,7 +4669,12 @@
             "lat": 3.4552,
             "lon": -76.4702,
             "direccion": "Decepaz, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "rápida"
+        ]
     },
     {
         "nombre": "Empanadas Don Jorge",
@@ -3261,7 +4691,15 @@
             "lat": 3.4744,
             "lon": -76.4964,
             "direccion": "Floralia, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "empanadas",
+            "fast food",
+            "frituras",
+            "rápida",
+            "snacks"
+        ]
     },
     {
         "nombre": "Mr Pollo Oriente",
@@ -3278,7 +4716,14 @@
             "lat": 3.4348,
             "lon": -76.507,
             "direccion": "Saavedra Galindo, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Pollo Asado Petecuy",
@@ -3295,7 +4740,17 @@
             "lat": 3.4702,
             "lon": -76.4958,
             "direccion": "Petecuy, Cali"
-        }
+        },
+        "subtipo": [
+            "asados",
+            "carnes",
+            "comida rápida",
+            "fast food",
+            "parrilla",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Pollos Mario Sur",
@@ -3312,7 +4767,16 @@
             "lat": 3.413,
             "lon": -76.5077,
             "direccion": "Antonio Nariño, Cali"
-        }
+        },
+        "subtipo": [
+            "comida rápida",
+            "fast food",
+            "mariscos",
+            "pescados",
+            "pollo",
+            "pollo asado",
+            "rápida"
+        ]
     },
     {
         "nombre": "Comedor Popular Mariano Ramos",
@@ -3329,7 +4793,17 @@
             "lat": 3.4037,
             "lon": -76.5028,
             "direccion": "Mariano Ramos, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "mariscos",
+            "pescados",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Las Delicias de Aguablanca",
@@ -3346,7 +4820,15 @@
             "lat": 3.4364,
             "lon": -76.4908,
             "direccion": "Aguablanca, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Restaurante El Diamante",
@@ -3363,7 +4845,15 @@
             "lat": 3.4166,
             "lon": -76.4964,
             "direccion": "El Diamante, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Sazón Caleña Olímpico",
@@ -3380,7 +4870,15 @@
             "lat": 3.4248,
             "lon": -76.5095,
             "direccion": "Olímpico, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     },
     {
         "nombre": "Tamales Pipián Oriente",
@@ -3397,6 +4895,15 @@
             "lat": 3.4562,
             "lon": -76.4912,
             "direccion": "Andrés Sanín, Cali"
-        }
+        },
+        "subtipo": [
+            "almuerzo",
+            "colombiana",
+            "comida típica",
+            "tamales",
+            "tradicional",
+            "típica",
+            "valluna"
+        ]
     }
 ]
